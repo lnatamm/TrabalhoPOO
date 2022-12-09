@@ -2,6 +2,7 @@ public class Time {
 
     //Atributos
     // VAI TOMAR NO CU GITHUB
+    // SUCUMBA GITHUB
     private String nome;
 
     private int vitorias;
