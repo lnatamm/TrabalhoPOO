@@ -25,7 +25,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="fd009" class="javax.swing.JLabel" binding="CatarLabel">
+              <component id="fd009" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -33,7 +33,7 @@
                   <text value="Catar"/>
                 </properties>
               </component>
-              <component id="72c7" class="javax.swing.JTextField" binding="CatarTextFieldXEquador">
+              <component id="72c7" class="javax.swing.JTextField" binding="CatarGolsXEquador">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -41,7 +41,7 @@
                 </constraints>
                 <properties/>
               </component>
-              <component id="bbeaf" class="javax.swing.JLabel" binding="VLabelCatarxEquador">
+              <component id="bbeaf" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -49,7 +49,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="89f96" class="javax.swing.JTextField" binding="EquadorTextFieldXCatar">
+              <component id="89f96" class="javax.swing.JTextField" binding="EquadorGolsXCatar">
                 <constraints>
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -57,7 +57,7 @@
                 </constraints>
                 <properties/>
               </component>
-              <component id="3f316" class="javax.swing.JLabel" binding="EquadorLabelXCatar">
+              <component id="3f316" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -65,7 +65,7 @@
                   <text value="Equador"/>
                 </properties>
               </component>
-              <component id="6e268" class="javax.swing.JLabel" binding="SenegalLabelXHolanda">
+              <component id="6e268" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -73,7 +73,7 @@
                   <text value="Senegal"/>
                 </properties>
               </component>
-              <component id="e83c3" class="javax.swing.JLabel" binding="VLabelSenegalxHolanda">
+              <component id="e83c3" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -81,7 +81,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="10ab6" class="javax.swing.JTextField" binding="SenegalTextFieldXHolanda">
+              <component id="10ab6" class="javax.swing.JTextField" binding="SenegalGolsXHolanda">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -89,7 +89,7 @@
                 </constraints>
                 <properties/>
               </component>
-              <component id="858db" class="javax.swing.JTextField" binding="HolandaTextFieldXSenegal">
+              <component id="858db" class="javax.swing.JTextField" binding="HolandaGolsXSenegal">
                 <constraints>
                   <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -97,7 +97,7 @@
                 </constraints>
                 <properties/>
               </component>
-              <component id="13b80" class="javax.swing.JLabel" binding="HolandaLabelXSenegal">
+              <component id="13b80" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -105,7 +105,7 @@
                   <text value="Holanda"/>
                 </properties>
               </component>
-              <component id="d2d15" class="javax.swing.JLabel" binding="CatarLabelXSenegal">
+              <component id="d2d15" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -113,7 +113,7 @@
                   <text value="Catar"/>
                 </properties>
               </component>
-              <component id="169a" class="javax.swing.JTextField" binding="CatarTextFieldXSenegal">
+              <component id="169a" class="javax.swing.JTextField" binding="CatarGolsXSenegal">
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -123,7 +123,7 @@
                   <text value=""/>
                 </properties>
               </component>
-              <component id="d84ea" class="javax.swing.JLabel" binding="VLabelCatarxSenegal">
+              <component id="d84ea" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -131,7 +131,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="29e97" class="javax.swing.JTextField" binding="SenegalTextFieldXCatar">
+              <component id="29e97" class="javax.swing.JTextField" binding="SenegalGolsXCatar">
                 <constraints>
                   <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -139,7 +139,7 @@
                 </constraints>
                 <properties/>
               </component>
-              <component id="fc0c6" class="javax.swing.JLabel" binding="SenegalLabelXCatar">
+              <component id="fc0c6" class="javax.swing.JLabel">
                 <constraints>
                   <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -155,7 +155,7 @@
                   <text value="Holanda"/>
                 </properties>
               </component>
-              <component id="26a4d" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+              <component id="26a4d" class="javax.swing.JTextField" binding="HolandaGolsXEquador">
                 <constraints>
                   <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -171,7 +171,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="226c5" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+              <component id="226c5" class="javax.swing.JTextField" binding="EquadorGolsXHolanda">
                 <constraints>
                   <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -195,7 +195,7 @@
                   <text value="Equador"/>
                 </properties>
               </component>
-              <component id="20dd9" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+              <component id="20dd9" class="javax.swing.JTextField" binding="EquadorGolsXSenegal">
                 <constraints>
                   <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -211,7 +211,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="6d7ed" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+              <component id="6d7ed" class="javax.swing.JTextField" binding="SenegalGolsXEquador">
                 <constraints>
                   <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -235,7 +235,7 @@
                   <text value="Holanda"/>
                 </properties>
               </component>
-              <component id="fb1bf" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+              <component id="fb1bf" class="javax.swing.JTextField" binding="HolandaGolsXCatar">
                 <constraints>
                   <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -251,7 +251,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="4bb39" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+              <component id="4bb39" class="javax.swing.JTextField" binding="CatarGolsXHolanda">
                 <constraints>
                   <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -285,7 +285,7 @@
                   <text value="Inglaterra"/>
                 </properties>
               </component>
-              <component id="f358a" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+              <component id="f358a" class="javax.swing.JTextField" binding="InglaterraGolsXIra">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -301,7 +301,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="ee0b4" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+              <component id="ee0b4" class="javax.swing.JTextField" binding="IraGolsXInglaterra">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -325,7 +325,7 @@
                   <text value="Gales"/>
                 </properties>
               </component>
-              <component id="eb79" class="javax.swing.JTextField" binding="textField9" default-binding="true">
+              <component id="eb79" class="javax.swing.JTextField" binding="GalesGolsXEstadosUnidos">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -341,7 +341,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="9495a" class="javax.swing.JTextField" binding="textField10" default-binding="true">
+              <component id="9495a" class="javax.swing.JTextField" binding="EstadosUnidosGolsXGales">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -365,7 +365,7 @@
                   <text value="Gales"/>
                 </properties>
               </component>
-              <component id="3f36a" class="javax.swing.JTextField" binding="textField11" default-binding="true">
+              <component id="3f36a" class="javax.swing.JTextField" binding="GalesGolsXIra">
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -381,7 +381,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="766ba" class="javax.swing.JTextField" binding="textField12" default-binding="true">
+              <component id="766ba" class="javax.swing.JTextField" binding="IraGolsXGales">
                 <constraints>
                   <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -405,7 +405,7 @@
                   <text value="Inglaterra"/>
                 </properties>
               </component>
-              <component id="7ef7b" class="javax.swing.JTextField" binding="textField13" default-binding="true">
+              <component id="7ef7b" class="javax.swing.JTextField" binding="InglaterraGolsXEstadosUnidos">
                 <constraints>
                   <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -421,7 +421,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="dca3d" class="javax.swing.JTextField" binding="textField14" default-binding="true">
+              <component id="dca3d" class="javax.swing.JTextField" binding="EstadosUnidosGolsXInglaterra">
                 <constraints>
                   <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -445,7 +445,7 @@
                   <text value="Irã"/>
                 </properties>
               </component>
-              <component id="ad689" class="javax.swing.JTextField" binding="textField15" default-binding="true">
+              <component id="ad689" class="javax.swing.JTextField" binding="IraGolsXEstadosUnidos">
                 <constraints>
                   <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -461,7 +461,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="8e4ea" class="javax.swing.JTextField" binding="textField16" default-binding="true">
+              <component id="8e4ea" class="javax.swing.JTextField" binding="EstadosUnidosGolsXIra">
                 <constraints>
                   <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -485,7 +485,7 @@
                   <text value="Gales"/>
                 </properties>
               </component>
-              <component id="6f9ca" class="javax.swing.JTextField" binding="textField17" default-binding="true">
+              <component id="6f9ca" class="javax.swing.JTextField" binding="GalesGolsXInglaterra">
                 <constraints>
                   <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -501,7 +501,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="14f1e" class="javax.swing.JTextField" binding="textField18" default-binding="true">
+              <component id="14f1e" class="javax.swing.JTextField" binding="InglaterraGolsXGales">
                 <constraints>
                   <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -532,10 +532,10 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Argentina"/>
                 </properties>
               </component>
-              <component id="47ab5" class="javax.swing.JTextField" binding="textField19" default-binding="true">
+              <component id="47ab5" class="javax.swing.JTextField" binding="ArgentinaGolsXArabia">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -551,7 +551,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="f0e90" class="javax.swing.JTextField" binding="textField20" default-binding="true">
+              <component id="f0e90" class="javax.swing.JTextField" binding="ArabiaGolsXArgentina">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -564,10 +564,10 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="México"/>
                 </properties>
               </component>
-              <component id="cd221" class="javax.swing.JTextField" binding="textField21" default-binding="true">
+              <component id="cd221" class="javax.swing.JTextField" binding="MexicoGolsXPolonia">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -583,7 +583,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="b4034" class="javax.swing.JTextField" binding="textField22" default-binding="true">
+              <component id="b4034" class="javax.swing.JTextField" binding="PoloniaGolsXMexico">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -596,10 +596,10 @@
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Polônia"/>
                 </properties>
               </component>
-              <component id="69d01" class="javax.swing.JTextField" binding="textField23" default-binding="true">
+              <component id="69d01" class="javax.swing.JTextField" binding="PoloniaGolsXArabia">
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -615,7 +615,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="f1ffc" class="javax.swing.JTextField" binding="textField24" default-binding="true">
+              <component id="f1ffc" class="javax.swing.JTextField" binding="ArabiaGolsXPolonia">
                 <constraints>
                   <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -628,10 +628,10 @@
                   <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Argentina"/>
                 </properties>
               </component>
-              <component id="bae2" class="javax.swing.JTextField" binding="textField25" default-binding="true">
+              <component id="bae2" class="javax.swing.JTextField" binding="ArgentinaGolsXMexico">
                 <constraints>
                   <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -647,7 +647,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="4f7c7" class="javax.swing.JTextField" binding="textField26" default-binding="true">
+              <component id="4f7c7" class="javax.swing.JTextField" binding="MexicoGolsXArgentina">
                 <constraints>
                   <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -660,10 +660,10 @@
                   <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Polônia"/>
                 </properties>
               </component>
-              <component id="48e9d" class="javax.swing.JTextField" binding="textField27" default-binding="true">
+              <component id="48e9d" class="javax.swing.JTextField" binding="PoloniaGolsXArgentina">
                 <constraints>
                   <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -679,7 +679,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="5bf8c" class="javax.swing.JTextField" binding="textField28" default-binding="true">
+              <component id="5bf8c" class="javax.swing.JTextField" binding="ArgentinaGolsXPolonia">
                 <constraints>
                   <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -692,10 +692,10 @@
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Arábia Saudita"/>
                 </properties>
               </component>
-              <component id="b568d" class="javax.swing.JTextField" binding="textField29" default-binding="true">
+              <component id="b568d" class="javax.swing.JTextField" binding="ArabiaGolsXMexico">
                 <constraints>
                   <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -711,7 +711,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="2e22f" class="javax.swing.JTextField" binding="textField30" default-binding="true">
+              <component id="2e22f" class="javax.swing.JTextField" binding="MexicoGolsXArabia">
                 <constraints>
                   <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -724,7 +724,7 @@
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Arábia Saudita"/>
                 </properties>
               </component>
               <component id="f0063" class="javax.swing.JLabel">
@@ -732,7 +732,7 @@
                   <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Polônia"/>
                 </properties>
               </component>
               <component id="85e2" class="javax.swing.JLabel">
@@ -740,7 +740,7 @@
                   <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Arábia Saudita"/>
                 </properties>
               </component>
               <component id="6fdc4" class="javax.swing.JLabel">
@@ -748,7 +748,7 @@
                   <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="México"/>
                 </properties>
               </component>
               <component id="ac7fb" class="javax.swing.JLabel">
@@ -756,7 +756,7 @@
                   <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Argentina"/>
                 </properties>
               </component>
               <component id="4d09f" class="javax.swing.JLabel">
@@ -764,7 +764,7 @@
                   <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="México"/>
                 </properties>
               </component>
             </children>
@@ -782,10 +782,10 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Dinamarca"/>
                 </properties>
               </component>
-              <component id="860a5" class="javax.swing.JTextField" binding="textField79" default-binding="true">
+              <component id="860a5" class="javax.swing.JTextField" binding="DinamarcaGolsXTunisia">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -801,7 +801,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="65960" class="javax.swing.JTextField" binding="textField80" default-binding="true">
+              <component id="65960" class="javax.swing.JTextField" binding="TunisiaGolsXDinamarca">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -814,7 +814,7 @@
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Tunísia"/>
                 </properties>
               </component>
               <component id="7308e" class="javax.swing.JLabel">
@@ -822,10 +822,10 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="França"/>
                 </properties>
               </component>
-              <component id="4b439" class="javax.swing.JTextField" binding="textField81" default-binding="true">
+              <component id="4b439" class="javax.swing.JTextField" binding="FrancaGolsXAustralia">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -841,7 +841,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="cee2c" class="javax.swing.JTextField" binding="textField82" default-binding="true">
+              <component id="cee2c" class="javax.swing.JTextField" binding="AustraliaGolsXFranca">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -854,7 +854,7 @@
                   <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Austrália"/>
                 </properties>
               </component>
               <component id="6f190" class="javax.swing.JLabel">
@@ -862,10 +862,10 @@
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Tunísia"/>
                 </properties>
               </component>
-              <component id="127a1" class="javax.swing.JTextField" binding="textField83" default-binding="true">
+              <component id="127a1" class="javax.swing.JTextField" binding="TunisiaGolsXAustralia">
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -881,7 +881,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="2fbab" class="javax.swing.JTextField" binding="textField84" default-binding="true">
+              <component id="2fbab" class="javax.swing.JTextField" binding="AustraliaGolsXTunisia">
                 <constraints>
                   <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -894,7 +894,7 @@
                   <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Austrália"/>
                 </properties>
               </component>
               <component id="b5309" class="javax.swing.JLabel">
@@ -902,10 +902,10 @@
                   <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="França"/>
                 </properties>
               </component>
-              <component id="2c966" class="javax.swing.JTextField" binding="textField85" default-binding="true">
+              <component id="2c966" class="javax.swing.JTextField" binding="FrancaGolsXDinamarca">
                 <constraints>
                   <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -921,7 +921,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="181af" class="javax.swing.JTextField" binding="textField86" default-binding="true">
+              <component id="181af" class="javax.swing.JTextField" binding="DinamarcaGolsXFranca">
                 <constraints>
                   <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -934,7 +934,7 @@
                   <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Dinamarca"/>
                 </properties>
               </component>
               <component id="73d32" class="javax.swing.JLabel">
@@ -942,10 +942,10 @@
                   <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Tunísia"/>
                 </properties>
               </component>
-              <component id="d7f03" class="javax.swing.JTextField" binding="textField87" default-binding="true">
+              <component id="d7f03" class="javax.swing.JTextField" binding="TunisiaGolsXFranca">
                 <constraints>
                   <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -961,7 +961,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="6554f" class="javax.swing.JTextField" binding="textField88" default-binding="true">
+              <component id="6554f" class="javax.swing.JTextField" binding="FrancaGolsXTunisia">
                 <constraints>
                   <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -974,7 +974,7 @@
                   <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="França"/>
                 </properties>
               </component>
               <component id="b00b0" class="javax.swing.JLabel">
@@ -982,10 +982,10 @@
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Austrália"/>
                 </properties>
               </component>
-              <component id="b73da" class="javax.swing.JTextField" binding="textField89" default-binding="true">
+              <component id="b73da" class="javax.swing.JTextField" binding="AustraliaGolsXDinamarca">
                 <constraints>
                   <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1001,7 +1001,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="d5f0b" class="javax.swing.JTextField" binding="textField90" default-binding="true">
+              <component id="d5f0b" class="javax.swing.JTextField" binding="DinamarcaGolsXAustralia">
                 <constraints>
                   <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1014,7 +1014,7 @@
                   <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Dinamarca"/>
                 </properties>
               </component>
             </children>
@@ -1032,10 +1032,10 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Alemanha"/>
                 </properties>
               </component>
-              <component id="d0719" class="javax.swing.JTextField" binding="textField31" default-binding="true">
+              <component id="d0719" class="javax.swing.JTextField" binding="AlemanhaGolsXJapao">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1051,7 +1051,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="35d14" class="javax.swing.JTextField" binding="textField32" default-binding="true">
+              <component id="35d14" class="javax.swing.JTextField" binding="JapaoGolsXAlemanha">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1064,10 +1064,10 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Espanha"/>
                 </properties>
               </component>
-              <component id="e50c4" class="javax.swing.JTextField" binding="textField33" default-binding="true">
+              <component id="e50c4" class="javax.swing.JTextField" binding="EspanhaGolsXCostaRica">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1083,7 +1083,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="363dd" class="javax.swing.JTextField" binding="textField34" default-binding="true">
+              <component id="363dd" class="javax.swing.JTextField" binding="CostaRicaGolsXEspanha">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1096,10 +1096,10 @@
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Japão"/>
                 </properties>
               </component>
-              <component id="643e" class="javax.swing.JTextField" binding="textField35" default-binding="true">
+              <component id="643e" class="javax.swing.JTextField" binding="JapaoGolsXCostaRica">
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1115,7 +1115,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="40a60" class="javax.swing.JTextField" binding="textField36" default-binding="true">
+              <component id="40a60" class="javax.swing.JTextField" binding="CostaRicaGolsXJapao">
                 <constraints>
                   <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1128,10 +1128,10 @@
                   <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Espanha"/>
                 </properties>
               </component>
-              <component id="f1ea" class="javax.swing.JTextField" binding="textField37" default-binding="true">
+              <component id="f1ea" class="javax.swing.JTextField" binding="EspanhaGolsXAlemanha">
                 <constraints>
                   <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1147,7 +1147,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="2bc1b" class="javax.swing.JTextField" binding="textField38" default-binding="true">
+              <component id="2bc1b" class="javax.swing.JTextField" binding="AlemanhaGolsXEspanha">
                 <constraints>
                   <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1160,10 +1160,10 @@
                   <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Japão"/>
                 </properties>
               </component>
-              <component id="a5b78" class="javax.swing.JTextField" binding="textField39" default-binding="true">
+              <component id="a5b78" class="javax.swing.JTextField" binding="JapaoGolsXEspanha">
                 <constraints>
                   <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1179,7 +1179,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="c527c" class="javax.swing.JTextField" binding="textField40" default-binding="true">
+              <component id="c527c" class="javax.swing.JTextField" binding="EspanhaGolsXJapao">
                 <constraints>
                   <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1192,10 +1192,10 @@
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Costa Rica"/>
                 </properties>
               </component>
-              <component id="17751" class="javax.swing.JTextField" binding="textField41" default-binding="true">
+              <component id="17751" class="javax.swing.JTextField" binding="CostaRicaGolsXAlemanha">
                 <constraints>
                   <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1211,7 +1211,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="a3943" class="javax.swing.JTextField" binding="textField42" default-binding="true">
+              <component id="a3943" class="javax.swing.JTextField" binding="AlemanhaGolsXCostaRica">
                 <constraints>
                   <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1224,7 +1224,7 @@
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Japão"/>
                 </properties>
               </component>
               <component id="d5587" class="javax.swing.JLabel">
@@ -1232,7 +1232,7 @@
                   <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Costa Rica"/>
                 </properties>
               </component>
               <component id="d82b0" class="javax.swing.JLabel">
@@ -1240,7 +1240,7 @@
                   <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Costa Rica"/>
                 </properties>
               </component>
               <component id="7840a" class="javax.swing.JLabel">
@@ -1248,7 +1248,7 @@
                   <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Alemanha"/>
                 </properties>
               </component>
               <component id="6b80f" class="javax.swing.JLabel">
@@ -1256,7 +1256,7 @@
                   <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Espanha"/>
                 </properties>
               </component>
               <component id="a4e71" class="javax.swing.JLabel">
@@ -1264,7 +1264,7 @@
                   <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Alemanha"/>
                 </properties>
               </component>
             </children>
@@ -1282,10 +1282,10 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Marrocos"/>
                 </properties>
               </component>
-              <component id="e870f" class="javax.swing.JTextField" binding="textField43" default-binding="true">
+              <component id="e870f" class="javax.swing.JTextField" binding="MarrocosGolsXCroacia">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1301,7 +1301,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="768f3" class="javax.swing.JTextField" binding="textField44" default-binding="true">
+              <component id="768f3" class="javax.swing.JTextField" binding="CroaciaGolsXMarrocos">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1314,7 +1314,7 @@
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Croácia"/>
                 </properties>
               </component>
               <component id="37b53" class="javax.swing.JLabel">
@@ -1322,10 +1322,10 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Bélgica"/>
                 </properties>
               </component>
-              <component id="ea015" class="javax.swing.JTextField" binding="textField45" default-binding="true">
+              <component id="ea015" class="javax.swing.JTextField" binding="BelgicaGolsXCanada">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1341,7 +1341,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="2b9dd" class="javax.swing.JTextField" binding="textField46" default-binding="true">
+              <component id="2b9dd" class="javax.swing.JTextField" binding="CanadaGolsXBelgica">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1354,7 +1354,7 @@
                   <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Canadá"/>
                 </properties>
               </component>
               <component id="27d79" class="javax.swing.JLabel">
@@ -1362,10 +1362,10 @@
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Bélgica"/>
                 </properties>
               </component>
-              <component id="bf557" class="javax.swing.JTextField" binding="textField47" default-binding="true">
+              <component id="bf557" class="javax.swing.JTextField" binding="BelgicaGolsXMarrocos">
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1381,7 +1381,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="ca58c" class="javax.swing.JTextField" binding="textField48" default-binding="true">
+              <component id="ca58c" class="javax.swing.JTextField" binding="MarrocosGolsXBelgica">
                 <constraints>
                   <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1394,7 +1394,7 @@
                   <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Marrocos"/>
                 </properties>
               </component>
               <component id="fc6c3" class="javax.swing.JLabel">
@@ -1402,10 +1402,10 @@
                   <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Croácia"/>
                 </properties>
               </component>
-              <component id="21108" class="javax.swing.JTextField" binding="textField49" default-binding="true">
+              <component id="21108" class="javax.swing.JTextField" binding="CroaciaGolsXCanada">
                 <constraints>
                   <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1421,7 +1421,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="78c15" class="javax.swing.JTextField" binding="textField50" default-binding="true">
+              <component id="78c15" class="javax.swing.JTextField" binding="CanadaGolsXCroacia">
                 <constraints>
                   <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1434,7 +1434,7 @@
                   <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Canadá"/>
                 </properties>
               </component>
               <component id="8677f" class="javax.swing.JLabel">
@@ -1442,10 +1442,10 @@
                   <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Canadá"/>
                 </properties>
               </component>
-              <component id="e21d5" class="javax.swing.JTextField" binding="textField51" default-binding="true">
+              <component id="e21d5" class="javax.swing.JTextField" binding="CanadaGolsXMarrocos">
                 <constraints>
                   <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1461,7 +1461,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="cc9c5" class="javax.swing.JTextField" binding="textField52" default-binding="true">
+              <component id="cc9c5" class="javax.swing.JTextField" binding="MarrocosGolsXCanada">
                 <constraints>
                   <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1474,7 +1474,7 @@
                   <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Marrocos"/>
                 </properties>
               </component>
               <component id="f821f" class="javax.swing.JLabel">
@@ -1482,10 +1482,10 @@
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Croácia"/>
                 </properties>
               </component>
-              <component id="b258b" class="javax.swing.JTextField" binding="textField53" default-binding="true">
+              <component id="b258b" class="javax.swing.JTextField" binding="CroaciaGolsXBelgica">
                 <constraints>
                   <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1501,7 +1501,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="defe1" class="javax.swing.JTextField" binding="textField54" default-binding="true">
+              <component id="defe1" class="javax.swing.JTextField" binding="BelgicaGolsXCroacia">
                 <constraints>
                   <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1514,7 +1514,7 @@
                   <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Bélgica"/>
                 </properties>
               </component>
             </children>
@@ -1532,10 +1532,10 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Suíça"/>
                 </properties>
               </component>
-              <component id="cb193" class="javax.swing.JTextField" binding="textField55" default-binding="true">
+              <component id="cb193" class="javax.swing.JTextField" binding="SuicaGolsXCamaroes">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1551,7 +1551,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="47fdc" class="javax.swing.JTextField" binding="textField56" default-binding="true">
+              <component id="47fdc" class="javax.swing.JTextField" binding="CamaroesGolsXSuica">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1564,7 +1564,7 @@
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Camarões"/>
                 </properties>
               </component>
               <component id="cb012" class="javax.swing.JLabel">
@@ -1572,10 +1572,10 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Brasil"/>
                 </properties>
               </component>
-              <component id="f9d02" class="javax.swing.JTextField" binding="textField57" default-binding="true">
+              <component id="f9d02" class="javax.swing.JTextField" binding="BrasilGolsXServia">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1591,7 +1591,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="1db8e" class="javax.swing.JTextField" binding="textField58" default-binding="true">
+              <component id="1db8e" class="javax.swing.JTextField" binding="SerrviaGolsXBrasil">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1604,7 +1604,7 @@
                   <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Sérvia"/>
                 </properties>
               </component>
               <component id="7fb87" class="javax.swing.JLabel">
@@ -1612,10 +1612,10 @@
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Camarões"/>
                 </properties>
               </component>
-              <component id="5a63f" class="javax.swing.JTextField" binding="textField59" default-binding="true">
+              <component id="5a63f" class="javax.swing.JTextField" binding="CamaroesGolsXServia">
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1631,7 +1631,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="f4934" class="javax.swing.JTextField" binding="textField60" default-binding="true">
+              <component id="f4934" class="javax.swing.JTextField" binding="ServiaGolsXCamaroes">
                 <constraints>
                   <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1644,7 +1644,7 @@
                   <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Sérvia"/>
                 </properties>
               </component>
               <component id="7fe34" class="javax.swing.JLabel">
@@ -1652,10 +1652,10 @@
                   <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Brasil"/>
                 </properties>
               </component>
-              <component id="fda6" class="javax.swing.JTextField" binding="textField61" default-binding="true">
+              <component id="fda6" class="javax.swing.JTextField" binding="BrasilGolsXSuica">
                 <constraints>
                   <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1671,7 +1671,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="5da33" class="javax.swing.JTextField" binding="textField62" default-binding="true">
+              <component id="5da33" class="javax.swing.JTextField" binding="SuicaGolsXBrasil">
                 <constraints>
                   <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1684,7 +1684,7 @@
                   <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Suíça"/>
                 </properties>
               </component>
               <component id="331e7" class="javax.swing.JLabel">
@@ -1692,10 +1692,10 @@
                   <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Sérvia"/>
                 </properties>
               </component>
-              <component id="adf53" class="javax.swing.JTextField" binding="textField63" default-binding="true">
+              <component id="adf53" class="javax.swing.JTextField" binding="ServiaGolsXSuica">
                 <constraints>
                   <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1711,7 +1711,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="4dbfb" class="javax.swing.JTextField" binding="textField64" default-binding="true">
+              <component id="4dbfb" class="javax.swing.JTextField" binding="SuicaGolsXServia">
                 <constraints>
                   <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1724,7 +1724,7 @@
                   <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Suíça"/>
                 </properties>
               </component>
               <component id="24051" class="javax.swing.JLabel">
@@ -1732,10 +1732,10 @@
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Camarões"/>
                 </properties>
               </component>
-              <component id="397e3" class="javax.swing.JTextField" binding="textField65" default-binding="true">
+              <component id="397e3" class="javax.swing.JTextField" binding="CamaroesGolsXBrasil">
                 <constraints>
                   <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1751,7 +1751,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="78fea" class="javax.swing.JTextField" binding="textField66" default-binding="true">
+              <component id="78fea" class="javax.swing.JTextField" binding="BrasilGolsXCamaroes">
                 <constraints>
                   <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1764,7 +1764,7 @@
                   <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Brasil"/>
                 </properties>
               </component>
             </children>
@@ -1782,10 +1782,10 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Uruguai"/>
                 </properties>
               </component>
-              <component id="fecef" class="javax.swing.JTextField" binding="textField67" default-binding="true">
+              <component id="fecef" class="javax.swing.JTextField" binding="UruguaiGolsXCoreia">
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1801,7 +1801,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="ab07d" class="javax.swing.JTextField" binding="textField68" default-binding="true">
+              <component id="ab07d" class="javax.swing.JTextField" binding="CoreiaGolsXUruguai">
                 <constraints>
                   <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1814,7 +1814,7 @@
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Coreia do Sul"/>
                 </properties>
               </component>
               <component id="6749a" class="javax.swing.JLabel">
@@ -1822,10 +1822,10 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Portugal"/>
                 </properties>
               </component>
-              <component id="e8c49" class="javax.swing.JTextField" binding="textField69" default-binding="true">
+              <component id="e8c49" class="javax.swing.JTextField" binding="PortugalGolsXGana">
                 <constraints>
                   <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1841,7 +1841,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="7c922" class="javax.swing.JTextField" binding="textField70" default-binding="true">
+              <component id="7c922" class="javax.swing.JTextField" binding="GanaGolsXPortugal">
                 <constraints>
                   <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1854,7 +1854,7 @@
                   <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Gana"/>
                 </properties>
               </component>
               <component id="35da3" class="javax.swing.JLabel">
@@ -1862,10 +1862,10 @@
                   <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Coreia do Sul"/>
                 </properties>
               </component>
-              <component id="d64cc" class="javax.swing.JTextField" binding="textField71" default-binding="true">
+              <component id="d64cc" class="javax.swing.JTextField" binding="CoreiaGolsXGana">
                 <constraints>
                   <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1881,7 +1881,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="6b43d" class="javax.swing.JTextField" binding="textField72" default-binding="true">
+              <component id="6b43d" class="javax.swing.JTextField" binding="GanaGolsXCoreia">
                 <constraints>
                   <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1894,7 +1894,7 @@
                   <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Gana"/>
                 </properties>
               </component>
               <component id="4a606" class="javax.swing.JLabel">
@@ -1902,10 +1902,10 @@
                   <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Portugal"/>
                 </properties>
               </component>
-              <component id="9f980" class="javax.swing.JTextField" binding="textField73" default-binding="true">
+              <component id="9f980" class="javax.swing.JTextField" binding="PortugalGolsXUruguai">
                 <constraints>
                   <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1921,7 +1921,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="f467e" class="javax.swing.JTextField" binding="textField74" default-binding="true">
+              <component id="f467e" class="javax.swing.JTextField" binding="UruguaiGolsXPortugal">
                 <constraints>
                   <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1934,7 +1934,7 @@
                   <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Uruguai"/>
                 </properties>
               </component>
               <component id="b4e4c" class="javax.swing.JLabel">
@@ -1942,10 +1942,10 @@
                   <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Coreia do Sul"/>
                 </properties>
               </component>
-              <component id="5c4e4" class="javax.swing.JTextField" binding="textField75" default-binding="true">
+              <component id="5c4e4" class="javax.swing.JTextField" binding="CoreiaGolsXPortual">
                 <constraints>
                   <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1961,7 +1961,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="e5385" class="javax.swing.JTextField" binding="textField76" default-binding="true">
+              <component id="e5385" class="javax.swing.JTextField" binding="PortugalGolsXCoreia">
                 <constraints>
                   <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -1974,7 +1974,7 @@
                   <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Portugal"/>
                 </properties>
               </component>
               <component id="4a9e1" class="javax.swing.JLabel">
@@ -1982,10 +1982,10 @@
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Gana"/>
                 </properties>
               </component>
-              <component id="5c4e" class="javax.swing.JTextField" binding="textField77" default-binding="true">
+              <component id="5c4e" class="javax.swing.JTextField" binding="GanaGolsXUruguai">
                 <constraints>
                   <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -2001,7 +2001,7 @@
                   <text value="V"/>
                 </properties>
               </component>
-              <component id="41899" class="javax.swing.JTextField" binding="textField78" default-binding="true">
+              <component id="41899" class="javax.swing.JTextField" binding="UruguaiGolsXGana">
                 <constraints>
                   <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -2014,7 +2014,7 @@
                   <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Label"/>
+                  <text value="Uruguai"/>
                 </properties>
               </component>
             </children>
