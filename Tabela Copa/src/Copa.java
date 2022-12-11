@@ -34,48 +34,64 @@ public class Copa {
     Time portugal = new Time("Portugal");
     Time ghana = new Time("Ghana");
 
+
+    //GrupoA
     Partida p1 = new Partida(qatar, ecuador);
     Partida p2 = new Partida(senegal, netherlands);
     Partida p3 = new Partida(qatar, senegal);
     Partida p4 = new Partida(netherlands, ecuador);
-    Partida p5 = new Partida(netherlands, qatar);
-    Partida p6 = new Partida(ecuador, senegal);
+    Partida p5 = new Partida(ecuador, senegal);
+    Partida p6 = new Partida(netherlands, qatar);
+
+    //GrupoB
     Partida p7 = new Partida(england, iran);
-    Partida p8 = new Partida(usa, wales);
+    Partida p8 = new Partida(wales, usa);
     Partida p9 = new Partida(wales, iran);
     Partida p10 = new Partida(england, usa);
-    Partida p11 = new Partida(wales, england);
-    Partida p12 = new Partida(iran, usa);
+    Partida p11 = new Partida(iran, usa);
+    Partida p12 = new Partida(wales, england);
+
+    //GrupoC
     Partida p13 = new Partida(argentina, arabia);
     Partida p14 = new Partida(mexico, poland);
     Partida p15 = new Partida(poland, arabia);
     Partida p16 = new Partida(argentina, mexico);
     Partida p17 = new Partida(poland, argentina);
     Partida p18 = new Partida(arabia, mexico);
+
+    //GrupoD
     Partida p19 = new Partida(denmark, tunisia);
     Partida p20 = new Partida(france, australia);
     Partida p21 = new Partida(tunisia, australia);
     Partida p22 = new Partida(france, denmark);
     Partida p23 = new Partida(tunisia, france);
     Partida p24 = new Partida(australia, denmark);
+
+    //GrupoE
     Partida p25 = new Partida(germany, japan);
     Partida p26 = new Partida(spain, costarica);
     Partida p27 = new Partida(japan, costarica);
     Partida p28 = new Partida(spain, germany);
     Partida p29 = new Partida(japan, spain);
     Partida p30 = new Partida(costarica, germany);
+
+    //GrupoF
     Partida p31 = new Partida(morocco, croatia);
     Partida p32 = new Partida(belgium, canada);
     Partida p33 = new Partida(belgium, morocco);
     Partida p34 = new Partida(croatia, canada);
-    Partida p35 = new Partida(croatia, belgium);
-    Partida p36 = new Partida(canada, morocco);
+    Partida p35 = new Partida(canada, morocco);
+    Partida p36 = new Partida(croatia, belgium);
+
+    //GrupoG
     Partida p37 = new Partida(switzerland, cameroon);
     Partida p38 = new Partida(brazil, serbia);
     Partida p39 = new Partida(cameroon, serbia);
     Partida p40 = new Partida(brazil, switzerland);
-    Partida p41 = new Partida(cameroon, brazil);
-    Partida p42 = new Partida(serbia, switzerland);
+    Partida p41 = new Partida(serbia, switzerland);
+    Partida p42 = new Partida(cameroon, brazil);
+
+    //GrupoH
     Partida p43 = new Partida(uruguay, korea);
     Partida p44 = new Partida(portugal, ghana);
     Partida p45 = new Partida(korea, ghana);

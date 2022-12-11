@@ -38,6 +38,19 @@ public class Partida {
         }
     }
 
+    public void defineVDE(){
+        if(gols1 > gols2){
+            time1.addVitorias(1);
+            time2.addDerrotas(1);
+        } else if (gols2 > gols1) {
+            time2.addVitorias(1);
+            time1.addDerrotas(1);
+        }else {
+            time1.addEmpates(1);
+            time2.addEmpates(1);
+        }
+    }
+
     public int getPontos1(){
         return this.pontos1;
     }

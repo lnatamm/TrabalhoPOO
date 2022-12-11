@@ -1,6 +1,10 @@
 import javax.swing.*;
+import java.awt.event.*;
+import java.util.*;
 
 public class Tabela {
+
+    private Copa copa = new Copa();
     private JTabbedPane TabbedPanel;
     private JPanel GrupoA;
     private JPanel GrupoB;
@@ -22,9 +26,11 @@ public class Tabela {
     private JTextField SenegalGolsXEquador;
     private JTextField HolandaGolsXCatar;
 
-    private JTextField[] GrupoATexts = new JTextField[]{CatarGolsXEquador, EquadorGolsXCatar, SenegalGolsXHolanda, HolandaGolsXSenegal, CatarGolsXSenegal, SenegalGolsXCatar, HolandaGolsXEquador, EquadorGolsXHolanda, EquadorGolsXSenegal, SenegalGolsXEquador, HolandaGolsXCatar};
-
     private JTextField CatarGolsXHolanda;
+
+    private JTextField[] GrupoATexts = new JTextField[]{CatarGolsXEquador, EquadorGolsXCatar, SenegalGolsXHolanda, HolandaGolsXSenegal, CatarGolsXSenegal, SenegalGolsXCatar, HolandaGolsXEquador, EquadorGolsXHolanda, EquadorGolsXSenegal, SenegalGolsXEquador, HolandaGolsXCatar, CatarGolsXHolanda};
+    private Time[] GrupoATimes = new Time[]{copa.qatar, copa.ecuador, copa.senegal, copa.netherlands};
+
     private JTextField InglaterraGolsXIra;
     private JTextField IraGolsXInglaterra;
     private JTextField GalesGolsXEstadosUnidos;
@@ -38,7 +44,9 @@ public class Tabela {
     private JTextField GalesGolsXInglaterra;
     private JTextField InglaterraGolsXGales;
 
-    private JTextField[] GrupoBTexts = new JTextField[]{CatarGolsXHolanda, InglaterraGolsXIra, IraGolsXInglaterra, GalesGolsXEstadosUnidos, EstadosUnidosGolsXGales, GalesGolsXIra, IraGolsXGales, InglaterraGolsXEstadosUnidos, EstadosUnidosGolsXInglaterra, IraGolsXEstadosUnidos, EstadosUnidosGolsXIra, GalesGolsXInglaterra, InglaterraGolsXGales};
+    private JTextField[] GrupoBTexts = new JTextField[]{InglaterraGolsXIra, IraGolsXInglaterra, GalesGolsXEstadosUnidos, EstadosUnidosGolsXGales, GalesGolsXIra, IraGolsXGales, InglaterraGolsXEstadosUnidos, EstadosUnidosGolsXInglaterra, IraGolsXEstadosUnidos, EstadosUnidosGolsXIra, GalesGolsXInglaterra, InglaterraGolsXGales};
+
+    private Time[] GrupoBTimes = new Time[]{copa.england, copa.usa, copa.iran, copa.wales};
 
     private JTextField ArgentinaGolsXArabia;
     private JTextField ArabiaGolsXArgentina;
@@ -55,6 +63,8 @@ public class Tabela {
 
     private JTextField[] GrupoCTexts = new JTextField[]{ArgentinaGolsXArabia, ArabiaGolsXArgentina, MexicoGolsXPolonia, PoloniaGolsXMexico, PoloniaGolsXArabia, ArabiaGolsXPolonia, ArgentinaGolsXMexico, MexicoGolsXArgentina, PoloniaGolsXArgentina, ArgentinaGolsXPolonia, ArabiaGolsXMexico, MexicoGolsXArabia};
 
+    private Time[] GrupoCTimes = new Time[]{copa.argentina, copa.poland, copa.mexico, copa.arabia};
+
     private JTextField AlemanhaGolsXJapao;
     private JTextField JapaoGolsXAlemanha;
     private JTextField EspanhaGolsXCostaRica;
@@ -70,6 +80,8 @@ public class Tabela {
 
     private JTextField[] GrupoETexts = new JTextField[]{AlemanhaGolsXJapao, JapaoGolsXAlemanha, EspanhaGolsXCostaRica, CostaRicaGolsXEspanha, JapaoGolsXCostaRica, CostaRicaGolsXJapao, EspanhaGolsXAlemanha, AlemanhaGolsXEspanha, JapaoGolsXEspanha, EspanhaGolsXJapao, CostaRicaGolsXAlemanha, AlemanhaGolsXCostaRica};
 
+    private Time[] GrupoETimes = new Time[]{copa.japan, copa.spain, copa.germany, copa.costarica};
+
     private JTextField MarrocosGolsXCroacia;
     private JTextField CroaciaGolsXMarrocos;
     private JTextField BelgicaGolsXCanada;
@@ -83,7 +95,9 @@ public class Tabela {
     private JTextField CroaciaGolsXBelgica;
     private JTextField BelgicaGolsXCroacia;
 
-    JTextField[] GrupoFTexts = new JTextField[]{MarrocosGolsXCroacia, CroaciaGolsXMarrocos, BelgicaGolsXCanada, CanadaGolsXBelgica, BelgicaGolsXMarrocos, MarrocosGolsXBelgica, CroaciaGolsXCanada, CanadaGolsXCroacia, CanadaGolsXMarrocos, MarrocosGolsXCanada, CroaciaGolsXBelgica, BelgicaGolsXCroacia};
+    private JTextField[] GrupoFTexts = new JTextField[]{MarrocosGolsXCroacia, CroaciaGolsXMarrocos, BelgicaGolsXCanada, CanadaGolsXBelgica, BelgicaGolsXMarrocos, MarrocosGolsXBelgica, CroaciaGolsXCanada, CanadaGolsXCroacia, CanadaGolsXMarrocos, MarrocosGolsXCanada, CroaciaGolsXBelgica, BelgicaGolsXCroacia};
+
+    private Time[] GrupoFTimes = new Time[]{copa.morocco, copa.croatia, copa.belgium, copa.canada};
 
     private JTextField SuicaGolsXCamaroes;
     private JTextField CamaroesGolsXSuica;
@@ -100,6 +114,8 @@ public class Tabela {
 
     private JTextField[] GrupoGTexts = new JTextField[]{SuicaGolsXCamaroes, CamaroesGolsXSuica, BrasilGolsXServia, SerrviaGolsXBrasil, CamaroesGolsXServia, ServiaGolsXCamaroes, BrasilGolsXSuica, SuicaGolsXBrasil, ServiaGolsXSuica, SuicaGolsXServia, CamaroesGolsXBrasil, BrasilGolsXCamaroes};
 
+    private Time[] GrupoGTimes = new Time[]{copa.brazil, copa.switzerland, copa.cameroon, copa.serbia};
+
     private JTextField UruguaiGolsXCoreia;
     private JTextField CoreiaGolsXUruguai;
     private JTextField PortugalGolsXGana;
@@ -115,6 +131,8 @@ public class Tabela {
 
     private JTextField[] GrupoHTexts = new JTextField[]{UruguaiGolsXCoreia, CoreiaGolsXUruguai, PortugalGolsXGana, GanaGolsXPortugal, CoreiaGolsXGana, GanaGolsXCoreia, PortugalGolsXUruguai, UruguaiGolsXPortugal, CoreiaGolsXPortual, PortugalGolsXCoreia, GanaGolsXUruguai, UruguaiGolsXGana};
 
+    private Time[] GrupoHTimes = new Time[]{copa.uruguay, copa.ghana, copa.portugal, copa.korea};
+
     private JTextField DinamarcaGolsXTunisia;
     private JTextField TunisiaGolsXDinamarca;
     private JTextField FrancaGolsXAustralia;
@@ -127,6 +145,11 @@ public class Tabela {
     private JTextField FrancaGolsXTunisia;
     private JTextField AustraliaGolsXDinamarca;
     private JTextField DinamarcaGolsXAustralia;
+
+    private JTextField[] GrupoDTexts = new JTextField[]{DinamarcaGolsXTunisia, TunisiaGolsXDinamarca, FrancaGolsXAustralia, AustraliaGolsXFranca, TunisiaGolsXAustralia, AustraliaGolsXTunisia, FrancaGolsXDinamarca, DinamarcaGolsXFranca, TunisiaGolsXFranca, FrancaGolsXTunisia, AustraliaGolsXDinamarca, DinamarcaGolsXAustralia};
+
+    private Time[] GrupoDTimes = new Time[]{copa.france, copa.australia, copa.tunisia, copa.denmark};
+
     private JLabel Time1GrupoA;
     private JLabel Time2GrupoA;
     private JLabel Time3GrupoA;
@@ -352,8 +375,913 @@ public class Tabela {
     private JLabel GC4H;
     private JLabel SG4H;
     private JPanel MataMata;
+    private JButton enviarBotaoGrupoA;
+    private JButton enviarBotaoGrupoB;
+    private JButton enviarBotaoGrupoC;
+    private JButton enviarBotaoGupoD;
+    private JButton enviarBotaoGrupoE;
+    private JButton enviarBotaoGrupoG;
+    private JButton enviarBotaoGrupoH;
+    private JButton enviarBotaoGupoF;
+    private JLabel PTS1A;
+    private JLabel PTS2A;
+    private JLabel PTS3A;
+    private JLabel PTS4A;
+    private JLabel PTS1B;
+    private JLabel PTS2B;
+    private JLabel PTS3B;
+    private JLabel PTS4B;
+    private JLabel PTS1C;
+    private JLabel PTS2C;
+    private JLabel PTS3C;
+    private JLabel PTS4C;
+    private JLabel PTS1D;
+    private JLabel PTS2D;
+    private JLabel PTS3D;
+    private JLabel PTS4D;
+    private JLabel PTS1E;
+    private JLabel PTS2E;
+    private JLabel PTS3E;
+    private JLabel PTS4E;
+    private JLabel PTS1F;
+    private JLabel PTS2F;
+    private JLabel PTS3F;
+    private JLabel PTS4F;
+    private JLabel PTS1G;
+    private JLabel PTS2G;
+    private JLabel PTS3G;
+    private JLabel PTS4G;
+    private JLabel PTS1H;
+    private JLabel PTS2H;
+    private JLabel PTS3H;
+    private JLabel PTS4H;
 
-    private JTextField[] GrupoDTexts = new JTextField[]{DinamarcaGolsXTunisia, TunisiaGolsXDinamarca, FrancaGolsXAustralia, AustraliaGolsXFranca, TunisiaGolsXAustralia, AustraliaGolsXTunisia, FrancaGolsXDinamarca, DinamarcaGolsXFranca, TunisiaGolsXFranca, FrancaGolsXTunisia, AustraliaGolsXDinamarca, DinamarcaGolsXAustralia};
+    public Tabela() {
+        enviarBotaoGrupoA.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JLabel[] times = new JLabel[]{Time1GrupoA, Time2GrupoA, Time3GrupoA, Time4GrupoA};
+
+                JLabel[] vitorias = new JLabel[]{V1A, V2A, V3A, V4A};
+
+                JLabel[] empates = new JLabel[]{E1A, E2A, E3A, E4A};
+
+                JLabel[] derrotas = new JLabel[]{D1A, D2A, D3A, D4A};
+
+                JLabel[] golsPro = new JLabel[]{GP1A, GP2A, GP3A, GP4A};
+
+                JLabel[] golsCon = new JLabel[]{GC1A,GC2A, GC3A, GC4A};
+
+                JLabel[] saldoGols = new JLabel[]{SG1A, SG2A, SG3A, SG4A};
+
+                JLabel[] pontos = new JLabel[]{PTS1A, PTS2A, PTS3A, PTS4A};
+
+                ArrayList<Time> GrupoAArrayList = new ArrayList<>();
+
+                for(int i = 0; i < GrupoATimes.length; i++){
+
+                    GrupoAArrayList.add(GrupoATimes[i]);
+
+                }
+
+                for(int i = 0; i < GrupoAArrayList.size(); i++){
+
+                    vitorias[i].setText("0");
+
+                    empates[i].setText("0");
+
+                    derrotas[i].setText("0");
+
+                    golsPro[i].setText("0");
+
+                    golsCon[i].setText("0");
+
+                    saldoGols[i].setText("0");
+
+                    pontos[i].setText("0");
+
+                    GrupoAArrayList.get(i).clear();
+
+                }
+
+                for(int i = 0; i < 6; i++){
+
+                    copa.partidas.get(i).setGols1(Integer.parseInt(GrupoATexts[2*i].getText()));
+
+                    copa.partidas.get(i).getTime1().addGols(Integer.parseInt(GrupoATexts[2*i].getText()));
+
+                    copa.partidas.get(i).getTime2().addGolsSofridos(Integer.parseInt(GrupoATexts[2*i].getText()));
+
+                    copa.partidas.get(i).setGols2(Integer.parseInt(GrupoATexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i).getTime2().addGols(Integer.parseInt(GrupoATexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i).getTime1().addGolsSofridos(Integer.parseInt(GrupoATexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i).definePontos();
+
+                    copa.partidas.get(i).defineVDE();
+
+                }
+
+                for(int i = 0; i < GrupoATimes.length; i++){
+
+                    GrupoAArrayList.remove(0);
+
+                }
+
+                for(int i = 0; i < GrupoATimes.length; i++){
+
+                    GrupoATimes[i].definePontos();
+
+                    GrupoATimes[i].defineSaldoDeGols();
+
+                    GrupoAArrayList.add(GrupoATimes[i]);
+
+                }
+
+                Collections.sort(GrupoAArrayList, new Comparador());
+
+                for(int i = 0; i < GrupoAArrayList.size(); i++){
+
+                   times[i].setText(GrupoAArrayList.get(i).getNome());
+
+                   vitorias[i].setText(Integer.toString(GrupoAArrayList.get(i).getVitorias()));
+
+                   empates[i].setText(Integer.toString(GrupoAArrayList.get(i).getEmpates()));
+
+                   derrotas[i].setText(Integer.toString(GrupoAArrayList.get(i).getDerrotas()));
+
+                   golsPro[i].setText(Integer.toString(GrupoAArrayList.get(i).getnGols()));
+
+                   golsCon[i].setText(Integer.toString(GrupoAArrayList.get(i).getnGolsSofridos()));
+
+                   saldoGols[i].setText(Integer.toString(GrupoAArrayList.get(i).getSaldoGols()));
+
+                   pontos[i].setText(Integer.toString(GrupoAArrayList.get(i).getPontos()));
+
+                }
+
+            }
+        });
+        enviarBotaoGrupoB.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JLabel[] times = new JLabel[]{Time1GrupoB, Time2GrupoB, Time3GrupoB, Time4GrupoB};
+
+                JLabel[] vitorias = new JLabel[]{V1B, V2B, V3B, V4B};
+
+                JLabel[] empates = new JLabel[]{E1B, E2B, E3B, E4B};
+
+                JLabel[] derrotas = new JLabel[]{D1B, D2B, D3B, D4B};
+
+                JLabel[] golsPro = new JLabel[]{GP1B, GP2B, GP3B, GP4B};
+
+                JLabel[] golsCon = new JLabel[]{GC1B,GC2B, GC3B, GC4B};
+
+                JLabel[] saldoGols = new JLabel[]{SG1B, SG2B, SG3B, SG4B};
+
+                JLabel[] pontos = new JLabel[]{PTS1B, PTS2B, PTS3B, PTS4B};
+
+                ArrayList<Time> GrupoBArrayList = new ArrayList<>();
+
+                for(int i = 0; i < GrupoBTimes.length; i++){
+
+                    GrupoBArrayList.add(GrupoBTimes[i]);
+
+                }
+
+                for(int i = 0; i < GrupoBArrayList.size(); i++){
+
+                    vitorias[i].setText("0");
+
+                    empates[i].setText("0");
+
+                    derrotas[i].setText("0");
+
+                    golsPro[i].setText("0");
+
+                    golsCon[i].setText("0");
+
+                    saldoGols[i].setText("0");
+
+                    pontos[i].setText("0");
+
+                    GrupoBArrayList.get(i).clear();
+
+                }
+
+                for(int i = 0; i < 6; i++){
+
+                    copa.partidas.get(i + 6).setGols1(Integer.parseInt(GrupoBTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 6).getTime1().addGols(Integer.parseInt(GrupoBTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 6).getTime2().addGolsSofridos(Integer.parseInt(GrupoBTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 6).setGols2(Integer.parseInt(GrupoBTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 6).getTime2().addGols(Integer.parseInt(GrupoBTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 6).getTime1().addGolsSofridos(Integer.parseInt(GrupoBTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 6).definePontos();
+
+                    copa.partidas.get(i + 6).defineVDE();
+
+                }
+
+                for(int i = 0; i < GrupoBTimes.length; i++){
+
+                    GrupoBArrayList.remove(0);
+
+                }
+
+                for(int i = 0; i < GrupoBTimes.length; i++){
+
+                    GrupoBTimes[i].definePontos();
+
+                    GrupoBTimes[i].defineSaldoDeGols();
+
+                    GrupoBArrayList.add(GrupoBTimes[i]);
+
+                }
+
+                Collections.sort(GrupoBArrayList, new Comparador());
+
+                for(int i = 0; i < GrupoBArrayList.size(); i++){
+
+                    times[i].setText(GrupoBArrayList.get(i).getNome());
+
+                    vitorias[i].setText(Integer.toString(GrupoBArrayList.get(i).getVitorias()));
+
+                    empates[i].setText(Integer.toString(GrupoBArrayList.get(i).getEmpates()));
+
+                    derrotas[i].setText(Integer.toString(GrupoBArrayList.get(i).getDerrotas()));
+
+                    golsPro[i].setText(Integer.toString(GrupoBArrayList.get(i).getnGols()));
+
+                    golsCon[i].setText(Integer.toString(GrupoBArrayList.get(i).getnGolsSofridos()));
+
+                    saldoGols[i].setText(Integer.toString(GrupoBArrayList.get(i).getSaldoGols()));
+
+                    pontos[i].setText(Integer.toString(GrupoBArrayList.get(i).getPontos()));
+
+                }
+
+            }
+        });
+        enviarBotaoGrupoC.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JLabel[] times = new JLabel[]{Time1GrupoC, Time2GrupoC, Time3GrupoC, Time4GrupoC};
+
+                JLabel[] vitorias = new JLabel[]{V1C, V2C, V3C, V4C};
+
+                JLabel[] empates = new JLabel[]{E1C, E2C, E3C, E4C};
+
+                JLabel[] derrotas = new JLabel[]{D1C, D2C, D3C, D4C};
+
+                JLabel[] golsPro = new JLabel[]{GP1C, GP2C, GP3C, GP4C};
+
+                JLabel[] golsCon = new JLabel[]{GC1C,GC2C, GC3C, GC4C};
+
+                JLabel[] saldoGols = new JLabel[]{SG1C, SG2C, SG3C, SG4C};
+
+                JLabel[] pontos = new JLabel[]{PTS1C, PTS2C, PTS3C, PTS4C};
+
+                ArrayList<Time> GrupoCArrayList = new ArrayList<>();
+
+                for(int i = 0; i < GrupoCTimes.length; i++){
+
+                    GrupoCArrayList.add(GrupoCTimes[i]);
+
+                }
+
+                for(int i = 0; i < GrupoCArrayList.size(); i++){
+
+                    vitorias[i].setText("0");
+
+                    empates[i].setText("0");
+
+                    derrotas[i].setText("0");
+
+                    golsPro[i].setText("0");
+
+                    golsCon[i].setText("0");
+
+                    saldoGols[i].setText("0");
+
+                    pontos[i].setText("0");
+
+                    GrupoCArrayList.get(i).clear();
+
+                }
+
+                for(int i = 0; i < 6; i++){
+
+                    copa.partidas.get(i + 12).setGols1(Integer.parseInt(GrupoCTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 12).getTime1().addGols(Integer.parseInt(GrupoCTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 12).getTime2().addGolsSofridos(Integer.parseInt(GrupoCTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 12).setGols2(Integer.parseInt(GrupoCTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 12).getTime2().addGols(Integer.parseInt(GrupoCTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 12).getTime1().addGolsSofridos(Integer.parseInt(GrupoCTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 12).definePontos();
+
+                    copa.partidas.get(i + 12).defineVDE();
+
+                }
+
+                for(int i = 0; i < GrupoCTimes.length; i++){
+
+                    GrupoCArrayList.remove(0);
+
+                }
+
+                for(int i = 0; i < GrupoCTimes.length; i++){
+
+                    GrupoCTimes[i].definePontos();
+
+                    GrupoCTimes[i].defineSaldoDeGols();
+
+                    GrupoCArrayList.add(GrupoCTimes[i]);
+
+                }
+
+                Collections.sort(GrupoCArrayList, new Comparador());
+
+                for(int i = 0; i < GrupoCArrayList.size(); i++){
+
+                    times[i].setText(GrupoCArrayList.get(i).getNome());
+
+                    vitorias[i].setText(Integer.toString(GrupoCArrayList.get(i).getVitorias()));
+
+                    empates[i].setText(Integer.toString(GrupoCArrayList.get(i).getEmpates()));
+
+                    derrotas[i].setText(Integer.toString(GrupoCArrayList.get(i).getDerrotas()));
+
+                    golsPro[i].setText(Integer.toString(GrupoCArrayList.get(i).getnGols()));
+
+                    golsCon[i].setText(Integer.toString(GrupoCArrayList.get(i).getnGolsSofridos()));
+
+                    saldoGols[i].setText(Integer.toString(GrupoCArrayList.get(i).getSaldoGols()));
+
+                    pontos[i].setText(Integer.toString(GrupoCArrayList.get(i).getPontos()));
+
+                }
+
+            }
+        });
+        enviarBotaoGupoD.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JLabel[] times = new JLabel[]{Time1GrupoD, Time2GrupoD, Time3GrupoD, Time4GrupoD};
+
+                JLabel[] vitorias = new JLabel[]{V1D, V2D, V3D, V4D};
+
+                JLabel[] empates = new JLabel[]{E1D, E2D, E3D, E4D};
+
+                JLabel[] derrotas = new JLabel[]{D1D, D2D, D3D, D4D};
+
+                JLabel[] golsPro = new JLabel[]{GP1D, GP2D, GP3D, GP4D};
+
+                JLabel[] golsCon = new JLabel[]{GC1D,GC2D, GC3D, GC4D};
+
+                JLabel[] saldoGols = new JLabel[]{SG1D, SG2D, SG3D, SG4D};
+
+                JLabel[] pontos = new JLabel[]{PTS1D, PTS2D, PTS3D, PTS4D};
+
+                ArrayList<Time> GrupoDArrayList = new ArrayList<>();
+
+                for(int i = 0; i < GrupoDTimes.length; i++){
+
+                    GrupoDArrayList.add(GrupoDTimes[i]);
+
+                }
+
+                for(int i = 0; i < GrupoDArrayList.size(); i++){
+
+                    vitorias[i].setText("0");
+
+                    empates[i].setText("0");
+
+                    derrotas[i].setText("0");
+
+                    golsPro[i].setText("0");
+
+                    golsCon[i].setText("0");
+
+                    saldoGols[i].setText("0");
+
+                    pontos[i].setText("0");
+
+                    GrupoDArrayList.get(i).clear();
+
+                }
+
+                for(int i = 0; i < 6; i++){
+
+                    copa.partidas.get(i + 18).setGols1(Integer.parseInt(GrupoDTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 18).getTime1().addGols(Integer.parseInt(GrupoDTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 18).getTime2().addGolsSofridos(Integer.parseInt(GrupoDTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 18).setGols2(Integer.parseInt(GrupoDTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 18).getTime2().addGols(Integer.parseInt(GrupoDTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 18).getTime1().addGolsSofridos(Integer.parseInt(GrupoDTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 18).definePontos();
+
+                    copa.partidas.get(i + 18).defineVDE();
+
+                }
+
+                for(int i = 0; i < GrupoDTimes.length; i++){
+
+                    GrupoDArrayList.remove(0);
+
+                }
+
+                for(int i = 0; i < GrupoDTimes.length; i++){
+
+                    GrupoDTimes[i].definePontos();
+
+                    GrupoDTimes[i].defineSaldoDeGols();
+
+                    GrupoDArrayList.add(GrupoDTimes[i]);
+
+                }
+
+                Collections.sort(GrupoDArrayList, new Comparador());
+
+                for(int i = 0; i < GrupoDArrayList.size(); i++){
+
+                    times[i].setText(GrupoDArrayList.get(i).getNome());
+
+                    vitorias[i].setText(Integer.toString(GrupoDArrayList.get(i).getVitorias()));
+
+                    empates[i].setText(Integer.toString(GrupoDArrayList.get(i).getEmpates()));
+
+                    derrotas[i].setText(Integer.toString(GrupoDArrayList.get(i).getDerrotas()));
+
+                    golsPro[i].setText(Integer.toString(GrupoDArrayList.get(i).getnGols()));
+
+                    golsCon[i].setText(Integer.toString(GrupoDArrayList.get(i).getnGolsSofridos()));
+
+                    saldoGols[i].setText(Integer.toString(GrupoDArrayList.get(i).getSaldoGols()));
+
+                    pontos[i].setText(Integer.toString(GrupoDArrayList.get(i).getPontos()));
+
+                }
+
+            }
+        });
+        enviarBotaoGrupoE.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JLabel[] times = new JLabel[]{Time1GrupoE, Time2GrupoE, Time3GrupoE, Time4GrupoE};
+
+                JLabel[] vitorias = new JLabel[]{V1E, V2E, V3E, V4E};
+
+                JLabel[] empates = new JLabel[]{E1E, E2E, E3E, E4E};
+
+                JLabel[] derrotas = new JLabel[]{D1E, D2E, D3E, D4E};
+
+                JLabel[] golsPro = new JLabel[]{GP1E, GP2E, GP3E, GP4E};
+
+                JLabel[] golsCon = new JLabel[]{GC1E,GC2E, GC3E, GC4E};
+
+                JLabel[] saldoGols = new JLabel[]{SG1E, SG2E, SG3E, SG4E};
+
+                JLabel[] pontos = new JLabel[]{PTS1E, PTS2E, PTS3E, PTS4E};
+
+                ArrayList<Time> GrupoEArrayList = new ArrayList<>();
+
+                for(int i = 0; i < GrupoETimes.length; i++){
+
+                    GrupoEArrayList.add(GrupoETimes[i]);
+
+                }
+
+                for(int i = 0; i < GrupoEArrayList.size(); i++){
+
+                    vitorias[i].setText("0");
+
+                    empates[i].setText("0");
+
+                    derrotas[i].setText("0");
+
+                    golsPro[i].setText("0");
+
+                    golsCon[i].setText("0");
+
+                    saldoGols[i].setText("0");
+
+                    pontos[i].setText("0");
+
+                    GrupoEArrayList.get(i).clear();
+
+                }
+
+                for(int i = 0; i < 6; i++){
+
+                    copa.partidas.get(i + 24).setGols1(Integer.parseInt(GrupoETexts[2*i].getText()));
+
+                    copa.partidas.get(i + 24).getTime1().addGols(Integer.parseInt(GrupoETexts[2*i].getText()));
+
+                    copa.partidas.get(i + 24).getTime2().addGolsSofridos(Integer.parseInt(GrupoETexts[2*i].getText()));
+
+                    copa.partidas.get(i + 24).setGols2(Integer.parseInt(GrupoETexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 24).getTime2().addGols(Integer.parseInt(GrupoETexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 24).getTime1().addGolsSofridos(Integer.parseInt(GrupoETexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 24).definePontos();
+
+                    copa.partidas.get(i + 24).defineVDE();
+
+                }
+
+                for(int i = 0; i < GrupoETimes.length; i++){
+
+                    GrupoEArrayList.remove(0);
+
+                }
+
+                for(int i = 0; i < GrupoETimes.length; i++){
+
+                    GrupoETimes[i].definePontos();
+
+                    GrupoETimes[i].defineSaldoDeGols();
+
+                    GrupoEArrayList.add(GrupoETimes[i]);
+
+                }
+
+                Collections.sort(GrupoEArrayList, new Comparador());
+
+                for(int i = 0; i < GrupoEArrayList.size(); i++){
+
+                    times[i].setText(GrupoEArrayList.get(i).getNome());
+
+                    vitorias[i].setText(Integer.toString(GrupoEArrayList.get(i).getVitorias()));
+
+                    empates[i].setText(Integer.toString(GrupoEArrayList.get(i).getEmpates()));
+
+                    derrotas[i].setText(Integer.toString(GrupoEArrayList.get(i).getDerrotas()));
+
+                    golsPro[i].setText(Integer.toString(GrupoEArrayList.get(i).getnGols()));
+
+                    golsCon[i].setText(Integer.toString(GrupoEArrayList.get(i).getnGolsSofridos()));
+
+                    saldoGols[i].setText(Integer.toString(GrupoEArrayList.get(i).getSaldoGols()));
+
+                    pontos[i].setText(Integer.toString(GrupoEArrayList.get(i).getPontos()));
+
+                }
+
+            }
+        });
+        enviarBotaoGupoF.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JLabel[] times = new JLabel[]{Time1GrupoF, Time2GrupoF, Time3GrupoF, Time4GrupoF};
+
+                JLabel[] vitorias = new JLabel[]{V1F, V2F, V3F, V4F};
+
+                JLabel[] empates = new JLabel[]{E1F, E2F, E3F, E4F};
+
+                JLabel[] derrotas = new JLabel[]{D1F, D2F, D3F, D4F};
+
+                JLabel[] golsPro = new JLabel[]{GP1F, GP2F, GP3F, GP4F};
+
+                JLabel[] golsCon = new JLabel[]{GC1F,GC2F, GC3F, GC4F};
+
+                JLabel[] saldoGols = new JLabel[]{SG1F, SG2F, SG3F, SG4F};
+
+                JLabel[] pontos = new JLabel[]{PTS1F, PTS2F, PTS3F, PTS4F};
+
+                ArrayList<Time> GrupoFArrayList = new ArrayList<>();
+
+                for(int i = 0; i < GrupoFTimes.length; i++){
+
+                    GrupoFArrayList.add(GrupoFTimes[i]);
+
+                }
+
+                for(int i = 0; i < GrupoFArrayList.size(); i++){
+
+                    vitorias[i].setText("0");
+
+                    empates[i].setText("0");
+
+                    derrotas[i].setText("0");
+
+                    golsPro[i].setText("0");
+
+                    golsCon[i].setText("0");
+
+                    saldoGols[i].setText("0");
+
+                    pontos[i].setText("0");
+
+                    GrupoFArrayList.get(i).clear();
+
+                }
+
+                for(int i = 0; i < 6; i++){
+
+                    copa.partidas.get(i + 30).setGols1(Integer.parseInt(GrupoFTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 30).getTime1().addGols(Integer.parseInt(GrupoFTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 30).getTime2().addGolsSofridos(Integer.parseInt(GrupoFTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 30).setGols2(Integer.parseInt(GrupoFTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 30).getTime2().addGols(Integer.parseInt(GrupoFTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 30).getTime1().addGolsSofridos(Integer.parseInt(GrupoFTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 30).definePontos();
+
+                    copa.partidas.get(i + 30).defineVDE();
+
+                }
+
+                for(int i = 0; i < GrupoATimes.length; i++){
+
+                    GrupoFArrayList.remove(0);
+
+                }
+
+                for(int i = 0; i < GrupoFTimes.length; i++){
+
+                    GrupoFTimes[i].definePontos();
+
+                    GrupoFTimes[i].defineSaldoDeGols();
+
+                    GrupoFArrayList.add(GrupoFTimes[i]);
+
+                }
+
+                Collections.sort(GrupoFArrayList, new Comparador());
+
+                for(int i = 0; i < GrupoFArrayList.size(); i++){
+
+                    times[i].setText(GrupoFArrayList.get(i).getNome());
+
+                    vitorias[i].setText(Integer.toString(GrupoFArrayList.get(i).getVitorias()));
+
+                    empates[i].setText(Integer.toString(GrupoFArrayList.get(i).getEmpates()));
+
+                    derrotas[i].setText(Integer.toString(GrupoFArrayList.get(i).getDerrotas()));
+
+                    golsPro[i].setText(Integer.toString(GrupoFArrayList.get(i).getnGols()));
+
+                    golsCon[i].setText(Integer.toString(GrupoFArrayList.get(i).getnGolsSofridos()));
+
+                    saldoGols[i].setText(Integer.toString(GrupoFArrayList.get(i).getSaldoGols()));
+
+                    pontos[i].setText(Integer.toString(GrupoFArrayList.get(i).getPontos()));
+
+                }
+
+            }
+        });
+        enviarBotaoGrupoG.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JLabel[] times = new JLabel[]{Time1GrupoG, Time2GrupoG, Time3GrupoG, Time4GrupoG};
+
+                JLabel[] vitorias = new JLabel[]{V1G, V2G, V3G, V4G};
+
+                JLabel[] empates = new JLabel[]{E1G, E2G, E3G, E4G};
+
+                JLabel[] derrotas = new JLabel[]{D1G, D2G, D3G, D4G};
+
+                JLabel[] golsPro = new JLabel[]{GP1G, GP2G, GP3G, GP4G};
+
+                JLabel[] golsCon = new JLabel[]{GC1G,GC2G, GC3G, GC4G};
+
+                JLabel[] saldoGols = new JLabel[]{SG1G, SG2G, SG3G, SG4G};
+
+                JLabel[] pontos = new JLabel[]{PTS1G, PTS2G, PTS3G, PTS4G};
+
+                ArrayList<Time> GrupoGArrayList = new ArrayList<>();
+
+                for(int i = 0; i < GrupoGTimes.length; i++){
+
+                    GrupoGArrayList.add(GrupoGTimes[i]);
+
+                }
+
+                for(int i = 0; i < GrupoGArrayList.size(); i++){
+
+                    vitorias[i].setText("0");
+
+                    empates[i].setText("0");
+
+                    derrotas[i].setText("0");
+
+                    golsPro[i].setText("0");
+
+                    golsCon[i].setText("0");
+
+                    saldoGols[i].setText("0");
+
+                    pontos[i].setText("0");
+
+                    GrupoGArrayList.get(i).clear();
+
+                }
+
+                for(int i = 0; i < 6; i++){
+
+                    copa.partidas.get(i + 36).setGols1(Integer.parseInt(GrupoGTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 36).getTime1().addGols(Integer.parseInt(GrupoGTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 36).getTime2().addGolsSofridos(Integer.parseInt(GrupoGTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 36).setGols2(Integer.parseInt(GrupoGTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 36).getTime2().addGols(Integer.parseInt(GrupoGTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 36).getTime1().addGolsSofridos(Integer.parseInt(GrupoGTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 36).definePontos();
+
+                    copa.partidas.get(i + 36).defineVDE();
+
+                }
+
+                for(int i = 0; i < GrupoGTimes.length; i++){
+
+                    GrupoGArrayList.remove(0);
+
+                }
+
+                for(int i = 0; i < GrupoGTimes.length; i++){
+
+                    GrupoGTimes[i].definePontos();
+
+                    GrupoGTimes[i].defineSaldoDeGols();
+
+                    GrupoGArrayList.add(GrupoGTimes[i]);
+
+                }
+
+                Collections.sort(GrupoGArrayList, new Comparador());
+
+                for(int i = 0; i < GrupoGArrayList.size(); i++){
+
+                    times[i].setText(GrupoGArrayList.get(i).getNome());
+
+                    vitorias[i].setText(Integer.toString(GrupoGArrayList.get(i).getVitorias()));
+
+                    empates[i].setText(Integer.toString(GrupoGArrayList.get(i).getEmpates()));
+
+                    derrotas[i].setText(Integer.toString(GrupoGArrayList.get(i).getDerrotas()));
+
+                    golsPro[i].setText(Integer.toString(GrupoGArrayList.get(i).getnGols()));
+
+                    golsCon[i].setText(Integer.toString(GrupoGArrayList.get(i).getnGolsSofridos()));
+
+                    saldoGols[i].setText(Integer.toString(GrupoGArrayList.get(i).getSaldoGols()));
+
+                    pontos[i].setText(Integer.toString(GrupoGArrayList.get(i).getPontos()));
+
+                }
+
+            }
+        });
+        enviarBotaoGrupoH.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                JLabel[] times = new JLabel[]{Time1GrupoH, Time2GrupoH, Time3GrupoH, Time4GrupoH};
+
+                JLabel[] vitorias = new JLabel[]{V1H, V2H, V3H, V4H};
+
+                JLabel[] empates = new JLabel[]{E1H, E2H, E3H, E4H};
+
+                JLabel[] derrotas = new JLabel[]{D1H, D2H, D3H, D4H};
+
+                JLabel[] golsPro = new JLabel[]{GP1H, GP2H, GP3H, GP4H};
+
+                JLabel[] golsCon = new JLabel[]{GC1H,GC2H, GC3H, GC4H};
+
+                JLabel[] saldoGols = new JLabel[]{SG1H, SG2H, SG3H, SG4H};
+
+                JLabel[] pontos = new JLabel[]{PTS1H, PTS2H, PTS3H, PTS4H};
+
+                ArrayList<Time> GrupoHArrayList = new ArrayList<>();
+
+                for(int i = 0; i < GrupoHTimes.length; i++){
+
+                    GrupoHArrayList.add(GrupoHTimes[i]);
+
+                }
+
+                for(int i = 0; i < GrupoHArrayList.size(); i++){
+
+                    vitorias[i].setText("0");
+
+                    empates[i].setText("0");
+
+                    derrotas[i].setText("0");
+
+                    golsPro[i].setText("0");
+
+                    golsCon[i].setText("0");
+
+                    saldoGols[i].setText("0");
+
+                    pontos[i].setText("0");
+
+                    GrupoHArrayList.get(i).clear();
+
+                }
+
+                for(int i = 0; i < 6; i++){
+
+                    copa.partidas.get(i + 42).setGols1(Integer.parseInt(GrupoHTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 42).getTime1().addGols(Integer.parseInt(GrupoHTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 42).getTime2().addGolsSofridos(Integer.parseInt(GrupoHTexts[2*i].getText()));
+
+                    copa.partidas.get(i + 42).setGols2(Integer.parseInt(GrupoHTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 42).getTime2().addGols(Integer.parseInt(GrupoHTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 42).getTime1().addGolsSofridos(Integer.parseInt(GrupoHTexts[(2*i) + 1].getText()));
+
+                    copa.partidas.get(i + 42).definePontos();
+
+                    copa.partidas.get(i + 42).defineVDE();
+
+                }
+
+                for(int i = 0; i < GrupoHTimes.length; i++){
+
+                    GrupoHArrayList.remove(0);
+
+                }
+
+                for(int i = 0; i < GrupoHTimes.length; i++){
+
+                    GrupoHTimes[i].definePontos();
+
+                    GrupoHTimes[i].defineSaldoDeGols();
+
+                    GrupoHArrayList.add(GrupoHTimes[i]);
+
+                }
+
+                Collections.sort(GrupoHArrayList, new Comparador());
+
+                for(int i = 0; i < GrupoHArrayList.size(); i++){
+
+                    times[i].setText(GrupoHArrayList.get(i).getNome());
+
+                    vitorias[i].setText(Integer.toString(GrupoHArrayList.get(i).getVitorias()));
+
+                    empates[i].setText(Integer.toString(GrupoHArrayList.get(i).getEmpates()));
+
+                    derrotas[i].setText(Integer.toString(GrupoHArrayList.get(i).getDerrotas()));
+
+                    golsPro[i].setText(Integer.toString(GrupoHArrayList.get(i).getnGols()));
+
+                    golsCon[i].setText(Integer.toString(GrupoHArrayList.get(i).getnGolsSofridos()));
+
+                    saldoGols[i].setText(Integer.toString(GrupoHArrayList.get(i).getSaldoGols()));
+
+                    pontos[i].setText(Integer.toString(GrupoHArrayList.get(i).getPontos()));
+
+                }
+
+            }
+        });
+    }
 
     public static void main(String[] args) {
 
@@ -364,6 +1292,8 @@ public class Tabela {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         frame.setVisible(true);
+
+        Tabela tabela = new Tabela();
 
     }
 

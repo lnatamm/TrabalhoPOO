@@ -80,6 +80,7 @@ public class Time {
         this.nGols = 0;
 
         this.nGolsSofridos = 0;
+
     }
 
     //Getters
@@ -211,6 +212,24 @@ public class Time {
 
     public void addEmpates(int empates){
         this.empates += empates;
+    }
+
+    public void clear(){
+
+        this.vitorias = 0;
+
+        this.derrotas = 0;
+
+        this.empates = 0;
+
+        this.pontos = 0;
+
+        this.saldoGols = 0;
+
+        this.nGols = 0;
+
+        this.nGolsSofridos = 0;
+
     }
 
 }
