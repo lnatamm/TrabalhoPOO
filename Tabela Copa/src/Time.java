@@ -1,8 +1,6 @@
 public class Time {
 
     //Atributos
-    // VAI TOMAR NO CU GITHUB
-    // SUCUMBA GITHUB
     private String nome;
 
     private int vitorias;
@@ -69,6 +67,19 @@ public class Time {
 
         this.nome = nome;
 
+        this.vitorias = 0;
+
+        this.derrotas = 0;
+
+        this.empates = 0;
+
+        this.pontos = 0;
+
+        this.saldoGols = 0;
+
+        this.nGols = 0;
+
+        this.nGolsSofridos = 0;
     }
 
     //Getters
@@ -173,10 +184,33 @@ public class Time {
 
     //Métodos
 
-    private void definePontos(){    //Define a quantidade de pontos baseado nos atributos
+    public void definePontos(){    //Define a quantidade de pontos baseado nos atributos
 
         setPontos(3 * getVitorias() + getEmpates());
 
+    }
+
+    public void defineSaldoDeGols(){
+        setSaldoGols(getnGols() - getnGolsSofridos());
+    }
+
+    public void addGols(int gols){
+        this.nGols += gols;
+    }
+
+    public void addGolsSofridos(int golsSofridos){
+        this.nGolsSofridos += golsSofridos;
+    }
+    public void addVitorias(int vitorias){
+        this.vitorias += vitorias;
+    }
+
+    public void addDerrotas(int derrotas){
+        this.derrotas += derrotas;
+    }
+
+    public void addEmpates(int empates){
+        this.empates += empates;
     }
 
 }
