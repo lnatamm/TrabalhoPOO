@@ -532,7 +532,7 @@ public class Tabela {
     private JButton enviarTerceira;
 
     private void Escrever(){
-        File arquivo = new File("D:/TrabalhoPOO/TrabalhoPOO/tabelaCopa.txt");
+        File arquivo = new File("C:/Users/Jv/Desktop/WC/tabelaCopa.txt");
         FileWriter fw = null;
         try {
             fw = new FileWriter(arquivo);
@@ -757,7 +757,7 @@ public class Tabela {
     }
 
     private void Ler() throws FileNotFoundException {
-        File arquivo = new File("D:/TrabalhoPOO/TrabalhoPOO/tabelaCopa.txt");
+        File arquivo = new File("C:/Users/Jv/Desktop/WC/tabelaCopa.txt");
         Scanner sc = new Scanner(arquivo);
         try{
             if(arquivo.exists()){
@@ -2300,17 +2300,21 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas1.getText()) == Integer.parseInt(Penaltis2Oitavas1.getText())) {
 
-                                        Penaltis1Oitavas1.setText("");
+                                        if(Integer.parseInt(Penaltis1Oitavas1.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas1.getText()) == 0){
+                                        }else {
 
-                                        Penaltis2Oitavas1.setText("");
+                                            Penaltis1Oitavas1.setText("0");
 
-                                        Penaltis1Oitavas1.setEditable(false);
+                                            Penaltis2Oitavas1.setText("0");
 
-                                        Penaltis2Oitavas1.setEditable(false);
+                                            Penaltis1Oitavas1.setEditable(false);
 
-                                        Gols1Oitavas1.setEditable(true);
+                                            Penaltis2Oitavas1.setEditable(false);
 
-                                        Gols2Oitavas1.setEditable(true);
+                                            Gols1Oitavas1.setEditable(true);
+
+                                            Gols2Oitavas1.setEditable(true);
+                                        }
 
                                     }
                                 }
@@ -2394,17 +2398,21 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas2.getText()) == Integer.parseInt(Penaltis2Oitavas2.getText())) {
 
-                                        Penaltis1Oitavas2.setText("");
+                                        if(Integer.parseInt(Penaltis1Oitavas2.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas2.getText()) == 0){
+                                        }else {
 
-                                        Penaltis2Oitavas2.setText("");
+                                            Penaltis1Oitavas2.setText("0");
 
-                                        Penaltis1Oitavas2.setEditable(false);
+                                            Penaltis2Oitavas2.setText("0");
 
-                                        Penaltis2Oitavas2.setEditable(false);
+                                            Penaltis1Oitavas2.setEditable(false);
 
-                                        Gols1Oitavas2.setEditable(true);
+                                            Penaltis2Oitavas2.setEditable(false);
 
-                                        Gols2Oitavas2.setEditable(true);
+                                            Gols1Oitavas2.setEditable(true);
+
+                                            Gols2Oitavas2.setEditable(true);
+                                        }
 
                                     }
 
@@ -2489,17 +2497,21 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas3.getText()) == Integer.parseInt(Penaltis2Oitavas3.getText())) {
 
-                                        Penaltis1Oitavas3.setText("");
+                                        if(Integer.parseInt(Penaltis1Oitavas3.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas3.getText()) == 0){
+                                        }else {
 
-                                        Penaltis2Oitavas3.setText("");
+                                            Penaltis1Oitavas3.setText("0");
 
-                                        Penaltis1Oitavas3.setEditable(false);
+                                            Penaltis2Oitavas3.setText("0");
 
-                                        Penaltis2Oitavas3.setEditable(false);
+                                            Penaltis1Oitavas3.setEditable(false);
 
-                                        Gols1Oitavas3.setEditable(true);
+                                            Penaltis2Oitavas3.setEditable(false);
 
-                                        Gols2Oitavas3.setEditable(true);
+                                            Gols1Oitavas3.setEditable(true);
+
+                                            Gols2Oitavas3.setEditable(true);
+                                        }
 
                                     }
 
@@ -2584,17 +2596,21 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas4.getText()) == Integer.parseInt(Penaltis2Oitavas4.getText())) {
 
-                                        Penaltis1Oitavas4.setText("");
+                                        if(Integer.parseInt(Penaltis1Oitavas4.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas4.getText()) == 0){
+                                        }else {
 
-                                        Penaltis2Oitavas4.setText("");
+                                            Penaltis1Oitavas4.setText("0");
 
-                                        Penaltis1Oitavas4.setEditable(false);
+                                            Penaltis2Oitavas4.setText("0");
 
-                                        Penaltis2Oitavas4.setEditable(false);
+                                            Penaltis1Oitavas4.setEditable(false);
 
-                                        Gols1Oitavas4.setEditable(true);
+                                            Penaltis2Oitavas4.setEditable(false);
 
-                                        Gols2Oitavas4.setEditable(true);
+                                            Gols1Oitavas4.setEditable(true);
+
+                                            Gols2Oitavas4.setEditable(true);
+                                        }
 
                                     }
                                 }
@@ -2680,17 +2696,21 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas5.getText()) == Integer.parseInt(Penaltis2Oitavas5.getText())) {
 
-                                        Penaltis1Oitavas5.setText("");
+                                        if(Integer.parseInt(Penaltis1Oitavas5.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas5.getText()) == 0){
+                                        }else {
 
-                                        Penaltis2Oitavas5.setText("");
+                                            Penaltis1Oitavas5.setText("0");
 
-                                        Penaltis1Oitavas5.setEditable(false);
+                                            Penaltis2Oitavas5.setText("0");
 
-                                        Penaltis2Oitavas5.setEditable(false);
+                                            Penaltis1Oitavas5.setEditable(false);
 
-                                        Gols1Oitavas5.setEditable(true);
+                                            Penaltis2Oitavas5.setEditable(false);
 
-                                        Gols2Oitavas5.setEditable(true);
+                                            Gols1Oitavas5.setEditable(true);
+
+                                            Gols2Oitavas5.setEditable(true);
+                                        }
 
                                     }
                                 }
@@ -2774,17 +2794,21 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas6.getText()) == Integer.parseInt(Penaltis2Oitavas6.getText())) {
 
-                                        Penaltis1Oitavas6.setText("");
+                                        if(Integer.parseInt(Penaltis1Oitavas6.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas6.getText()) == 0){
+                                        }else {
 
-                                        Penaltis2Oitavas6.setText("");
+                                            Penaltis1Oitavas6.setText("0");
 
-                                        Penaltis1Oitavas6.setEditable(false);
+                                            Penaltis2Oitavas6.setText("0");
 
-                                        Penaltis2Oitavas6.setEditable(false);
+                                            Penaltis1Oitavas6.setEditable(false);
 
-                                        Gols1Oitavas6.setEditable(true);
+                                            Penaltis2Oitavas6.setEditable(false);
 
-                                        Gols2Oitavas6.setEditable(true);
+                                            Gols1Oitavas6.setEditable(true);
+
+                                            Gols2Oitavas6.setEditable(true);
+                                        }
 
                                     }
                                 }
@@ -2868,17 +2892,21 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas7.getText()) == Integer.parseInt(Penaltis2Oitavas7.getText())) {
 
-                                        Penaltis1Oitavas7.setText("");
+                                        if(Integer.parseInt(Penaltis1Oitavas7.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas7.getText()) == 0){
+                                        }else {
 
-                                        Penaltis2Oitavas7.setText("");
+                                            Penaltis1Oitavas7.setText("0");
 
-                                        Penaltis1Oitavas7.setEditable(false);
+                                            Penaltis2Oitavas7.setText("0");
 
-                                        Penaltis2Oitavas7.setEditable(false);
+                                            Penaltis1Oitavas7.setEditable(false);
 
-                                        Gols1Oitavas7.setEditable(true);
+                                            Penaltis2Oitavas7.setEditable(false);
 
-                                        Gols2Oitavas7.setEditable(true);
+                                            Gols1Oitavas7.setEditable(true);
+
+                                            Gols2Oitavas7.setEditable(true);
+                                        }
 
                                     }
                                 }
@@ -2963,17 +2991,21 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas8.getText()) == Integer.parseInt(Penaltis2Oitavas8.getText())) {
 
-                                        Penaltis1Oitavas8.setText("");
+                                        if(Integer.parseInt(Penaltis1Oitavas8.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas8.getText()) == 0){
+                                        }else {
 
-                                        Penaltis2Oitavas8.setText("");
+                                            Penaltis1Oitavas8.setText("0");
 
-                                        Penaltis1Oitavas8.setEditable(false);
+                                            Penaltis2Oitavas8.setText("0");
 
-                                        Penaltis2Oitavas8.setEditable(false);
+                                            Penaltis1Oitavas8.setEditable(false);
 
-                                        Gols1Oitavas8.setEditable(true);
+                                            Penaltis2Oitavas8.setEditable(false);
 
-                                        Gols2Oitavas8.setEditable(true);
+                                            Gols1Oitavas8.setEditable(true);
+
+                                            Gols2Oitavas8.setEditable(true);
+                                        }
 
                                     }
                                 }
@@ -3049,17 +3081,21 @@ public class Tabela {
 
                             if (Integer.parseInt(Penaltis1Quartas1.getText()) == Integer.parseInt(Penaltis2Quartas1.getText())) {
 
-                                Penaltis1Quartas1.setText("");
+                                if(Integer.parseInt(Penaltis1Quartas1.getText()) == 0 && Integer.parseInt(Penaltis2Quartas1.getText()) == 0){
+                                }else {
 
-                                Penaltis2Quartas1.setText("");
+                                    Penaltis1Quartas1.setText("0");
 
-                                Penaltis1Quartas1.setEditable(false);
+                                    Penaltis2Quartas1.setText("0");
 
-                                Penaltis2Quartas1.setEditable(false);
+                                    Penaltis1Quartas1.setEditable(false);
 
-                                Gols1Quartas1.setEditable(true);
+                                    Penaltis2Quartas1.setEditable(false);
 
-                                Gols2Quartas1.setEditable(true);
+                                    Gols1Quartas1.setEditable(true);
+
+                                    Gols2Quartas1.setEditable(true);
+                                }
 
                             }
 
@@ -3118,17 +3154,21 @@ public class Tabela {
 
                             if (Integer.parseInt(Penaltis1Quartas2.getText()) == Integer.parseInt(Penaltis2Quartas2.getText())) {
 
-                                Penaltis1Quartas2.setText("");
+                                if(Integer.parseInt(Penaltis1Quartas2.getText()) == 0 && Integer.parseInt(Penaltis2Quartas2.getText()) == 0){
+                                }else {
 
-                                Penaltis2Quartas2.setText("");
+                                    Penaltis1Quartas2.setText("0");
 
-                                Penaltis1Quartas2.setEditable(false);
+                                    Penaltis2Quartas2.setText("0");
 
-                                Penaltis2Quartas2.setEditable(false);
+                                    Penaltis1Quartas2.setEditable(false);
 
-                                Gols1Quartas2.setEditable(true);
+                                    Penaltis2Quartas2.setEditable(false);
 
-                                Gols2Quartas2.setEditable(true);
+                                    Gols1Quartas2.setEditable(true);
+
+                                    Gols2Quartas2.setEditable(true);
+                                }
 
                             }
 
@@ -3187,17 +3227,21 @@ public class Tabela {
 
                             if (Integer.parseInt(Penaltis1Quartas3.getText()) == Integer.parseInt(Penaltis2Quartas3.getText())) {
 
-                                Penaltis1Quartas3.setText("");
+                                if(Integer.parseInt(Penaltis1Quartas3.getText()) == 0 && Integer.parseInt(Penaltis2Quartas3.getText()) == 0){
+                                }else {
 
-                                Penaltis2Quartas3.setText("");
+                                    Penaltis1Quartas3.setText("0");
 
-                                Penaltis1Quartas3.setEditable(false);
+                                    Penaltis2Quartas3.setText("0");
 
-                                Penaltis2Quartas3.setEditable(false);
+                                    Penaltis1Quartas3.setEditable(false);
 
-                                Gols1Quartas3.setEditable(true);
+                                    Penaltis2Quartas3.setEditable(false);
 
-                                Gols2Quartas3.setEditable(true);
+                                    Gols1Quartas3.setEditable(true);
+
+                                    Gols2Quartas3.setEditable(true);
+                                }
 
                             }
 
@@ -3256,17 +3300,21 @@ public class Tabela {
 
                             if (Integer.parseInt(Penaltis1Quartas4.getText()) == Integer.parseInt(Penaltis2Quartas4.getText())) {
 
-                                Penaltis1Quartas4.setText("");
+                                if(Integer.parseInt(Penaltis1Quartas4.getText()) == 0 && Integer.parseInt(Penaltis2Quartas4.getText()) == 0){
+                                }else {
 
-                                Penaltis2Quartas4.setText("");
+                                    Penaltis1Quartas4.setText("0");
 
-                                Penaltis1Quartas4.setEditable(false);
+                                    Penaltis2Quartas4.setText("0");
 
-                                Penaltis2Quartas4.setEditable(false);
+                                    Penaltis1Quartas4.setEditable(false);
 
-                                Gols1Quartas4.setEditable(true);
+                                    Penaltis2Quartas4.setEditable(false);
 
-                                Gols2Quartas4.setEditable(true);
+                                    Gols1Quartas4.setEditable(true);
+
+                                    Gols2Quartas4.setEditable(true);
+                                }
 
                             }
 
@@ -3329,17 +3377,21 @@ public class Tabela {
 
                             if (Integer.parseInt(Penaltis1Semi1.getText()) == Integer.parseInt(Penaltis2Semi1.getText())) {
 
-                                Penaltis1Semi1.setText("");
+                                if(Integer.parseInt(Penaltis1Semi1.getText()) == 0 && Integer.parseInt(Penaltis2Semi1.getText()) == 0){
+                                }else {
 
-                                Penaltis2Semi1.setText("");
+                                    Penaltis1Semi1.setText("0");
 
-                                Penaltis1Semi1.setEditable(false);
+                                    Penaltis2Semi1.setText("0");
 
-                                Penaltis2Semi1.setEditable(false);
+                                    Penaltis1Semi1.setEditable(false);
 
-                                Gols1Semi1.setEditable(true);
+                                    Penaltis2Semi1.setEditable(false);
 
-                                Gols2Semi1.setEditable(true);
+                                    Gols1Semi1.setEditable(true);
+
+                                    Gols2Semi1.setEditable(true);
+                                }
 
                             }
 
@@ -3406,17 +3458,21 @@ public class Tabela {
 
                             if (Integer.parseInt(Penaltis1Semi2.getText()) == Integer.parseInt(Penaltis2Semi2.getText())) {
 
-                                Penaltis1Semi2.setText("");
+                                if(Integer.parseInt(Penaltis1Semi2.getText()) == 0 && Integer.parseInt(Penaltis2Semi2.getText()) == 0){
+                                }else {
 
-                                Penaltis2Semi2.setText("");
+                                    Penaltis1Semi2.setText("0");
 
-                                Penaltis1Semi2.setEditable(false);
+                                    Penaltis2Semi2.setText("0");
 
-                                Penaltis2Semi2.setEditable(false);
+                                    Penaltis1Semi2.setEditable(false);
 
-                                Gols1Semi2.setEditable(true);
+                                    Penaltis2Semi2.setEditable(false);
 
-                                Gols2Semi2.setEditable(true);
+                                    Gols1Semi2.setEditable(true);
+
+                                    Gols2Semi2.setEditable(true);
+                                }
 
                             }
 
@@ -3479,17 +3535,21 @@ public class Tabela {
 
                             if (Integer.parseInt(Penaltis1Final.getText()) == Integer.parseInt(Penaltis2Final.getText())) {
 
-                                Penaltis1Final.setText("");
+                                if(Integer.parseInt(Penaltis1Final.getText()) == 0 && Integer.parseInt(Penaltis2Final.getText()) == 0){
+                                }else {
 
-                                Penaltis2Final.setText("");
+                                    Penaltis1Final.setText("0");
 
-                                Penaltis1Final.setEditable(false);
+                                    Penaltis2Final.setText("0");
 
-                                Penaltis2Final.setEditable(false);
+                                    Penaltis1Final.setEditable(false);
 
-                                Gols1Final.setEditable(true);
+                                    Penaltis2Final.setEditable(false);
 
-                                Gols2Final.setEditable(true);
+                                    Gols1Final.setEditable(true);
+
+                                    Gols2Final.setEditable(true);
+                                }
 
                             }
 
@@ -3547,17 +3607,21 @@ public class Tabela {
 
                             if (Integer.parseInt(Penaltis1Terceiro.getText()) == Integer.parseInt(Penaltis2Terceiro.getText())) {
 
-                                Penaltis1Terceiro.setText("");
+                                if(Integer.parseInt(Penaltis1Terceiro.getText()) == 0 && Integer.parseInt(Penaltis2Terceiro.getText()) == 0){
+                                }else {
 
-                                Penaltis2Terceiro.setText("");
+                                    Penaltis1Terceiro.setText("0");
 
-                                Penaltis1Terceiro.setEditable(false);
+                                    Penaltis2Terceiro.setText("0");
 
-                                Penaltis2Terceiro.setEditable(false);
+                                    Penaltis1Terceiro.setEditable(false);
 
-                                Gols1Terceiro.setEditable(true);
+                                    Penaltis2Terceiro.setEditable(false);
 
-                                Gols2Terceiro.setEditable(true);
+                                    Gols1Terceiro.setEditable(true);
+
+                                    Gols2Terceiro.setEditable(true);
+                                }
 
                             }
 
