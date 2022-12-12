@@ -1,0 +1,98 @@
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+00;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+2;2;3;0
+2;2;0;0
+0;0;0;0 
+4;0;0;0 
+3;0;0;0 
+0;0;0;0 
+0;0;0;0 
+0;0;0;0 
+2;2;3;1
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0 
+Senegal
+Inglaterra
+Argentina
+Austrália
+Alemanha
+Croácia
+Sérvia
+Portugal
+Estados Unidos
+Holanda
+França
+Arabia Saudita
+Canadá
+Costa Rica
+Gana
+Camarões
+Senegal
+Tunísia
+A definir
+Brasil
+Irã
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
