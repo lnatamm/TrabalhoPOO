@@ -532,6 +532,8 @@ public class Tabela {
 
     public Tabela() {
 
+        //Excessões Tratadas
+
         enviarBotaoGrupoA.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
