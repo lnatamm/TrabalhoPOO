@@ -505,10 +505,30 @@ public class Tabela {
     private JLabel VencedorQuartas4;
     private JLabel VencedorSemi1;
     private JLabel VencedorSemi2;
-    private JLabel PerdedorSemi1;
+    private JLabel PerderdorSemi1;
     private JLabel PerderdorSemi2;
     private JLabel VencedorFinal;
     private JLabel VencedorTerceiro;
+    private JTextField Penaltis1Final;
+    private JTextField Penaltis2Final;
+    private JTextField Penaltis1Terceiro;
+    private JTextField Penaltis2Terceiro;
+    private JButton enviarOitavas1;
+    private JButton enviarOitavas2;
+    private JButton enviarOitavas3;
+    private JButton enviarOitavas4;
+    private JButton enviarQuartas1;
+    private JButton enviarQuartas2;
+    private JButton enviarSemi2;
+    private JButton enviarQuartas3;
+    private JButton enviarQuartas4;
+    private JButton enviarSemi1;
+    private JButton enviarOitavas5;
+    private JButton enviarOitavas6;
+    private JButton enviarOitavas7;
+    private JButton enviarOitavas8;
+    private JButton enviarFinal;
+    private JButton enviarTerceira;
 
     public Tabela() {
         enviarBotaoGrupoA.addActionListener(new ActionListener() {
@@ -616,6 +636,10 @@ public class Tabela {
                    pontos[i].setText(Integer.toString(GrupoAArrayList.get(i).getPontos()));
 
                 }
+
+                A1.setText(GrupoAArrayList.get(0).getNome());
+
+                A2.setText(GrupoAArrayList.get(1).getNome());
 
             }
         });
@@ -725,6 +749,10 @@ public class Tabela {
 
                 }
 
+                B1.setText(GrupoBArrayList.get(0).getNome());
+
+                B2.setText(GrupoBArrayList.get(1).getNome());
+
             }
         });
         enviarBotaoGrupoC.addActionListener(new ActionListener() {
@@ -832,6 +860,10 @@ public class Tabela {
                     pontos[i].setText(Integer.toString(GrupoCArrayList.get(i).getPontos()));
 
                 }
+
+                C1.setText(GrupoCArrayList.get(0).getNome());
+
+                C2.setText(GrupoCArrayList.get(1).getNome());
 
             }
         });
@@ -941,6 +973,10 @@ public class Tabela {
 
                 }
 
+                D1.setText(GrupoDArrayList.get(0).getNome());
+
+                D2.setText(GrupoDArrayList.get(1).getNome());
+
             }
         });
         enviarBotaoGrupoE.addActionListener(new ActionListener() {
@@ -1048,6 +1084,10 @@ public class Tabela {
                     pontos[i].setText(Integer.toString(GrupoEArrayList.get(i).getPontos()));
 
                 }
+
+                E1.setText(GrupoEArrayList.get(0).getNome());
+
+                E2.setText(GrupoEArrayList.get(1).getNome());
 
             }
         });
@@ -1157,6 +1197,10 @@ public class Tabela {
 
                 }
 
+                F1.setText(GrupoFArrayList.get(0).getNome());
+
+                F2.setText(GrupoFArrayList.get(1).getNome());
+
             }
         });
         enviarBotaoGrupoG.addActionListener(new ActionListener() {
@@ -1265,6 +1309,10 @@ public class Tabela {
 
                 }
 
+                G1.setText(GrupoGArrayList.get(0).getNome());
+
+                G2.setText(GrupoGArrayList.get(1).getNome());
+
             }
         });
         enviarBotaoGrupoH.addActionListener(new ActionListener() {
@@ -1370,6 +1418,969 @@ public class Tabela {
                     saldoGols[i].setText(Integer.toString(GrupoHArrayList.get(i).getSaldoGols()));
 
                     pontos[i].setText(Integer.toString(GrupoHArrayList.get(i).getPontos()));
+
+                }
+
+                H1.setText(GrupoHArrayList.get(0).getNome());
+
+                H2.setText(GrupoHArrayList.get(1).getNome());
+
+            }
+        });
+
+        enviarOitavas1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(A1.getText() != "1A" && B2.getText() != "2B") {
+
+                    if (Integer.parseInt(Gols1Oitavas1.getText()) == Integer.parseInt(Gols2Oitavas1.getText())) {
+
+                        Penaltis1Oitavas1.setEditable(true);
+
+                        Penaltis2Oitavas1.setEditable(true);
+
+                        Gols1Oitavas1.setEditable(false);
+
+                        Gols2Oitavas1.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Oitavas1.getText()) > Integer.parseInt(Penaltis2Oitavas1.getText())) {
+
+                            VencedorOitavas1.setText(A1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas1.getText()) < Integer.parseInt(Penaltis2Oitavas1.getText())) {
+
+                            VencedorOitavas1.setText(B2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas1.getText()) == Integer.parseInt(Penaltis2Oitavas1.getText())){
+
+                            Penaltis1Oitavas1.setText("");
+
+                            Penaltis2Oitavas1.setText("");
+
+                            Penaltis1Oitavas1.setEditable(false);
+
+                            Penaltis2Oitavas1.setEditable(false);
+
+                            Gols1Oitavas1.setEditable(true);
+
+                            Gols2Oitavas1.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Oitavas1.getText()) > Integer.parseInt(Gols2Oitavas1.getText())) {
+
+                        VencedorOitavas1.setText(A1.getText());
+
+                    } else {
+
+                        VencedorOitavas1.setText(B2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarOitavas2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(C1.getText() != "1C" && D2.getText() != "2D") {
+
+                    if (Integer.parseInt(Gols1Oitavas2.getText()) == Integer.parseInt(Gols2Oitavas2.getText())) {
+
+                        Penaltis1Oitavas2.setEditable(true);
+
+                        Penaltis2Oitavas2.setEditable(true);
+
+                        Gols1Oitavas2.setEditable(false);
+
+                        Gols2Oitavas2.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Oitavas2.getText()) > Integer.parseInt(Penaltis2Oitavas2.getText())) {
+
+                            VencedorOitavas2.setText(C1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas2.getText()) < Integer.parseInt(Penaltis2Oitavas2.getText())) {
+
+                            VencedorOitavas2.setText(D2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas2.getText()) == Integer.parseInt(Penaltis2Oitavas2.getText())){
+
+                            Penaltis1Oitavas2.setText("");
+
+                            Penaltis2Oitavas2.setText("");
+
+                            Penaltis1Oitavas2.setEditable(false);
+
+                            Penaltis2Oitavas2.setEditable(false);
+
+                            Gols1Oitavas2.setEditable(true);
+
+                            Gols2Oitavas2.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Oitavas2.getText()) > Integer.parseInt(Gols2Oitavas2.getText())) {
+
+                        VencedorOitavas2.setText(C1.getText());
+
+                    } else {
+
+                        VencedorOitavas2.setText(D2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarOitavas3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(E1.getText() != "1E" && F2.getText() != "2F") {
+
+                    if (Integer.parseInt(Gols1Oitavas3.getText()) == Integer.parseInt(Gols2Oitavas3.getText())) {
+
+                        Penaltis1Oitavas3.setEditable(true);
+
+                        Penaltis2Oitavas3.setEditable(true);
+
+                        Gols1Oitavas3.setEditable(false);
+
+                        Gols2Oitavas3.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Oitavas3.getText()) > Integer.parseInt(Penaltis2Oitavas3.getText())) {
+
+                            VencedorOitavas3.setText(E1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas3.getText()) < Integer.parseInt(Penaltis2Oitavas3.getText())) {
+
+                            VencedorOitavas3.setText(F2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas3.getText()) == Integer.parseInt(Penaltis2Oitavas3.getText())){
+
+                            Penaltis1Oitavas3.setText("");
+
+                            Penaltis2Oitavas3.setText("");
+
+                            Penaltis1Oitavas3.setEditable(false);
+
+                            Penaltis2Oitavas3.setEditable(false);
+
+                            Gols1Oitavas3.setEditable(true);
+
+                            Gols2Oitavas3.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Oitavas3.getText()) > Integer.parseInt(Gols2Oitavas3.getText())) {
+
+                        VencedorOitavas3.setText(E1.getText());
+
+                    } else {
+
+                        VencedorOitavas3.setText(F2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarOitavas4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(G1.getText() != "1G" && H2.getText() != "2H") {
+
+                    if (Integer.parseInt(Gols1Oitavas4.getText()) == Integer.parseInt(Gols2Oitavas4.getText())) {
+
+                        Penaltis1Oitavas4.setEditable(true);
+
+                        Penaltis2Oitavas4.setEditable(true);
+
+                        Gols1Oitavas4.setEditable(false);
+
+                        Gols2Oitavas4.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Oitavas4.getText()) > Integer.parseInt(Penaltis2Oitavas4.getText())) {
+
+                            VencedorOitavas4.setText(G1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas4.getText()) < Integer.parseInt(Penaltis2Oitavas4.getText())) {
+
+                            VencedorOitavas4.setText(H2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas4.getText()) == Integer.parseInt(Penaltis2Oitavas4.getText())){
+
+                            Penaltis1Oitavas4.setText("");
+
+                            Penaltis2Oitavas4.setText("");
+
+                            Penaltis1Oitavas4.setEditable(false);
+
+                            Penaltis2Oitavas4.setEditable(false);
+
+                            Gols1Oitavas4.setEditable(true);
+
+                            Gols2Oitavas4.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Oitavas4.getText()) > Integer.parseInt(Gols2Oitavas4.getText())) {
+
+                        VencedorOitavas4.setText(G1.getText());
+
+                    } else {
+
+                        VencedorOitavas4.setText(H2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarOitavas5.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(B1.getText() != "1B" && A2.getText() != "2A") {
+
+                    if (Integer.parseInt(Gols1Oitavas5.getText()) == Integer.parseInt(Gols2Oitavas5.getText())) {
+
+                        Penaltis1Oitavas5.setEditable(true);
+
+                        Penaltis2Oitavas5.setEditable(true);
+
+                        Gols1Oitavas5.setEditable(false);
+
+                        Gols2Oitavas5.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Oitavas5.getText()) > Integer.parseInt(Penaltis2Oitavas5.getText())) {
+
+                            VencedorOitavas1.setText(B1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas5.getText()) < Integer.parseInt(Penaltis2Oitavas5.getText())) {
+
+                            VencedorOitavas5.setText(A2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas5.getText()) == Integer.parseInt(Penaltis2Oitavas5.getText())){
+
+                            Penaltis1Oitavas5.setText("");
+
+                            Penaltis2Oitavas5.setText("");
+
+                            Penaltis1Oitavas5.setEditable(false);
+
+                            Penaltis2Oitavas5.setEditable(false);
+
+                            Gols1Oitavas5.setEditable(true);
+
+                            Gols2Oitavas5.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Oitavas5.getText()) > Integer.parseInt(Gols2Oitavas5.getText())) {
+
+                        VencedorOitavas5.setText(B1.getText());
+
+                    } else {
+
+                        VencedorOitavas5.setText(A2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarOitavas6.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(D1.getText() != "1D" && C2.getText() != "2C") {
+
+                    if (Integer.parseInt(Gols1Oitavas6.getText()) == Integer.parseInt(Gols2Oitavas6.getText())) {
+
+                        Penaltis1Oitavas6.setEditable(true);
+
+                        Penaltis2Oitavas6.setEditable(true);
+
+                        Gols1Oitavas6.setEditable(false);
+
+                        Gols2Oitavas6.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Oitavas6.getText()) > Integer.parseInt(Penaltis2Oitavas6.getText())) {
+
+                            VencedorOitavas6.setText(D1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas6.getText()) < Integer.parseInt(Penaltis2Oitavas6.getText())) {
+
+                            VencedorOitavas6.setText(C2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas6.getText()) == Integer.parseInt(Penaltis2Oitavas6.getText())){
+
+                            Penaltis1Oitavas6.setText("");
+
+                            Penaltis2Oitavas6.setText("");
+
+                            Penaltis1Oitavas6.setEditable(false);
+
+                            Penaltis2Oitavas6.setEditable(false);
+
+                            Gols1Oitavas6.setEditable(true);
+
+                            Gols2Oitavas6.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Oitavas6.getText()) > Integer.parseInt(Gols2Oitavas6.getText())) {
+
+                        VencedorOitavas6.setText(D1.getText());
+
+                    } else {
+
+                        VencedorOitavas6.setText(C2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarOitavas7.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(F1.getText() != "1F" && E2.getText() != "2E") {
+
+                    if (Integer.parseInt(Gols1Oitavas7.getText()) == Integer.parseInt(Gols2Oitavas7.getText())) {
+
+                        Penaltis1Oitavas7.setEditable(true);
+
+                        Penaltis2Oitavas7.setEditable(true);
+
+                        Gols1Oitavas7.setEditable(false);
+
+                        Gols2Oitavas7.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Oitavas7.getText()) > Integer.parseInt(Penaltis2Oitavas7.getText())) {
+
+                            VencedorOitavas7.setText(F1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas7.getText()) < Integer.parseInt(Penaltis2Oitavas7.getText())) {
+
+                            VencedorOitavas7.setText(E2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas6.getText()) == Integer.parseInt(Penaltis2Oitavas6.getText())){
+
+                            Penaltis1Oitavas7.setText("");
+
+                            Penaltis2Oitavas7.setText("");
+
+                            Penaltis1Oitavas7.setEditable(false);
+
+                            Penaltis2Oitavas7.setEditable(false);
+
+                            Gols1Oitavas7.setEditable(true);
+
+                            Gols2Oitavas7.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Oitavas7.getText()) > Integer.parseInt(Gols2Oitavas7.getText())) {
+
+                        VencedorOitavas7.setText(F1.getText());
+
+                    } else {
+
+                        VencedorOitavas7.setText(E2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarOitavas8.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(H1.getText() != "1H" && G2.getText() != "2G") {
+
+                    if (Integer.parseInt(Gols1Oitavas8.getText()) == Integer.parseInt(Gols2Oitavas8.getText())) {
+
+                        Penaltis1Oitavas8.setEditable(true);
+
+                        Penaltis2Oitavas8.setEditable(true);
+
+                        Gols1Oitavas8.setEditable(false);
+
+                        Gols2Oitavas8.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Oitavas8.getText()) > Integer.parseInt(Penaltis2Oitavas8.getText())) {
+
+                            VencedorOitavas8.setText(H1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas8.getText()) < Integer.parseInt(Penaltis2Oitavas8.getText())) {
+
+                            VencedorOitavas8.setText(G2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Oitavas6.getText()) == Integer.parseInt(Penaltis2Oitavas6.getText())){
+
+                            Penaltis1Oitavas8.setText("");
+
+                            Penaltis2Oitavas8.setText("");
+
+                            Penaltis1Oitavas8.setEditable(false);
+
+                            Penaltis2Oitavas8.setEditable(false);
+
+                            Gols1Oitavas8.setEditable(true);
+
+                            Gols2Oitavas8.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Oitavas8.getText()) > Integer.parseInt(Gols2Oitavas8.getText())) {
+
+                        VencedorOitavas8.setText(H1.getText());
+
+                    } else {
+
+                        VencedorOitavas8.setText(G2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarQuartas1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(VencedorOitavas1.getText() != "A definir" && VencedorOitavas2.getText() != "A definir") {
+
+                    if (Integer.parseInt(Gols1Quartas1.getText()) == Integer.parseInt(Gols2Quartas1.getText())) {
+
+                        Penaltis1Quartas1.setEditable(true);
+
+                        Penaltis2Quartas1.setEditable(true);
+
+                        Gols1Quartas1.setEditable(false);
+
+                        Gols2Quartas1.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Quartas1.getText()) > Integer.parseInt(Penaltis2Quartas1.getText())) {
+
+                            VencedorQuartas1.setText(VencedorOitavas1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Quartas1.getText()) < Integer.parseInt(Penaltis2Quartas1.getText())) {
+
+                            VencedorQuartas1.setText(VencedorOitavas2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Quartas1.getText()) == Integer.parseInt(Penaltis2Quartas1.getText())){
+
+                            Penaltis1Quartas1.setText("");
+
+                            Penaltis2Quartas1.setText("");
+
+                            Penaltis1Quartas1.setEditable(false);
+
+                            Penaltis2Quartas1.setEditable(false);
+
+                            Gols1Quartas1.setEditable(true);
+
+                            Gols2Quartas1.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Quartas1.getText()) > Integer.parseInt(Gols2Quartas1.getText())) {
+
+                        VencedorQuartas1.setText(VencedorOitavas1.getText());
+
+                    } else {
+
+                        VencedorQuartas1.setText(VencedorOitavas2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarQuartas2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(VencedorOitavas3.getText() != "A definir" && VencedorOitavas4.getText() != "A definir") {
+
+                    if (Integer.parseInt(Gols1Quartas2.getText()) == Integer.parseInt(Gols2Quartas2.getText())) {
+
+                        Penaltis1Quartas2.setEditable(true);
+
+                        Penaltis2Quartas2.setEditable(true);
+
+                        Gols1Quartas2.setEditable(false);
+
+                        Gols2Quartas2.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Quartas2.getText()) > Integer.parseInt(Penaltis2Quartas2.getText())) {
+
+                            VencedorQuartas2.setText(VencedorOitavas3.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Quartas2.getText()) < Integer.parseInt(Penaltis2Quartas2.getText())) {
+
+                            VencedorQuartas2.setText(VencedorOitavas4.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Quartas2.getText()) == Integer.parseInt(Penaltis2Quartas2.getText())){
+
+                            Penaltis1Quartas2.setText("");
+
+                            Penaltis2Quartas2.setText("");
+
+                            Penaltis1Quartas2.setEditable(false);
+
+                            Penaltis2Quartas2.setEditable(false);
+
+                            Gols1Quartas2.setEditable(true);
+
+                            Gols2Quartas2.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Quartas2.getText()) > Integer.parseInt(Gols2Quartas2.getText())) {
+
+                        VencedorQuartas2.setText(VencedorOitavas3.getText());
+
+                    } else {
+
+                        VencedorQuartas2.setText(VencedorOitavas4.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarQuartas3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(VencedorOitavas5.getText() != "A definir" && VencedorOitavas6.getText() != "A definir") {
+
+                    if (Integer.parseInt(Gols1Quartas3.getText()) == Integer.parseInt(Gols2Quartas3.getText())) {
+
+                        Penaltis1Quartas3.setEditable(true);
+
+                        Penaltis2Quartas3.setEditable(true);
+
+                        Gols1Quartas3.setEditable(false);
+
+                        Gols2Quartas3.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Quartas3.getText()) > Integer.parseInt(Penaltis2Quartas3.getText())) {
+
+                            VencedorQuartas3.setText(VencedorOitavas5.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Quartas3.getText()) < Integer.parseInt(Penaltis2Quartas3.getText())) {
+
+                            VencedorQuartas3.setText(VencedorOitavas6.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Quartas3.getText()) == Integer.parseInt(Penaltis2Quartas3.getText())){
+
+                            Penaltis1Quartas3.setText("");
+
+                            Penaltis2Quartas3.setText("");
+
+                            Penaltis1Quartas3.setEditable(false);
+
+                            Penaltis2Quartas3.setEditable(false);
+
+                            Gols1Quartas3.setEditable(true);
+
+                            Gols2Quartas3.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Quartas3.getText()) > Integer.parseInt(Gols2Quartas3.getText())) {
+
+                        VencedorQuartas3.setText(VencedorOitavas5.getText());
+
+                    } else {
+
+                        VencedorQuartas3.setText(VencedorOitavas6.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarQuartas4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(VencedorOitavas7.getText() != "A definir" && VencedorOitavas8.getText() != "A definir") {
+
+                    if (Integer.parseInt(Gols1Quartas4.getText()) == Integer.parseInt(Gols2Quartas4.getText())) {
+
+                        Penaltis1Quartas4.setEditable(true);
+
+                        Penaltis2Quartas4.setEditable(true);
+
+                        Gols1Quartas4.setEditable(false);
+
+                        Gols2Quartas4.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Quartas4.getText()) > Integer.parseInt(Penaltis2Quartas4.getText())) {
+
+                            VencedorQuartas4.setText(VencedorOitavas7.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Quartas4.getText()) < Integer.parseInt(Penaltis2Quartas4.getText())) {
+
+                            VencedorQuartas4.setText(VencedorOitavas8.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Quartas4.getText()) == Integer.parseInt(Penaltis2Quartas4.getText())){
+
+                            Penaltis1Quartas4.setText("");
+
+                            Penaltis2Quartas4.setText("");
+
+                            Penaltis1Quartas4.setEditable(false);
+
+                            Penaltis2Quartas4.setEditable(false);
+
+                            Gols1Quartas4.setEditable(true);
+
+                            Gols2Quartas4.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Quartas4.getText()) > Integer.parseInt(Gols2Quartas4.getText())) {
+
+                        VencedorQuartas4.setText(VencedorOitavas7.getText());
+
+                    } else {
+
+                        VencedorQuartas4.setText(VencedorOitavas8.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarSemi1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(VencedorQuartas1.getText() != "A definir" && VencedorQuartas2.getText() != "A definir") {
+
+                    if (Integer.parseInt(Gols1Semi1.getText()) == Integer.parseInt(Gols2Semi1.getText())) {
+
+                        Penaltis1Semi1.setEditable(true);
+
+                        Penaltis2Semi1.setEditable(true);
+
+                        Gols1Semi1.setEditable(false);
+
+                        Gols2Semi1.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Semi1.getText()) > Integer.parseInt(Penaltis2Semi1.getText())) {
+
+                            VencedorSemi1.setText(VencedorQuartas1.getText());
+
+                            PerderdorSemi1.setText(VencedorQuartas2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Semi1.getText()) < Integer.parseInt(Penaltis2Semi1.getText())) {
+
+                            VencedorSemi1.setText(VencedorQuartas2.getText());
+
+                            PerderdorSemi1.setText(VencedorQuartas1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Semi1.getText()) == Integer.parseInt(Penaltis2Semi1.getText())){
+
+                            Penaltis1Semi1.setText("");
+
+                            Penaltis2Semi1.setText("");
+
+                            Penaltis1Semi1.setEditable(false);
+
+                            Penaltis2Semi1.setEditable(false);
+
+                            Gols1Semi1.setEditable(true);
+
+                            Gols2Semi1.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Semi1.getText()) > Integer.parseInt(Gols2Semi1.getText())) {
+
+                        VencedorSemi1.setText(VencedorQuartas1.getText());
+
+                        PerderdorSemi1.setText(VencedorQuartas2.getText());
+
+                    } else {
+
+                        VencedorSemi1.setText(VencedorQuartas2.getText());
+
+                        PerderdorSemi1.setText(VencedorQuartas1.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarSemi2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(VencedorQuartas3.getText() != "A definir" && VencedorQuartas4.getText() != "A definir") {
+
+                    if (Integer.parseInt(Gols1Semi2.getText()) == Integer.parseInt(Gols2Semi2.getText())) {
+
+                        Penaltis1Semi2.setEditable(true);
+
+                        Penaltis2Semi2.setEditable(true);
+
+                        Gols1Semi2.setEditable(false);
+
+                        Gols2Semi2.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Semi2.getText()) > Integer.parseInt(Penaltis2Semi2.getText())) {
+
+                            VencedorSemi2.setText(VencedorQuartas3.getText());
+
+                            PerderdorSemi2.setText(VencedorQuartas4.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Semi2.getText()) < Integer.parseInt(Penaltis2Semi2.getText())) {
+
+                            VencedorSemi2.setText(VencedorQuartas4.getText());
+
+                            PerderdorSemi2.setText(VencedorQuartas3.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Semi2.getText()) == Integer.parseInt(Penaltis2Semi2.getText())){
+
+                            Penaltis1Semi2.setText("");
+
+                            Penaltis2Semi2.setText("");
+
+                            Penaltis1Semi2.setEditable(false);
+
+                            Penaltis2Semi2.setEditable(false);
+
+                            Gols1Semi2.setEditable(true);
+
+                            Gols2Semi2.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Semi2.getText()) > Integer.parseInt(Gols2Semi2.getText())) {
+
+                        VencedorSemi2.setText(VencedorQuartas3.getText());
+
+                        PerderdorSemi2.setText(VencedorQuartas4.getText());
+
+                    } else {
+
+                        VencedorSemi2.setText(VencedorQuartas4.getText());
+
+                        PerderdorSemi2.setText(VencedorQuartas3.getText());
+
+                    }
+
+                }
+
+            }
+        });
+
+        enviarFinal.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(VencedorSemi1.getText() != "A definir" && VencedorSemi2.getText() != "A definir") {
+
+                    if (Integer.parseInt(Gols1Final.getText()) == Integer.parseInt(Gols2Final.getText())) {
+
+                        Penaltis1Final.setEditable(true);
+
+                        Penaltis2Final.setEditable(true);
+
+                        Gols1Final.setEditable(false);
+
+                        Gols2Final.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Final.getText()) > Integer.parseInt(Penaltis2Final.getText())) {
+
+                            VencedorFinal.setText(VencedorSemi1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Final.getText()) < Integer.parseInt(Penaltis2Final.getText())) {
+
+                            VencedorFinal.setText(VencedorSemi2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Final.getText()) == Integer.parseInt(Penaltis2Final.getText())){
+
+                            Penaltis1Final.setText("");
+
+                            Penaltis2Final.setText("");
+
+                            Penaltis1Final.setEditable(false);
+
+                            Penaltis2Final.setEditable(false);
+
+                            Gols1Final.setEditable(true);
+
+                            Gols2Final.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Final.getText()) > Integer.parseInt(Gols2Final.getText())) {
+
+                        VencedorFinal.setText(VencedorSemi1.getText());
+
+                    } else {
+
+                        VencedorFinal.setText(VencedorSemi2.getText());
+
+                    }
+
+                }
+
+            }
+        });
+        enviarTerceira.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                if(PerderdorSemi1.getText() != "A definir" && PerderdorSemi2.getText() != "A definir") {
+
+                    if (Integer.parseInt(Gols1Terceiro.getText()) == Integer.parseInt(Gols2Terceiro.getText())) {
+
+                        Penaltis1Terceiro.setEditable(true);
+
+                        Penaltis2Terceiro.setEditable(true);
+
+                        Gols1Terceiro.setEditable(false);
+
+                        Gols2Terceiro.setEditable(false);
+
+                        if (Integer.parseInt(Penaltis1Terceiro.getText()) > Integer.parseInt(Penaltis2Terceiro.getText())) {
+
+                            VencedorTerceiro.setText(PerderdorSemi1.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Terceiro.getText()) < Integer.parseInt(Penaltis2Terceiro.getText())) {
+
+                            VencedorTerceiro.setText(PerderdorSemi2.getText());
+
+                        }
+
+                        if (Integer.parseInt(Penaltis1Terceiro.getText()) == Integer.parseInt(Penaltis2Terceiro.getText())){
+
+                            Penaltis1Terceiro.setText("");
+
+                            Penaltis2Terceiro.setText("");
+
+                            Penaltis1Terceiro.setEditable(false);
+
+                            Penaltis2Terceiro.setEditable(false);
+
+                            Gols1Terceiro.setEditable(true);
+
+                            Gols2Terceiro.setEditable(true);
+
+                        }
+
+                    } else if (Integer.parseInt(Gols1Terceiro.getText()) > Integer.parseInt(Gols2Terceiro.getText())) {
+
+                        VencedorTerceiro.setText(PerderdorSemi1.getText());
+
+                    } else {
+
+                        VencedorTerceiro.setText(PerderdorSemi2.getText());
+
+                    }
 
                 }
 
