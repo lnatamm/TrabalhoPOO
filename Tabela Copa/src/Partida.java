@@ -4,7 +4,6 @@ public class Partida {
     private Time time2;
     private int gols1;
     private int gols2;
-
     private int pontos1;
     private int pontos2;
 
@@ -36,6 +35,18 @@ public class Partida {
             this.pontos1 = 1;
             this.pontos2= 1;
         }
+    }
+
+    public int getSaldoGols1(){
+
+        return this.gols1 - this.gols2;
+
+    }
+
+    public int getSaldoGols2(){
+
+        return this.gols1 - this.gols2;
+
     }
 
     public void defineVDE(){
@@ -74,6 +85,5 @@ public class Partida {
     public int getGols2(){
         return this.gols2;
     }
-
 
 }
