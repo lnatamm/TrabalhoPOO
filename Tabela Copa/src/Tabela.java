@@ -2582,8 +2582,6 @@ public class Tabela {
 
         frame.setVisible(true);
 
-        Tabela tabela = new Tabela();
-
     }
 
 }
