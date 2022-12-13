@@ -1,5 +1,6 @@
 import java.util.*;
 
+//commit
 
 class Comparador implements Comparator<Time> {
 

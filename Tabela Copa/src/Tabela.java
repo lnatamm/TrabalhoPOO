@@ -3,6 +3,8 @@ import java.awt.event.*;
 import java.io.*;
 import java.util.*;
 
+//commit
+
 public class Tabela {
 
     private Copa copa = new Copa();
@@ -4623,6 +4625,25 @@ public class Tabela {
 
             }
         });
+
+        /*
+        enviarBotaoGrupoA.doClick();
+
+        enviarBotaoGrupoB.doClick();
+
+        enviarBotaoGrupoC.doClick();
+
+        enviarBotaoGupoD.doClick();
+
+        enviarBotaoGrupoE.doClick();
+
+        enviarBotaoGupoF.doClick();
+
+        enviarBotaoGrupoG.doClick();
+
+        enviarBotaoGrupoH.doClick();
+        */
+
     }
 
     public static void main(String[] args) {
