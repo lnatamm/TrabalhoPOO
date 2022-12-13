@@ -17,7 +17,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <grid id="ffcb7" binding="GrupoA" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="ffcb7" binding="GrupoA" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Grupo A "/>
@@ -740,7 +740,7 @@
               </hspacer>
               <vspacer id="17577">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
               <component id="7fee5" class="javax.swing.JButton" binding="enviarBotaoGrupoA">
@@ -751,9 +751,17 @@
                   <text value="Enviar"/>
                 </properties>
               </component>
+              <component id="3a957" class="javax.swing.JButton" binding="Reset1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ResetAll"/>
+                </properties>
+              </component>
             </children>
           </grid>
-          <grid id="f869d" binding="GrupoB" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="f869d" binding="GrupoB" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Grupo B"/>
@@ -1472,7 +1480,7 @@
               </grid>
               <vspacer id="d57be">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
               <component id="aa19f" class="javax.swing.JButton" binding="enviarBotaoGrupoB">
@@ -1483,9 +1491,17 @@
                   <text value="Enviar"/>
                 </properties>
               </component>
+              <component id="b5c23" class="javax.swing.JButton" binding="Reset2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ResetAll"/>
+                </properties>
+              </component>
             </children>
           </grid>
-          <grid id="eb5d" binding="GrupoC" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="eb5d" binding="GrupoC" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Grupo C"/>
@@ -2204,7 +2220,7 @@
               </grid>
               <vspacer id="e312a">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
               <component id="bf947" class="javax.swing.JButton" binding="enviarBotaoGrupoC">
@@ -2215,9 +2231,17 @@
                   <text value="Enviar"/>
                 </properties>
               </component>
+              <component id="152bf" class="javax.swing.JButton" binding="Reset3">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ResetAll"/>
+                </properties>
+              </component>
             </children>
           </grid>
-          <grid id="6fdaf" binding="GrupoD" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="6fdaf" binding="GrupoD" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Grupo D"/>
@@ -2944,7 +2968,7 @@
               </grid>
               <vspacer id="a479d">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
               <component id="23d38" class="javax.swing.JButton" binding="enviarBotaoGupoD">
@@ -2955,9 +2979,17 @@
                   <text value="Enviar"/>
                 </properties>
               </component>
+              <component id="62aa1" class="javax.swing.JButton" binding="Reset4">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ResetAll"/>
+                </properties>
+              </component>
             </children>
           </grid>
-          <grid id="87067" binding="GrupoE" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="87067" binding="GrupoE" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Grupo E"/>
@@ -3676,7 +3708,7 @@
               </grid>
               <vspacer id="3fd22">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
               <component id="c10c9" class="javax.swing.JButton" binding="enviarBotaoGrupoE">
@@ -3687,9 +3719,17 @@
                   <text value="Enviar"/>
                 </properties>
               </component>
+              <component id="ce92b" class="javax.swing.JButton" binding="Reset5">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ResetAll"/>
+                </properties>
+              </component>
             </children>
           </grid>
-          <grid id="2bdd5" binding="GrupoF" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="2bdd5" binding="GrupoF" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Grupo F"/>
@@ -4408,7 +4448,7 @@
               </grid>
               <vspacer id="3abc4">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
               <component id="f955e" class="javax.swing.JButton" binding="enviarBotaoGupoF">
@@ -4419,9 +4459,17 @@
                   <text value="Enviar"/>
                 </properties>
               </component>
+              <component id="86f1e" class="javax.swing.JButton" binding="Reset6">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ResetAll"/>
+                </properties>
+              </component>
             </children>
           </grid>
-          <grid id="de7d1" binding="GrupoG" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="de7d1" binding="GrupoG" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Grupo G"/>
@@ -5140,7 +5188,7 @@
               </hspacer>
               <vspacer id="f0944">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
               <component id="a913a" class="javax.swing.JButton" binding="enviarBotaoGrupoG">
@@ -5151,9 +5199,17 @@
                   <text value="Enviar"/>
                 </properties>
               </component>
+              <component id="65ff1" class="javax.swing.JButton" binding="Reset7">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ResetAll"/>
+                </properties>
+              </component>
             </children>
           </grid>
-          <grid id="18c9b" binding="GrupoH" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="18c9b" binding="GrupoH" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <tabbedpane title="Grupo H"/>
@@ -5872,7 +5928,7 @@
               </hspacer>
               <vspacer id="20c49">
                 <constraints>
-                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
               <component id="a7b8c" class="javax.swing.JButton" binding="enviarBotaoGrupoH">
@@ -5881,6 +5937,14 @@
                 </constraints>
                 <properties>
                   <text value="Enviar"/>
+                </properties>
+              </component>
+              <component id="59c0e" class="javax.swing.JButton" binding="Reset8">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="ResetAll"/>
                 </properties>
               </component>
             </children>
@@ -7345,6 +7409,14 @@
                     </constraints>
                     <properties>
                       <text value="]------------------------------"/>
+                    </properties>
+                  </component>
+                  <component id="937b6" class="javax.swing.JButton" binding="Reset9">
+                    <constraints>
+                      <grid row="20" column="22" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="ResetAll"/>
                     </properties>
                   </component>
                 </children>

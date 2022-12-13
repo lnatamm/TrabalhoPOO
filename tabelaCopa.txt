@@ -39,50 +39,50 @@
 0;0
 0;0
 0;0
-00;0
 0;0
 0;0
 0;0
 0;0
 0;0
 0;0
-2;2;3;0
-2;2;0;0
-0;0;0;0 
-4;0;0;0 
-3;0;0;0 
-0;0;0;0 
-0;0;0;0 
-0;0;0;0 
-2;2;3;1
+0;0
 0;0;0;0
 0;0;0;0
 0;0;0;0
 0;0;0;0
 0;0;0;0
 0;0;0;0
-0;0;0;0 
-Senegal
-Inglaterra
-Argentina
-Austrália
-Alemanha
-Croácia
-Sérvia
-Portugal
-Estados Unidos
-Holanda
-França
-Arabia Saudita
-Canadá
-Costa Rica
-Gana
-Camarões
-Senegal
-Tunísia
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+1A
+2B
+1C
+2D
+1E
+2F
+1G
+2H
+1B
+2A
+1D
+2C
+1F
+2E
+1H
+2G
 A definir
-Brasil
-Irã
+A definir
+A definir
+A definir
+A definir
 A definir
 A definir
 A definir

@@ -530,9 +530,473 @@ public class Tabela {
     private JButton enviarOitavas8;
     private JButton enviarFinal;
     private JButton enviarTerceira;
+    private JButton Reset1;
+    private JButton Reset2;
+    private JButton Reset3;
+    private JButton Reset4;
+    private JButton Reset5;
+    private JButton Reset6;
+    private JButton Reset7;
+    private JButton Reset8;
+    private JButton Reset9;
+
+    private void Reset(){
+
+        File arquivo = new File("D:/TrabalhoPOO/TrabalhoPOO/tabelaCopa.txt");
+        FileWriter fw = null;
+        try {
+            fw = new FileWriter(arquivo);
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+        BufferedWriter bw = new BufferedWriter(fw);
+        try {
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            bw.write("0;0");
+            bw.newLine();
+            //Oitavas:
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            //Quartas
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            //Semis
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            //Final e Terceiro Lugar
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("0;0;0;0");
+            bw.newLine();
+            bw.write("1A");
+            bw.newLine();
+            bw.write("2B");
+            bw.newLine();
+            bw.write("1C");
+            bw.newLine();
+            bw.write("2D");
+            bw.newLine();
+            bw.write("1E");
+            bw.newLine();
+            bw.write("2F");
+            bw.newLine();
+            bw.write("1G");
+            bw.newLine();
+            bw.write("2H");
+            bw.newLine();
+            bw.write("1B");
+            bw.newLine();
+            bw.write("2A");
+            bw.newLine();
+            bw.write("1D");
+            bw.newLine();
+            bw.write("2C");
+            bw.newLine();
+            bw.write("1F");
+            bw.newLine();
+            bw.write("2E");
+            bw.newLine();
+            bw.write("1H");
+            bw.newLine();
+            bw.write("2G");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+            bw.newLine();
+            bw.write("A definir");
+
+            JLabel[] vitoriasA = new JLabel[]{V1A, V2A, V3A, V4A};
+
+            JLabel[] empatesA = new JLabel[]{E1A, E2A, E3A, E4A};
+
+            JLabel[] derrotasA = new JLabel[]{D1A, D2A, D3A, D4A};
+
+            JLabel[] golsProA = new JLabel[]{GP1A, GP2A, GP3A, GP4A};
+
+            JLabel[] golsConA = new JLabel[]{GC1A, GC2A, GC3A, GC4A};
+
+            JLabel[] saldoGolsA = new JLabel[]{SG1A, SG2A, SG3A, SG4A};
+
+            JLabel[] pontosA = new JLabel[]{PTS1A, PTS2A, PTS3A, PTS4A};
+
+            JLabel[] vitoriasB = new JLabel[]{V1B, V2B, V3B, V4B};
+
+            JLabel[] empatesB = new JLabel[]{E1B, E2B, E3B, E4B};
+
+            JLabel[] derrotasB = new JLabel[]{D1B, D2B, D3B, D4B};
+
+            JLabel[] golsProB = new JLabel[]{GP1B, GP2B, GP3B, GP4B};
+
+            JLabel[] golsConB = new JLabel[]{GC1B, GC2B, GC3B, GC4B};
+
+            JLabel[] saldoGolsB = new JLabel[]{SG1B, SG2B, SG3B, SG4B};
+
+            JLabel[] pontosB = new JLabel[]{PTS1B, PTS2B, PTS3B, PTS4B};
+
+            JLabel[] vitoriasC = new JLabel[]{V1C, V2C, V3C, V4C};
+
+            JLabel[] empatesC = new JLabel[]{E1C, E2C, E3C, E4C};
+
+            JLabel[] derrotasC = new JLabel[]{D1C, D2C, D3C, D4C};
+
+            JLabel[] golsProC = new JLabel[]{GP1C, GP2C, GP3C, GP4C};
+
+            JLabel[] golsConC = new JLabel[]{GC1C, GC2C, GC3C, GC4C};
+
+            JLabel[] saldoGolsC = new JLabel[]{SG1C, SG2C, SG3C, SG4C};
+
+            JLabel[] pontosC = new JLabel[]{PTS1C, PTS2C, PTS3C, PTS4C};
+
+            JLabel[] vitoriasD = new JLabel[]{V1D, V2D, V3D, V4D};
+
+            JLabel[] empatesD = new JLabel[]{E1D, E2D, E3D, E4D};
+
+            JLabel[] derrotasD = new JLabel[]{D1D, D2D, D3D, D4D};
+
+            JLabel[] golsProD = new JLabel[]{GP1D, GP2D, GP3D, GP4D};
+
+            JLabel[] golsConD = new JLabel[]{GC1D, GC2D, GC3D, GC4D};
+
+            JLabel[] saldoGolsD = new JLabel[]{SG1D, SG2D, SG3D, SG4D};
+
+            JLabel[] pontosD = new JLabel[]{PTS1D, PTS2D, PTS3D, PTS4D};
+
+            JLabel[] vitoriasE = new JLabel[]{V1E, V2E, V3E, V4E};
+
+            JLabel[] empatesE = new JLabel[]{E1E, E2E, E3E, E4E};
+
+            JLabel[] derrotasE = new JLabel[]{D1E, D2E, D3E, D4E};
+
+            JLabel[] golsProE = new JLabel[]{GP1E, GP2E, GP3E, GP4E};
+
+            JLabel[] golsConE = new JLabel[]{GC1E, GC2E, GC3E, GC4E};
+
+            JLabel[] saldoGolsE = new JLabel[]{SG1E, SG2E, SG3E, SG4E};
+
+            JLabel[] pontosE = new JLabel[]{PTS1E, PTS2E, PTS3E, PTS4E};
+
+            JLabel[] vitoriasF = new JLabel[]{V1F, V2F, V3F, V4F};
+
+            JLabel[] empatesF = new JLabel[]{E1F, E2F, E3F, E4F};
+
+            JLabel[] derrotasF = new JLabel[]{D1F, D2F, D3F, D4F};
+
+            JLabel[] golsProF = new JLabel[]{GP1F, GP2F, GP3F, GP4F};
+
+            JLabel[] golsConF = new JLabel[]{GC1F, GC2F, GC3F, GC4F};
+
+            JLabel[] saldoGolsF = new JLabel[]{SG1F, SG2F, SG3F, SG4F};
+
+            JLabel[] pontosF = new JLabel[]{PTS1F, PTS2F, PTS3F, PTS4F};
+
+            JLabel[] vitoriasG = new JLabel[]{V1G, V2G, V3G, V4G};
+
+            JLabel[] empatesG = new JLabel[]{E1G, E2G, E3G, E4G};
+
+            JLabel[] derrotasG = new JLabel[]{D1G, D2G, D3G, D4G};
+
+            JLabel[] golsProG = new JLabel[]{GP1G, GP2G, GP3G, GP4G};
+
+            JLabel[] golsConG = new JLabel[]{GC1G, GC2G, GC3G, GC4G};
+
+            JLabel[] saldoGolsG = new JLabel[]{SG1G, SG2G, SG3G, SG4G};
+
+            JLabel[] pontosG = new JLabel[]{PTS1G, PTS2G, PTS3G, PTS4G};
+
+            JLabel[] vitoriasH = new JLabel[]{V1H, V2H, V3H, V4H};
+
+            JLabel[] empatesH = new JLabel[]{E1H, E2H, E3H, E4H};
+
+            JLabel[] derrotasH = new JLabel[]{D1H, D2H, D3H, D4H};
+
+            JLabel[] golsProH = new JLabel[]{GP1H, GP2H, GP3H, GP4H};
+
+            JLabel[] golsConH = new JLabel[]{GC1H, GC2H, GC3H, GC4H};
+
+            JLabel[] saldoGolsH = new JLabel[]{SG1H, SG2H, SG3H, SG4H};
+
+            JLabel[] pontosH = new JLabel[]{PTS1H, PTS2H, PTS3H, PTS4H};
+
+            for (int i = 0; i < 4; i++) {
+
+                vitoriasA[i].setText("0");
+
+                empatesA[i].setText("0");
+
+                derrotasA[i].setText("0");
+
+                golsProA[i].setText("0");
+
+                golsConA[i].setText("0");
+
+                saldoGolsA[i].setText("0");
+
+                pontosA[i].setText("0");
+
+                vitoriasB[i].setText("0");
+
+                empatesB[i].setText("0");
+
+                derrotasB[i].setText("0");
+
+                golsProB[i].setText("0");
+
+                golsConB[i].setText("0");
+
+                saldoGolsB[i].setText("0");
+
+                pontosB[i].setText("0");
+
+                vitoriasC[i].setText("0");
+
+                empatesC[i].setText("0");
+
+                derrotasC[i].setText("0");
+
+                golsProC[i].setText("0");
+
+                golsConC[i].setText("0");
+
+                saldoGolsC[i].setText("0");
+
+                pontosC[i].setText("0");
+
+                vitoriasD[i].setText("0");
+
+                empatesD[i].setText("0");
+
+                derrotasD[i].setText("0");
+
+                golsProD[i].setText("0");
+
+                golsConD[i].setText("0");
+
+                saldoGolsD[i].setText("0");
+
+                pontosD[i].setText("0");
+
+                vitoriasE[i].setText("0");
+
+                empatesE[i].setText("0");
+
+                derrotasE[i].setText("0");
+
+                golsProE[i].setText("0");
+
+                golsConE[i].setText("0");
+
+                saldoGolsE[i].setText("0");
+
+                pontosE[i].setText("0");
+
+                vitoriasF[i].setText("0");
+
+                empatesF[i].setText("0");
+
+                derrotasF[i].setText("0");
+
+                golsProF[i].setText("0");
+
+                golsConF[i].setText("0");
+
+                saldoGolsF[i].setText("0");
+
+                pontosF[i].setText("0");
+
+                vitoriasG[i].setText("0");
+
+                empatesG[i].setText("0");
+
+                derrotasG[i].setText("0");
+
+                golsProG[i].setText("0");
+
+                golsConG[i].setText("0");
+
+                saldoGolsG[i].setText("0");
+
+                pontosG[i].setText("0");
+
+                vitoriasH[i].setText("0");
+
+                empatesH[i].setText("0");
+
+                derrotasH[i].setText("0");
+
+                golsProH[i].setText("0");
+
+                golsConH[i].setText("0");
+
+                saldoGolsH[i].setText("0");
+
+                pontosH[i].setText("0");
+
+            }
+
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+        try {
+            bw.close();
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+        try {
+            fw.close();
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+
+    }
 
     private void Escrever(){
-        File arquivo = new File("C:/Users/Jv/Desktop/WC/tabelaCopa.txt");
+        File arquivo = new File("D:/TrabalhoPOO/TrabalhoPOO/tabelaCopa.txt");
         FileWriter fw = null;
         try {
             fw = new FileWriter(arquivo);
@@ -757,7 +1221,7 @@ public class Tabela {
     }
 
     private void Ler() throws FileNotFoundException {
-        File arquivo = new File("C:/Users/Jv/Desktop/WC/tabelaCopa.txt");
+        File arquivo = new File("D:/TrabalhoPOO/TrabalhoPOO/tabelaCopa.txt");
         Scanner sc = new Scanner(arquivo);
         try{
             if(arquivo.exists()){
@@ -1321,7 +1785,7 @@ public class Tabela {
 
                 catch (Exception exception){
 
-                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                 }
 
@@ -1455,7 +1919,7 @@ public class Tabela {
 
                 catch (Exception exception){
 
-                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                 }
             }
@@ -1588,7 +2052,7 @@ public class Tabela {
 
                 catch (Exception exception){
 
-                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                 }
 
@@ -1722,7 +2186,7 @@ public class Tabela {
 
                 catch (Exception exception){
 
-                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                 }
 
@@ -1856,7 +2320,7 @@ public class Tabela {
 
                 catch (Exception exception){
 
-                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                 }
 
@@ -1990,7 +2454,7 @@ public class Tabela {
 
                 catch (Exception exception){
 
-                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                 }
 
@@ -2124,7 +2588,7 @@ public class Tabela {
 
                 catch (Exception exception){
 
-                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                 }
 
@@ -2258,7 +2722,7 @@ public class Tabela {
 
                 catch (Exception exception){
 
-                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                    JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                 }
             }
@@ -2268,7 +2732,7 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(A1.getText() != "1A" && B2.getText() != "2B") {
+                if(!A1.getText().equals("1A") && !B2.getText().equals("2B")) {
 
                     try {
 
@@ -2349,12 +2813,23 @@ public class Tabela {
 
                     catch (NumberFormatException exception){
 
+                        Penaltis1Oitavas1.setText("0");
+
+                        Penaltis2Oitavas1.setText("0");
+
+                        Penaltis1Oitavas1.setEditable(false);
+
+                        Penaltis2Oitavas1.setEditable(false);
+
+                        Gols1Oitavas1.setEditable(true);
+
+                        Gols2Oitavas1.setEditable(true);
 
                     }
 
                     catch (InputMismatchException exception){
 
-                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -2366,7 +2841,7 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(C1.getText() != "1C" && D2.getText() != "2D") {
+                if(!C1.getText().equals("1C") && !D2.getText().equals("2D")) {
 
                     try {
 
@@ -2448,11 +2923,23 @@ public class Tabela {
 
                     catch (NumberFormatException exception){
 
+                        Penaltis1Oitavas2.setText("0");
+
+                        Penaltis2Oitavas2.setText("0");
+
+                        Penaltis1Oitavas2.setEditable(false);
+
+                        Penaltis2Oitavas2.setEditable(false);
+
+                        Gols1Oitavas2.setEditable(true);
+
+                        Gols2Oitavas2.setEditable(true);
+
                     }
 
                     catch (InputMismatchException exception){
 
-                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -2465,7 +2952,7 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(E1.getText() != "1E" && F2.getText() != "2F") {
+                if(!E1.getText().equals("1E") && !F2.getText().equals("2F")) {
 
                     try {
 
@@ -2547,12 +3034,23 @@ public class Tabela {
 
                     catch (NumberFormatException exception){
 
+                        Penaltis1Oitavas3.setText("0");
+
+                        Penaltis2Oitavas3.setText("0");
+
+                        Penaltis1Oitavas3.setEditable(false);
+
+                        Penaltis2Oitavas3.setEditable(false);
+
+                        Gols1Oitavas3.setEditable(true);
+
+                        Gols2Oitavas3.setEditable(true);
 
                     }
 
                     catch (InputMismatchException exception){
 
-                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -2564,7 +3062,7 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(G1.getText() != "1G" && H2.getText() != "2H") {
+                if(!G1.getText().equals("1G") && !H2.getText().equals("2H")) {
 
                     try {
 
@@ -2645,13 +3143,23 @@ public class Tabela {
 
                     catch (NumberFormatException exception){
 
+                        Penaltis1Oitavas4.setText("0");
 
+                        Penaltis2Oitavas4.setText("0");
+
+                        Penaltis1Oitavas4.setEditable(false);
+
+                        Penaltis2Oitavas4.setEditable(false);
+
+                        Gols1Oitavas4.setEditable(true);
+
+                        Gols2Oitavas4.setEditable(true);
 
                     }
 
                     catch (InputMismatchException exception){
 
-                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -2664,7 +3172,7 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(B1.getText() != "1B" && A2.getText() != "2A") {
+                if(!B1.getText().equals("1B") && !A2.getText().equals("2A")) {
 
                     try {
 
@@ -2745,11 +3253,23 @@ public class Tabela {
 
                     catch (NumberFormatException exception){
 
+                        Penaltis1Oitavas5.setText("0");
+
+                        Penaltis2Oitavas5.setText("0");
+
+                        Penaltis1Oitavas5.setEditable(false);
+
+                        Penaltis2Oitavas5.setEditable(false);
+
+                        Gols1Oitavas5.setEditable(true);
+
+                        Gols2Oitavas5.setEditable(true);
+
                     }
 
                     catch (InputMismatchException exception){
 
-                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -2762,7 +3282,7 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(D1.getText() != "1D" && C2.getText() != "2C") {
+                if(!D1.getText().equals("1D") && !C2.getText().equals("2C")) {
 
                     try {
 
@@ -2808,9 +3328,11 @@ public class Tabela {
                                             Gols1Oitavas6.setEditable(true);
 
                                             Gols2Oitavas6.setEditable(true);
+
                                         }
 
                                     }
+
                                 }
 
                                 else{
@@ -2843,11 +3365,23 @@ public class Tabela {
 
                     catch (NumberFormatException exception){
 
+                        Penaltis1Oitavas6.setText("0");
+
+                        Penaltis2Oitavas6.setText("0");
+
+                        Penaltis1Oitavas6.setEditable(false);
+
+                        Penaltis2Oitavas6.setEditable(false);
+
+                        Gols1Oitavas6.setEditable(true);
+
+                        Gols2Oitavas6.setEditable(true);
+
                     }
 
                     catch (InputMismatchException exception){
 
-                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -2860,7 +3394,7 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(F1.getText() != "1F" && E2.getText() != "2E") {
+                if(!F1.getText().equals("1F") && !E2.getText().equals("2E")) {
 
                     try {
 
@@ -2941,12 +3475,23 @@ public class Tabela {
 
                     catch (NumberFormatException exception){
 
+                        Penaltis1Oitavas7.setText("0");
+
+                        Penaltis2Oitavas7.setText("0");
+
+                        Penaltis1Oitavas7.setEditable(false);
+
+                        Penaltis2Oitavas7.setEditable(false);
+
+                        Gols1Oitavas7.setEditable(true);
+
+                        Gols2Oitavas7.setEditable(true);
 
                     }
 
                     catch (InputMismatchException exception){
 
-                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -2959,7 +3504,7 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(H1.getText() != "1H" && G2.getText() != "2G") {
+                if(!H1.getText().equals("1H") && !G2.getText().equals("2G")) {
 
                     try {
 
@@ -3005,8 +3550,8 @@ public class Tabela {
                                             Gols1Oitavas8.setEditable(true);
 
                                             Gols2Oitavas8.setEditable(true);
-                                        }
 
+                                        }
                                     }
                                 }
 
@@ -3038,9 +3583,25 @@ public class Tabela {
 
                     }
 
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Oitavas8.setText("0");
+
+                        Penaltis2Oitavas8.setText("0");
+
+                        Penaltis1Oitavas8.setEditable(false);
+
+                        Penaltis2Oitavas8.setEditable(false);
+
+                        Gols1Oitavas8.setEditable(true);
+
+                        Gols2Oitavas8.setEditable(true);
+
+                    }
+
                     catch (InputMismatchException exception){
 
-                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!");
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -3053,67 +3614,103 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(VencedorOitavas1.getText() != "A definir" && VencedorOitavas2.getText() != "A definir") {
+                if(!VencedorOitavas1.getText().equals("A definir") && !VencedorOitavas2.getText().equals("A definir")) {
 
                     try {
 
-                        if (Integer.parseInt(Gols1Quartas1.getText()) == Integer.parseInt(Gols2Quartas1.getText())) {
+                        if(Integer.parseInt(Gols1Quartas1.getText()) >= 0 && Integer.parseInt(Gols2Quartas1.getText()) >= 0) {
 
-                            Penaltis1Quartas1.setEditable(true);
+                            if (Integer.parseInt(Gols1Quartas1.getText()) == Integer.parseInt(Gols2Quartas1.getText())) {
 
-                            Penaltis2Quartas1.setEditable(true);
+                                Penaltis1Quartas1.setEditable(true);
 
-                            Gols1Quartas1.setEditable(false);
+                                Penaltis2Quartas1.setEditable(true);
 
-                            Gols2Quartas1.setEditable(false);
+                                Gols1Quartas1.setEditable(false);
 
-                            if (Integer.parseInt(Penaltis1Quartas1.getText()) > Integer.parseInt(Penaltis2Quartas1.getText())) {
+                                Gols2Quartas1.setEditable(false);
+
+                                if(Integer.parseInt(Penaltis1Quartas1.getText()) >= 0 && Integer.parseInt(Penaltis2Quartas1.getText()) >= 0) {
+
+                                    if (Integer.parseInt(Penaltis1Quartas1.getText()) > Integer.parseInt(Penaltis2Quartas1.getText())) {
+
+                                        VencedorQuartas1.setText(VencedorOitavas1.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Quartas1.getText()) < Integer.parseInt(Penaltis2Quartas1.getText())) {
+
+                                        VencedorQuartas1.setText(VencedorOitavas2.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Quartas1.getText()) == Integer.parseInt(Penaltis2Quartas1.getText())) {
+
+                                        if (Integer.parseInt(Penaltis1Quartas1.getText()) == 0 && Integer.parseInt(Penaltis2Quartas1.getText()) == 0) {
+                                        } else {
+
+                                            Penaltis1Quartas1.setText("0");
+
+                                            Penaltis2Quartas1.setText("0");
+
+                                            Penaltis1Quartas1.setEditable(false);
+
+                                            Penaltis2Quartas1.setEditable(false);
+
+                                            Gols1Quartas1.setEditable(true);
+
+                                            Gols2Quartas1.setEditable(true);
+                                        }
+
+                                    }
+                                }
+
+                                else{
+
+                                    throw new InputMismatchException();
+
+                                }
+
+                            } else if (Integer.parseInt(Gols1Quartas1.getText()) > Integer.parseInt(Gols2Quartas1.getText())) {
 
                                 VencedorQuartas1.setText(VencedorOitavas1.getText());
 
-                            }
-
-                            if (Integer.parseInt(Penaltis1Quartas1.getText()) < Integer.parseInt(Penaltis2Quartas1.getText())) {
+                            } else {
 
                                 VencedorQuartas1.setText(VencedorOitavas2.getText());
 
                             }
 
-                            if (Integer.parseInt(Penaltis1Quartas1.getText()) == Integer.parseInt(Penaltis2Quartas1.getText())) {
+                            Escrever();
+                        }
 
-                                if(Integer.parseInt(Penaltis1Quartas1.getText()) == 0 && Integer.parseInt(Penaltis2Quartas1.getText()) == 0){
-                                }else {
+                        else{
 
-                                    Penaltis1Quartas1.setText("0");
-
-                                    Penaltis2Quartas1.setText("0");
-
-                                    Penaltis1Quartas1.setEditable(false);
-
-                                    Penaltis2Quartas1.setEditable(false);
-
-                                    Gols1Quartas1.setEditable(true);
-
-                                    Gols2Quartas1.setEditable(true);
-                                }
-
-                            }
-
-                        } else if (Integer.parseInt(Gols1Quartas1.getText()) > Integer.parseInt(Gols2Quartas1.getText())) {
-
-                            VencedorQuartas1.setText(VencedorOitavas1.getText());
-
-                        } else {
-
-                            VencedorQuartas1.setText(VencedorOitavas2.getText());
+                            throw new InputMismatchException();
 
                         }
 
-                        Escrever();
+                    }
+
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Quartas1.setText("0");
+
+                        Penaltis2Quartas1.setText("0");
+
+                        Penaltis1Quartas1.setEditable(false);
+
+                        Penaltis2Quartas1.setEditable(false);
+
+                        Gols1Quartas1.setEditable(true);
+
+                        Gols2Quartas1.setEditable(true);
 
                     }
 
-                    catch (Exception exception){
+                    catch (InputMismatchException exception){
+
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -3126,67 +3723,104 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(VencedorOitavas3.getText() != "A definir" && VencedorOitavas4.getText() != "A definir") {
+                if(!VencedorOitavas3.getText().equals("A definir")  && !VencedorOitavas4.getText().equals("A definir")) {
 
                     try {
 
-                        if (Integer.parseInt(Gols1Quartas2.getText()) == Integer.parseInt(Gols2Quartas2.getText())) {
+                        if(Integer.parseInt(Gols1Quartas2.getText()) >= 0 && Integer.parseInt(Gols2Quartas2.getText()) >= 0) {
 
-                            Penaltis1Quartas2.setEditable(true);
+                            if (Integer.parseInt(Gols1Quartas2.getText()) == Integer.parseInt(Gols2Quartas2.getText())) {
 
-                            Penaltis2Quartas2.setEditable(true);
+                                Penaltis1Quartas2.setEditable(true);
 
-                            Gols1Quartas2.setEditable(false);
+                                Penaltis2Quartas2.setEditable(true);
 
-                            Gols2Quartas2.setEditable(false);
+                                Gols1Quartas2.setEditable(false);
 
-                            if (Integer.parseInt(Penaltis1Quartas2.getText()) > Integer.parseInt(Penaltis2Quartas2.getText())) {
+                                Gols2Quartas2.setEditable(false);
+
+                                if(Integer.parseInt(Penaltis1Quartas2.getText()) >= 0 && Integer.parseInt(Penaltis2Quartas2.getText()) >= 0) {
+
+                                    if (Integer.parseInt(Penaltis1Quartas2.getText()) > Integer.parseInt(Penaltis2Quartas2.getText())) {
+
+                                        VencedorQuartas2.setText(VencedorOitavas3.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Quartas2.getText()) < Integer.parseInt(Penaltis2Quartas2.getText())) {
+
+                                        VencedorQuartas2.setText(VencedorOitavas4.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Quartas2.getText()) == Integer.parseInt(Penaltis2Quartas2.getText())) {
+
+                                        if (Integer.parseInt(Penaltis1Quartas2.getText()) == 0 && Integer.parseInt(Penaltis2Quartas2.getText()) == 0) {
+                                        } else {
+
+                                            Penaltis1Quartas2.setText("0");
+
+                                            Penaltis2Quartas2.setText("0");
+
+                                            Penaltis1Quartas2.setEditable(false);
+
+                                            Penaltis2Quartas2.setEditable(false);
+
+                                            Gols1Quartas2.setEditable(true);
+
+                                            Gols2Quartas2.setEditable(true);
+
+                                        }
+
+                                    }
+                                }
+
+                                else{
+
+                                    throw new InputMismatchException();
+
+                                }
+
+                            } else if (Integer.parseInt(Gols1Quartas2.getText()) > Integer.parseInt(Gols2Quartas2.getText())) {
 
                                 VencedorQuartas2.setText(VencedorOitavas3.getText());
 
-                            }
-
-                            if (Integer.parseInt(Penaltis1Quartas2.getText()) < Integer.parseInt(Penaltis2Quartas2.getText())) {
+                            } else {
 
                                 VencedorQuartas2.setText(VencedorOitavas4.getText());
 
                             }
 
-                            if (Integer.parseInt(Penaltis1Quartas2.getText()) == Integer.parseInt(Penaltis2Quartas2.getText())) {
+                            Escrever();
+                        }
 
-                                if(Integer.parseInt(Penaltis1Quartas2.getText()) == 0 && Integer.parseInt(Penaltis2Quartas2.getText()) == 0){
-                                }else {
+                        else{
 
-                                    Penaltis1Quartas2.setText("0");
-
-                                    Penaltis2Quartas2.setText("0");
-
-                                    Penaltis1Quartas2.setEditable(false);
-
-                                    Penaltis2Quartas2.setEditable(false);
-
-                                    Gols1Quartas2.setEditable(true);
-
-                                    Gols2Quartas2.setEditable(true);
-                                }
-
-                            }
-
-                        } else if (Integer.parseInt(Gols1Quartas2.getText()) > Integer.parseInt(Gols2Quartas2.getText())) {
-
-                            VencedorQuartas2.setText(VencedorOitavas3.getText());
-
-                        } else {
-
-                            VencedorQuartas2.setText(VencedorOitavas4.getText());
+                            throw new InputMismatchException();
 
                         }
 
-                        Escrever();
+                    }
+
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Quartas2.setText("0");
+
+                        Penaltis2Quartas2.setText("0");
+
+                        Penaltis1Quartas2.setEditable(false);
+
+                        Penaltis2Quartas2.setEditable(false);
+
+                        Gols1Quartas2.setEditable(true);
+
+                        Gols2Quartas2.setEditable(true);
 
                     }
 
-                    catch (Exception exception){
+                    catch (InputMismatchException exception){
+
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -3199,67 +3833,103 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(VencedorOitavas5.getText() != "A definir" && VencedorOitavas6.getText() != "A definir") {
+                if(!VencedorOitavas5.getText().equals("A definir") && !VencedorOitavas6.getText().equals("A definir")) {
 
                     try {
 
-                        if (Integer.parseInt(Gols1Quartas3.getText()) == Integer.parseInt(Gols2Quartas3.getText())) {
+                        if(Integer.parseInt(Gols1Quartas3.getText()) >= 0 && Integer.parseInt(Gols2Quartas3.getText()) >= 0) {
 
-                            Penaltis1Quartas3.setEditable(true);
+                            if (Integer.parseInt(Gols1Quartas3.getText()) == Integer.parseInt(Gols2Quartas3.getText())) {
 
-                            Penaltis2Quartas3.setEditable(true);
+                                Penaltis1Quartas3.setEditable(true);
 
-                            Gols1Quartas3.setEditable(false);
+                                Penaltis2Quartas3.setEditable(true);
 
-                            Gols2Quartas3.setEditable(false);
+                                Gols1Quartas3.setEditable(false);
 
-                            if (Integer.parseInt(Penaltis1Quartas3.getText()) > Integer.parseInt(Penaltis2Quartas3.getText())) {
+                                Gols2Quartas3.setEditable(false);
+
+                                if(Integer.parseInt(Penaltis1Quartas3.getText()) >= 0 && Integer.parseInt(Penaltis2Quartas3.getText()) >= 0) {
+
+                                    if (Integer.parseInt(Penaltis1Quartas3.getText()) > Integer.parseInt(Penaltis2Quartas3.getText())) {
+
+                                        VencedorQuartas3.setText(VencedorOitavas5.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Quartas3.getText()) < Integer.parseInt(Penaltis2Quartas3.getText())) {
+
+                                        VencedorQuartas3.setText(VencedorOitavas6.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Quartas3.getText()) == Integer.parseInt(Penaltis2Quartas3.getText())) {
+
+                                        if (Integer.parseInt(Penaltis1Quartas3.getText()) == 0 && Integer.parseInt(Penaltis2Quartas3.getText()) == 0) {
+                                        } else {
+
+                                            Penaltis1Quartas3.setText("0");
+
+                                            Penaltis2Quartas3.setText("0");
+
+                                            Penaltis1Quartas3.setEditable(false);
+
+                                            Penaltis2Quartas3.setEditable(false);
+
+                                            Gols1Quartas3.setEditable(true);
+
+                                            Gols2Quartas3.setEditable(true);
+                                        }
+
+                                    }
+                                }
+
+                                else{
+
+                                    throw new InputMismatchException();
+
+                                }
+
+                            } else if (Integer.parseInt(Gols1Quartas3.getText()) > Integer.parseInt(Gols2Quartas3.getText())) {
 
                                 VencedorQuartas3.setText(VencedorOitavas5.getText());
 
-                            }
-
-                            if (Integer.parseInt(Penaltis1Quartas3.getText()) < Integer.parseInt(Penaltis2Quartas3.getText())) {
+                            } else {
 
                                 VencedorQuartas3.setText(VencedorOitavas6.getText());
 
                             }
 
-                            if (Integer.parseInt(Penaltis1Quartas3.getText()) == Integer.parseInt(Penaltis2Quartas3.getText())) {
+                            Escrever();
+                        }
 
-                                if(Integer.parseInt(Penaltis1Quartas3.getText()) == 0 && Integer.parseInt(Penaltis2Quartas3.getText()) == 0){
-                                }else {
+                        else{
 
-                                    Penaltis1Quartas3.setText("0");
-
-                                    Penaltis2Quartas3.setText("0");
-
-                                    Penaltis1Quartas3.setEditable(false);
-
-                                    Penaltis2Quartas3.setEditable(false);
-
-                                    Gols1Quartas3.setEditable(true);
-
-                                    Gols2Quartas3.setEditable(true);
-                                }
-
-                            }
-
-                        } else if (Integer.parseInt(Gols1Quartas3.getText()) > Integer.parseInt(Gols2Quartas3.getText())) {
-
-                            VencedorQuartas3.setText(VencedorOitavas5.getText());
-
-                        } else {
-
-                            VencedorQuartas3.setText(VencedorOitavas6.getText());
+                            throw new InputMismatchException();
 
                         }
 
-                        Escrever();
+                    }
+
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Quartas3.setText("0");
+
+                        Penaltis2Quartas3.setText("0");
+
+                        Penaltis1Quartas3.setEditable(false);
+
+                        Penaltis2Quartas3.setEditable(false);
+
+                        Gols1Quartas3.setEditable(true);
+
+                        Gols2Quartas3.setEditable(true);
 
                     }
 
-                    catch (Exception exception){
+                    catch (InputMismatchException exception){
+
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -3272,67 +3942,103 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(VencedorOitavas7.getText() != "A definir" && VencedorOitavas8.getText() != "A definir") {
+                if(!VencedorOitavas7.getText().equals("A definir") && !VencedorOitavas8.getText().equals("A definir")) {
 
                     try {
 
-                        if (Integer.parseInt(Gols1Quartas4.getText()) == Integer.parseInt(Gols2Quartas4.getText())) {
+                        if(Integer.parseInt(Gols1Quartas4.getText()) >= 0 && Integer.parseInt(Gols2Quartas4.getText()) >= 0) {
 
-                            Penaltis1Quartas4.setEditable(true);
+                            if (Integer.parseInt(Gols1Quartas4.getText()) == Integer.parseInt(Gols2Quartas4.getText())) {
 
-                            Penaltis2Quartas4.setEditable(true);
+                                Penaltis1Quartas4.setEditable(true);
 
-                            Gols1Quartas4.setEditable(false);
+                                Penaltis2Quartas4.setEditable(true);
 
-                            Gols2Quartas4.setEditable(false);
+                                Gols1Quartas4.setEditable(false);
 
-                            if (Integer.parseInt(Penaltis1Quartas4.getText()) > Integer.parseInt(Penaltis2Quartas4.getText())) {
+                                Gols2Quartas4.setEditable(false);
+
+                                if(Integer.parseInt(Penaltis1Quartas4.getText()) >= 0 && Integer.parseInt(Penaltis2Quartas4.getText()) >= 0) {
+
+                                    if (Integer.parseInt(Penaltis1Quartas4.getText()) > Integer.parseInt(Penaltis2Quartas4.getText())) {
+
+                                        VencedorQuartas4.setText(VencedorOitavas7.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Quartas4.getText()) < Integer.parseInt(Penaltis2Quartas4.getText())) {
+
+                                        VencedorQuartas4.setText(VencedorOitavas8.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Quartas4.getText()) == Integer.parseInt(Penaltis2Quartas4.getText())) {
+
+                                        if (Integer.parseInt(Penaltis1Quartas4.getText()) == 0 && Integer.parseInt(Penaltis2Quartas4.getText()) == 0) {
+                                        } else {
+
+                                            Penaltis1Quartas4.setText("0");
+
+                                            Penaltis2Quartas4.setText("0");
+
+                                            Penaltis1Quartas4.setEditable(false);
+
+                                            Penaltis2Quartas4.setEditable(false);
+
+                                            Gols1Quartas4.setEditable(true);
+
+                                            Gols2Quartas4.setEditable(true);
+                                        }
+
+                                    }
+                                }
+
+                                else{
+
+                                    throw new InputMismatchException();
+
+                                }
+
+                            } else if (Integer.parseInt(Gols1Quartas4.getText()) > Integer.parseInt(Gols2Quartas4.getText())) {
 
                                 VencedorQuartas4.setText(VencedorOitavas7.getText());
 
-                            }
-
-                            if (Integer.parseInt(Penaltis1Quartas4.getText()) < Integer.parseInt(Penaltis2Quartas4.getText())) {
+                            } else {
 
                                 VencedorQuartas4.setText(VencedorOitavas8.getText());
 
                             }
 
-                            if (Integer.parseInt(Penaltis1Quartas4.getText()) == Integer.parseInt(Penaltis2Quartas4.getText())) {
+                            Escrever();
+                        }
 
-                                if(Integer.parseInt(Penaltis1Quartas4.getText()) == 0 && Integer.parseInt(Penaltis2Quartas4.getText()) == 0){
-                                }else {
+                        else{
 
-                                    Penaltis1Quartas4.setText("0");
-
-                                    Penaltis2Quartas4.setText("0");
-
-                                    Penaltis1Quartas4.setEditable(false);
-
-                                    Penaltis2Quartas4.setEditable(false);
-
-                                    Gols1Quartas4.setEditable(true);
-
-                                    Gols2Quartas4.setEditable(true);
-                                }
-
-                            }
-
-                        } else if (Integer.parseInt(Gols1Quartas4.getText()) > Integer.parseInt(Gols2Quartas4.getText())) {
-
-                            VencedorQuartas4.setText(VencedorOitavas7.getText());
-
-                        } else {
-
-                            VencedorQuartas4.setText(VencedorOitavas8.getText());
+                            throw new InputMismatchException();
 
                         }
 
-                        Escrever();
+                    }
+
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Quartas4.setText("0");
+
+                        Penaltis2Quartas4.setText("0");
+
+                        Penaltis1Quartas4.setEditable(false);
+
+                        Penaltis2Quartas4.setEditable(false);
+
+                        Gols1Quartas4.setEditable(true);
+
+                        Gols2Quartas4.setEditable(true);
 
                     }
 
-                    catch (Exception exception){
+                    catch (InputMismatchException exception){
+
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -3345,29 +4051,74 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(VencedorQuartas1.getText() != "A definir" && VencedorQuartas2.getText() != "A definir") {
+                if(!VencedorQuartas1.getText().equals("A definir") && !VencedorQuartas2.getText().equals("A definir")) {
 
                     try {
 
-                        if (Integer.parseInt(Gols1Semi1.getText()) == Integer.parseInt(Gols2Semi1.getText())) {
+                        if(Integer.parseInt(Gols1Semi1.getText()) >= 0 && Integer.parseInt(Gols2Semi1.getText()) >= 0) {
 
-                            Penaltis1Semi1.setEditable(true);
+                            if (Integer.parseInt(Gols1Semi1.getText()) == Integer.parseInt(Gols2Semi1.getText())) {
 
-                            Penaltis2Semi1.setEditable(true);
+                                Penaltis1Semi1.setEditable(true);
 
-                            Gols1Semi1.setEditable(false);
+                                Penaltis2Semi1.setEditable(true);
 
-                            Gols2Semi1.setEditable(false);
+                                Gols1Semi1.setEditable(false);
 
-                            if (Integer.parseInt(Penaltis1Semi1.getText()) > Integer.parseInt(Penaltis2Semi1.getText())) {
+                                Gols2Semi1.setEditable(false);
+
+                                if(Integer.parseInt(Penaltis1Semi1.getText()) >= 0 && Integer.parseInt(Penaltis2Semi1.getText()) >= 0) {
+
+                                    if (Integer.parseInt(Penaltis1Semi1.getText()) > Integer.parseInt(Penaltis2Semi1.getText())) {
+
+                                        VencedorSemi1.setText(VencedorQuartas1.getText());
+
+                                        PerderdorSemi1.setText(VencedorQuartas2.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Semi1.getText()) < Integer.parseInt(Penaltis2Semi1.getText())) {
+
+                                        VencedorSemi1.setText(VencedorQuartas2.getText());
+
+                                        PerderdorSemi1.setText(VencedorQuartas1.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Semi1.getText()) == Integer.parseInt(Penaltis2Semi1.getText())) {
+
+                                        if (Integer.parseInt(Penaltis1Semi1.getText()) == 0 && Integer.parseInt(Penaltis2Semi1.getText()) == 0) {
+                                        } else {
+
+                                            Penaltis1Semi1.setText("0");
+
+                                            Penaltis2Semi1.setText("0");
+
+                                            Penaltis1Semi1.setEditable(false);
+
+                                            Penaltis2Semi1.setEditable(false);
+
+                                            Gols1Semi1.setEditable(true);
+
+                                            Gols2Semi1.setEditable(true);
+                                        }
+
+                                    }
+                                }
+
+                                else{
+
+                                    throw new InputMismatchException();
+
+                                }
+
+                            } else if (Integer.parseInt(Gols1Semi1.getText()) > Integer.parseInt(Gols2Semi1.getText())) {
 
                                 VencedorSemi1.setText(VencedorQuartas1.getText());
 
                                 PerderdorSemi1.setText(VencedorQuartas2.getText());
 
-                            }
-
-                            if (Integer.parseInt(Penaltis1Semi1.getText()) < Integer.parseInt(Penaltis2Semi1.getText())) {
+                            } else {
 
                                 VencedorSemi1.setText(VencedorQuartas2.getText());
 
@@ -3375,45 +4126,36 @@ public class Tabela {
 
                             }
 
-                            if (Integer.parseInt(Penaltis1Semi1.getText()) == Integer.parseInt(Penaltis2Semi1.getText())) {
+                            Escrever();
+                        }
 
-                                if(Integer.parseInt(Penaltis1Semi1.getText()) == 0 && Integer.parseInt(Penaltis2Semi1.getText()) == 0){
-                                }else {
+                        else{
 
-                                    Penaltis1Semi1.setText("0");
-
-                                    Penaltis2Semi1.setText("0");
-
-                                    Penaltis1Semi1.setEditable(false);
-
-                                    Penaltis2Semi1.setEditable(false);
-
-                                    Gols1Semi1.setEditable(true);
-
-                                    Gols2Semi1.setEditable(true);
-                                }
-
-                            }
-
-                        } else if (Integer.parseInt(Gols1Semi1.getText()) > Integer.parseInt(Gols2Semi1.getText())) {
-
-                            VencedorSemi1.setText(VencedorQuartas1.getText());
-
-                            PerderdorSemi1.setText(VencedorQuartas2.getText());
-
-                        } else {
-
-                            VencedorSemi1.setText(VencedorQuartas2.getText());
-
-                            PerderdorSemi1.setText(VencedorQuartas1.getText());
+                            throw new InputMismatchException();
 
                         }
 
-                        Escrever();
+                    }
+
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Semi1.setText("0");
+
+                        Penaltis2Semi1.setText("0");
+
+                        Penaltis1Semi1.setEditable(false);
+
+                        Penaltis2Semi1.setEditable(false);
+
+                        Gols1Semi1.setEditable(true);
+
+                        Gols2Semi1.setEditable(true);
 
                     }
 
-                    catch (Exception exception){
+                    catch (InputMismatchException exception){
+
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -3426,29 +4168,74 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(VencedorQuartas3.getText() != "A definir" && VencedorQuartas4.getText() != "A definir") {
+                if(!VencedorQuartas3.getText().equals("A definir") && !VencedorQuartas4.getText().equals("A definir")) {
 
                     try {
 
-                        if (Integer.parseInt(Gols1Semi2.getText()) == Integer.parseInt(Gols2Semi2.getText())) {
+                        if(Integer.parseInt(Gols1Semi2.getText()) >= 0 && Integer.parseInt(Gols2Semi2.getText()) >= 0) {
 
-                            Penaltis1Semi2.setEditable(true);
+                            if (Integer.parseInt(Gols1Semi2.getText()) == Integer.parseInt(Gols2Semi2.getText())) {
 
-                            Penaltis2Semi2.setEditable(true);
+                                Penaltis1Semi2.setEditable(true);
 
-                            Gols1Semi2.setEditable(false);
+                                Penaltis2Semi2.setEditable(true);
 
-                            Gols2Semi2.setEditable(false);
+                                Gols1Semi2.setEditable(false);
 
-                            if (Integer.parseInt(Penaltis1Semi2.getText()) > Integer.parseInt(Penaltis2Semi2.getText())) {
+                                Gols2Semi2.setEditable(false);
+
+                                if(Integer.parseInt(Penaltis1Semi2.getText()) >= 0 && Integer.parseInt(Penaltis2Semi2.getText()) >= 0) {
+
+                                    if (Integer.parseInt(Penaltis1Semi2.getText()) > Integer.parseInt(Penaltis2Semi2.getText())) {
+
+                                        VencedorSemi2.setText(VencedorQuartas3.getText());
+
+                                        PerderdorSemi2.setText(VencedorQuartas4.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Semi2.getText()) < Integer.parseInt(Penaltis2Semi2.getText())) {
+
+                                        VencedorSemi2.setText(VencedorQuartas4.getText());
+
+                                        PerderdorSemi2.setText(VencedorQuartas3.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Semi2.getText()) == Integer.parseInt(Penaltis2Semi2.getText())) {
+
+                                        if (Integer.parseInt(Penaltis1Semi2.getText()) == 0 && Integer.parseInt(Penaltis2Semi2.getText()) == 0) {
+                                        } else {
+
+                                            Penaltis1Semi2.setText("0");
+
+                                            Penaltis2Semi2.setText("0");
+
+                                            Penaltis1Semi2.setEditable(false);
+
+                                            Penaltis2Semi2.setEditable(false);
+
+                                            Gols1Semi2.setEditable(true);
+
+                                            Gols2Semi2.setEditable(true);
+                                        }
+
+                                    }
+                                }
+
+                                else{
+
+                                    throw new InputMismatchException();
+
+                                }
+
+                            } else if (Integer.parseInt(Gols1Semi2.getText()) > Integer.parseInt(Gols2Semi2.getText())) {
 
                                 VencedorSemi2.setText(VencedorQuartas3.getText());
 
                                 PerderdorSemi2.setText(VencedorQuartas4.getText());
 
-                            }
-
-                            if (Integer.parseInt(Penaltis1Semi2.getText()) < Integer.parseInt(Penaltis2Semi2.getText())) {
+                            } else {
 
                                 VencedorSemi2.setText(VencedorQuartas4.getText());
 
@@ -3456,45 +4243,36 @@ public class Tabela {
 
                             }
 
-                            if (Integer.parseInt(Penaltis1Semi2.getText()) == Integer.parseInt(Penaltis2Semi2.getText())) {
+                            Escrever();
+                        }
 
-                                if(Integer.parseInt(Penaltis1Semi2.getText()) == 0 && Integer.parseInt(Penaltis2Semi2.getText()) == 0){
-                                }else {
+                        else{
 
-                                    Penaltis1Semi2.setText("0");
-
-                                    Penaltis2Semi2.setText("0");
-
-                                    Penaltis1Semi2.setEditable(false);
-
-                                    Penaltis2Semi2.setEditable(false);
-
-                                    Gols1Semi2.setEditable(true);
-
-                                    Gols2Semi2.setEditable(true);
-                                }
-
-                            }
-
-                        } else if (Integer.parseInt(Gols1Semi2.getText()) > Integer.parseInt(Gols2Semi2.getText())) {
-
-                            VencedorSemi2.setText(VencedorQuartas3.getText());
-
-                            PerderdorSemi2.setText(VencedorQuartas4.getText());
-
-                        } else {
-
-                            VencedorSemi2.setText(VencedorQuartas4.getText());
-
-                            PerderdorSemi2.setText(VencedorQuartas3.getText());
+                            throw new InputMismatchException();
 
                         }
 
-                        Escrever();
+                    }
+
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Semi2.setText("0");
+
+                        Penaltis2Semi2.setText("0");
+
+                        Penaltis1Semi2.setEditable(false);
+
+                        Penaltis2Semi2.setEditable(false);
+
+                        Gols1Semi2.setEditable(true);
+
+                        Gols2Semi2.setEditable(true);
 
                     }
 
-                    catch (Exception exception){
+                    catch (InputMismatchException exception){
+
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -3507,67 +4285,103 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(VencedorSemi1.getText() != "A definir" && VencedorSemi2.getText() != "A definir") {
+                if(!VencedorSemi1.getText().equals("A definir") && !VencedorSemi2.getText().equals("A definir")) {
 
                     try {
 
-                        if (Integer.parseInt(Gols1Final.getText()) == Integer.parseInt(Gols2Final.getText())) {
+                        if(Integer.parseInt(Gols1Final.getText()) >= 0 && Integer.parseInt(Gols2Final.getText()) >= 0) {
 
-                            Penaltis1Final.setEditable(true);
+                            if (Integer.parseInt(Gols1Final.getText()) == Integer.parseInt(Gols2Final.getText())) {
 
-                            Penaltis2Final.setEditable(true);
+                                Penaltis1Final.setEditable(true);
 
-                            Gols1Final.setEditable(false);
+                                Penaltis2Final.setEditable(true);
 
-                            Gols2Final.setEditable(false);
+                                Gols1Final.setEditable(false);
 
-                            if (Integer.parseInt(Penaltis1Final.getText()) > Integer.parseInt(Penaltis2Final.getText())) {
+                                Gols2Final.setEditable(false);
+
+                                if(Integer.parseInt(Penaltis1Final.getText()) >= 0 && Integer.parseInt(Penaltis2Final.getText()) >= 0) {
+
+                                    if (Integer.parseInt(Penaltis1Final.getText()) > Integer.parseInt(Penaltis2Final.getText())) {
+
+                                        VencedorFinal.setText(VencedorSemi1.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Final.getText()) < Integer.parseInt(Penaltis2Final.getText())) {
+
+                                        VencedorFinal.setText(VencedorSemi2.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Final.getText()) == Integer.parseInt(Penaltis2Final.getText())) {
+
+                                        if (Integer.parseInt(Penaltis1Final.getText()) == 0 && Integer.parseInt(Penaltis2Final.getText()) == 0) {
+                                        } else {
+
+                                            Penaltis1Final.setText("0");
+
+                                            Penaltis2Final.setText("0");
+
+                                            Penaltis1Final.setEditable(false);
+
+                                            Penaltis2Final.setEditable(false);
+
+                                            Gols1Final.setEditable(true);
+
+                                            Gols2Final.setEditable(true);
+                                        }
+
+                                    }
+                                }
+
+                                else{
+
+                                    throw new InputMismatchException();
+
+                                }
+
+                            } else if (Integer.parseInt(Gols1Final.getText()) > Integer.parseInt(Gols2Final.getText())) {
 
                                 VencedorFinal.setText(VencedorSemi1.getText());
 
-                            }
-
-                            if (Integer.parseInt(Penaltis1Final.getText()) < Integer.parseInt(Penaltis2Final.getText())) {
+                            } else {
 
                                 VencedorFinal.setText(VencedorSemi2.getText());
 
                             }
 
-                            if (Integer.parseInt(Penaltis1Final.getText()) == Integer.parseInt(Penaltis2Final.getText())) {
+                            Escrever();
+                        }
 
-                                if(Integer.parseInt(Penaltis1Final.getText()) == 0 && Integer.parseInt(Penaltis2Final.getText()) == 0){
-                                }else {
+                        else{
 
-                                    Penaltis1Final.setText("0");
-
-                                    Penaltis2Final.setText("0");
-
-                                    Penaltis1Final.setEditable(false);
-
-                                    Penaltis2Final.setEditable(false);
-
-                                    Gols1Final.setEditable(true);
-
-                                    Gols2Final.setEditable(true);
-                                }
-
-                            }
-
-                        } else if (Integer.parseInt(Gols1Final.getText()) > Integer.parseInt(Gols2Final.getText())) {
-
-                            VencedorFinal.setText(VencedorSemi1.getText());
-
-                        } else {
-
-                            VencedorFinal.setText(VencedorSemi2.getText());
+                            throw new InputMismatchException();
 
                         }
 
-                        Escrever();
+                    }
+
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Final.setText("0");
+
+                        Penaltis2Final.setText("0");
+
+                        Penaltis1Final.setEditable(false);
+
+                        Penaltis2Final.setEditable(false);
+
+                        Gols1Final.setEditable(true);
+
+                        Gols2Final.setEditable(true);
 
                     }
 
-                    catch (Exception exception){
+                    catch (InputMismatchException exception){
+
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
@@ -3579,70 +4393,232 @@ public class Tabela {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if(PerderdorSemi1.getText() != "A definir" && PerderdorSemi2.getText() != "A definir") {
+                if(!PerderdorSemi1.getText().equals("A definir") && !PerderdorSemi2.getText().equals("A definir")) {
 
                     try {
 
-                        if (Integer.parseInt(Gols1Terceiro.getText()) == Integer.parseInt(Gols2Terceiro.getText())) {
+                        if(Integer.parseInt(Gols1Terceiro.getText()) >= 0 && Integer.parseInt(Gols2Terceiro.getText()) >= 0) {
 
-                            Penaltis1Terceiro.setEditable(true);
+                            if (Integer.parseInt(Gols1Terceiro.getText()) == Integer.parseInt(Gols2Terceiro.getText())) {
 
-                            Penaltis2Terceiro.setEditable(true);
+                                Penaltis1Terceiro.setEditable(true);
 
-                            Gols1Terceiro.setEditable(false);
+                                Penaltis2Terceiro.setEditable(true);
 
-                            Gols2Terceiro.setEditable(false);
+                                Gols1Terceiro.setEditable(false);
 
-                            if (Integer.parseInt(Penaltis1Terceiro.getText()) > Integer.parseInt(Penaltis2Terceiro.getText())) {
+                                Gols2Terceiro.setEditable(false);
+
+                                if(Integer.parseInt(Penaltis1Terceiro.getText()) >= 0 && Integer.parseInt(Penaltis2Terceiro.getText()) >= 0) {
+
+                                    if (Integer.parseInt(Penaltis1Terceiro.getText()) > Integer.parseInt(Penaltis2Terceiro.getText())) {
+
+                                        VencedorTerceiro.setText(PerderdorSemi1.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Terceiro.getText()) < Integer.parseInt(Penaltis2Terceiro.getText())) {
+
+                                        VencedorTerceiro.setText(PerderdorSemi2.getText());
+
+                                    }
+
+                                    if (Integer.parseInt(Penaltis1Terceiro.getText()) == Integer.parseInt(Penaltis2Terceiro.getText())) {
+
+                                        if (Integer.parseInt(Penaltis1Terceiro.getText()) == 0 && Integer.parseInt(Penaltis2Terceiro.getText()) == 0) {
+                                        } else {
+
+                                            Penaltis1Terceiro.setText("0");
+
+                                            Penaltis2Terceiro.setText("0");
+
+                                            Penaltis1Terceiro.setEditable(false);
+
+                                            Penaltis2Terceiro.setEditable(false);
+
+                                            Gols1Terceiro.setEditable(true);
+
+                                            Gols2Terceiro.setEditable(true);
+                                        }
+
+                                    }
+                                }
+
+                                else{
+
+                                    throw new InputMismatchException();
+
+                                }
+
+                            } else if (Integer.parseInt(Gols1Terceiro.getText()) > Integer.parseInt(Gols2Terceiro.getText())) {
 
                                 VencedorTerceiro.setText(PerderdorSemi1.getText());
 
-                            }
-
-                            if (Integer.parseInt(Penaltis1Terceiro.getText()) < Integer.parseInt(Penaltis2Terceiro.getText())) {
+                            } else {
 
                                 VencedorTerceiro.setText(PerderdorSemi2.getText());
 
                             }
 
-                            if (Integer.parseInt(Penaltis1Terceiro.getText()) == Integer.parseInt(Penaltis2Terceiro.getText())) {
+                            Escrever();
+                        }
 
-                                if(Integer.parseInt(Penaltis1Terceiro.getText()) == 0 && Integer.parseInt(Penaltis2Terceiro.getText()) == 0){
-                                }else {
+                        else{
 
-                                    Penaltis1Terceiro.setText("0");
-
-                                    Penaltis2Terceiro.setText("0");
-
-                                    Penaltis1Terceiro.setEditable(false);
-
-                                    Penaltis2Terceiro.setEditable(false);
-
-                                    Gols1Terceiro.setEditable(true);
-
-                                    Gols2Terceiro.setEditable(true);
-                                }
-
-                            }
-
-                        } else if (Integer.parseInt(Gols1Terceiro.getText()) > Integer.parseInt(Gols2Terceiro.getText())) {
-
-                            VencedorTerceiro.setText(PerderdorSemi1.getText());
-
-                        } else {
-
-                            VencedorTerceiro.setText(PerderdorSemi2.getText());
+                            throw new InputMismatchException();
 
                         }
 
-                        Escrever();
+                    }
+
+                    catch (NumberFormatException exception){
+
+                        Penaltis1Terceiro.setText("0");
+
+                        Penaltis2Terceiro.setText("0");
+
+                        Penaltis1Terceiro.setEditable(false);
+
+                        Penaltis2Terceiro.setEditable(false);
+
+                        Gols1Terceiro.setEditable(true);
+
+                        Gols2Terceiro.setEditable(true);
 
                     }
 
-                    catch (Exception exception){
+                    catch (InputMismatchException exception){
+
+                        JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
 
                     }
 
+                }
+
+            }
+        });
+        Reset1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
+                }
+
+            }
+        });
+        Reset2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
+                }
+
+            }
+        });
+        Reset3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
+                }
+
+            }
+        });
+        Reset4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
+                }
+
+            }
+        });
+        Reset5.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
+                }
+
+            }
+        });
+        Reset6.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
+                }
+
+            }
+        });
+        Reset7.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
+                }
+
+            }
+        });
+        Reset8.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
+                }
+
+            }
+        });
+        Reset9.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                Reset();
+
+                try {
+                    Ler();
+                } catch (FileNotFoundException exception) {
+                    throw new RuntimeException(exception);
                 }
 
             }
