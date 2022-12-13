@@ -542,7 +542,7 @@ public class Tabela {
 
     private void Reset(){
 
-        File arquivo = new File("D:/TrabalhoPOO/TrabalhoPOO/tabelaCopa.txt");
+        File arquivo = new File(System.getProperty("user.dir") + "/tabelaCopa.txt");
         FileWriter fw = null;
         try {
             fw = new FileWriter(arquivo);
@@ -996,7 +996,7 @@ public class Tabela {
     }
 
     private void Escrever(){
-        File arquivo = new File("D:/TrabalhoPOO/TrabalhoPOO/tabelaCopa.txt");
+        File arquivo = new File(System.getProperty("user.dir") + "/tabelaCopa.txt");
         FileWriter fw = null;
         try {
             fw = new FileWriter(arquivo);
@@ -1221,7 +1221,8 @@ public class Tabela {
     }
 
     private void Ler() throws FileNotFoundException {
-        File arquivo = new File("D:/TrabalhoPOO/TrabalhoPOO/tabelaCopa.txt");
+
+        File arquivo = new File(System.getProperty("user.dir") + "/tabelaCopa.txt");
         Scanner sc = new Scanner(arquivo);
         try{
             if(arquivo.exists()){
