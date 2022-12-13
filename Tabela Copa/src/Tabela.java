@@ -636,6 +636,38 @@ public class Tabela {
     private JLabel Gana1;
     private JLabel Gana2;
     private JLabel Gana3;
+    private JLabel C1A;
+    private JLabel C2A;
+    private JLabel C3A;
+    private JLabel C4A;
+    private JLabel C1B;
+    private JLabel C2B;
+    private JLabel C3B;
+    private JLabel C4B;
+    private JLabel C1C;
+    private JLabel C2C;
+    private JLabel C3C;
+    private JLabel C4C;
+    private JLabel C1D;
+    private JLabel C2D;
+    private JLabel C3D;
+    private JLabel C4D;
+    private JLabel C1E;
+    private JLabel C2E;
+    private JLabel C3E;
+    private JLabel C4E;
+    private JLabel C1F;
+    private JLabel C2F;
+    private JLabel C3F;
+    private JLabel C4F;
+    private JLabel C1G;
+    private JLabel C2G;
+    private JLabel C3G;
+    private JLabel C4G;
+    private JLabel C1H;
+    private JLabel C2H;
+    private JLabel C3H;
+    private JLabel C4H;
 
     private void Reset(){
 
@@ -849,76 +881,76 @@ public class Tabela {
             bw.write("A definir");
             bw.newLine();
             //TabelaA
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
             //TabelaB
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
             //TabelaC
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
             bw.write("A definir;0;0;0;0;0;0;0");
             bw.newLine();
             //TabelaD
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
             //TabelaE
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
             //TabelaF
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
             //TabelaG
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
             //TabelaH
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
             bw.newLine();
-            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.write("A definir;0;0;0;0;0;0;0;");
 
         } catch (IOException ex) {
             throw new RuntimeException(ex);
@@ -1155,76 +1187,76 @@ public class Tabela {
             bw.write(VencedorTerceiro.getText());
             bw.newLine();
             //TabelaA
-            bw.write(Time1GrupoA.getText() + ";" + V1A.getText() + ";" +  E1A.getText() + ";" + D1A.getText() + ";" + GP1A.getText() + ";" + GC1A.getText() + ";" + SG1A.getText() + ";" + PTS1A.getText());
+            bw.write(Time1GrupoA.getText() + ";" + V1A.getText() + ";" +  E1A.getText() + ";" + D1A.getText() + ";" + GP1A.getText() + ";" + GC1A.getText() + ";" + SG1A.getText() + ";" + PTS1A.getText() + ";" + C1A.getText());
             bw.newLine();
-            bw.write(Time2GrupoA.getText() + ";" + V2A.getText() + ";" +  E2A.getText() + ";" + D2A.getText() + ";" + GP2A.getText() + ";" + GC2A.getText() + ";" + SG2A.getText() + ";" + PTS2A.getText());
+            bw.write(Time2GrupoA.getText() + ";" + V2A.getText() + ";" +  E2A.getText() + ";" + D2A.getText() + ";" + GP2A.getText() + ";" + GC2A.getText() + ";" + SG2A.getText() + ";" + PTS2A.getText() + ";" + C2A.getText());
             bw.newLine();
-            bw.write(Time3GrupoA.getText() + ";" + V3A.getText() + ";" +  E3A.getText() + ";" + D3A.getText() + ";" + GP3A.getText() + ";" + GC3A.getText() + ";" + SG3A.getText() + ";" + PTS3A.getText());
+            bw.write(Time3GrupoA.getText() + ";" + V3A.getText() + ";" +  E3A.getText() + ";" + D3A.getText() + ";" + GP3A.getText() + ";" + GC3A.getText() + ";" + SG3A.getText() + ";" + PTS3A.getText() + ";" + C3A.getText());
             bw.newLine();
-            bw.write(Time4GrupoA.getText() + ";" + V4A.getText() + ";" +  E4A.getText() + ";" + D4A.getText() + ";" + GP4A.getText() + ";" + GC4A.getText() + ";" + SG4A.getText() + ";" + PTS4A.getText());
+            bw.write(Time4GrupoA.getText() + ";" + V4A.getText() + ";" +  E4A.getText() + ";" + D4A.getText() + ";" + GP4A.getText() + ";" + GC4A.getText() + ";" + SG4A.getText() + ";" + PTS4A.getText() + ";" + C4A.getText());
             bw.newLine();
             //TabelaB
-            bw.write(Time1GrupoB.getText() + ";" + V1B.getText() + ";" +  E1B.getText() + ";" + D1B.getText() + ";" + GP1B.getText() + ";" + GC1B.getText() + ";" + SG1B.getText() + ";" + PTS1B.getText());
+            bw.write(Time1GrupoB.getText() + ";" + V1B.getText() + ";" +  E1B.getText() + ";" + D1B.getText() + ";" + GP1B.getText() + ";" + GC1B.getText() + ";" + SG1B.getText() + ";" + PTS1B.getText() + ";" + C1B.getText());
             bw.newLine();
-            bw.write(Time2GrupoB.getText() + ";" + V2B.getText() + ";" +  E2B.getText() + ";" + D2B.getText() + ";" + GP2B.getText() + ";" + GC2B.getText() + ";" + SG2B.getText() + ";" + PTS2B.getText());
+            bw.write(Time2GrupoB.getText() + ";" + V2B.getText() + ";" +  E2B.getText() + ";" + D2B.getText() + ";" + GP2B.getText() + ";" + GC2B.getText() + ";" + SG2B.getText() + ";" + PTS2B.getText() + ";" + C2B.getText());
             bw.newLine();
-            bw.write(Time3GrupoB.getText() + ";" + V3B.getText() + ";" +  E3B.getText() + ";" + D3B.getText() + ";" + GP3B.getText() + ";" + GC3B.getText() + ";" + SG3B.getText() + ";" + PTS3B.getText());
+            bw.write(Time3GrupoB.getText() + ";" + V3B.getText() + ";" +  E3B.getText() + ";" + D3B.getText() + ";" + GP3B.getText() + ";" + GC3B.getText() + ";" + SG3B.getText() + ";" + PTS3B.getText() + ";" + C3B.getText());
             bw.newLine();
-            bw.write(Time4GrupoB.getText() + ";" + V4B.getText() + ";" +  E4B.getText() + ";" + D4B.getText() + ";" + GP4B.getText() + ";" + GC4B.getText() + ";" + SG4B.getText() + ";" + PTS4B.getText());
+            bw.write(Time4GrupoB.getText() + ";" + V4B.getText() + ";" +  E4B.getText() + ";" + D4B.getText() + ";" + GP4B.getText() + ";" + GC4B.getText() + ";" + SG4B.getText() + ";" + PTS4B.getText() + ";" + C4B.getText());
             bw.newLine();
             //TabelaC
-            bw.write(Time1GrupoC.getText() + ";" + V1C.getText() + ";" +  E1C.getText() + ";" + D1C.getText() + ";" + GP1C.getText() + ";" + GC1C.getText() + ";" + SG1C.getText() + ";" + PTS1C.getText());
+            bw.write(Time1GrupoC.getText() + ";" + V1C.getText() + ";" +  E1C.getText() + ";" + D1C.getText() + ";" + GP1C.getText() + ";" + GC1C.getText() + ";" + SG1C.getText() + ";" + PTS1C.getText() + ";" + C1C.getText());
             bw.newLine();
-            bw.write(Time2GrupoC.getText() + ";" + V2C.getText() + ";" +  E2C.getText() + ";" + D2C.getText() + ";" + GP2C.getText() + ";" + GC2C.getText() + ";" + SG2C.getText() + ";" + PTS2C.getText());
+            bw.write(Time2GrupoC.getText() + ";" + V2C.getText() + ";" +  E2C.getText() + ";" + D2C.getText() + ";" + GP2C.getText() + ";" + GC2C.getText() + ";" + SG2C.getText() + ";" + PTS2C.getText() + ";" + C2C.getText());
             bw.newLine();
-            bw.write(Time3GrupoC.getText() + ";" + V3C.getText() + ";" +  E3C.getText() + ";" + D3C.getText() + ";" + GP3C.getText() + ";" + GC3C.getText() + ";" + SG3C.getText() + ";" + PTS3C.getText());
+            bw.write(Time3GrupoC.getText() + ";" + V3C.getText() + ";" +  E3C.getText() + ";" + D3C.getText() + ";" + GP3C.getText() + ";" + GC3C.getText() + ";" + SG3C.getText() + ";" + PTS3C.getText() + ";" + C3C.getText());
             bw.newLine();
-            bw.write(Time4GrupoC.getText() + ";" + V4C.getText() + ";" +  E4C.getText() + ";" + D4C.getText() + ";" + GP4C.getText() + ";" + GC4C.getText() + ";" + SG4C.getText() + ";" + PTS4C.getText());
+            bw.write(Time4GrupoC.getText() + ";" + V4C.getText() + ";" +  E4C.getText() + ";" + D4C.getText() + ";" + GP4C.getText() + ";" + GC4C.getText() + ";" + SG4C.getText() + ";" + PTS4C.getText() + ";" + C4C.getText());
             bw.newLine();
             //TabelaD
-            bw.write(Time1GrupoD.getText() + ";" + V1D.getText() + ";" +  E1D.getText() + ";" + D1D.getText() + ";" + GP1D.getText() + ";" + GC1D.getText() + ";" + SG1D.getText() + ";" + PTS1D.getText());
+            bw.write(Time1GrupoD.getText() + ";" + V1D.getText() + ";" +  E1D.getText() + ";" + D1D.getText() + ";" + GP1D.getText() + ";" + GC1D.getText() + ";" + SG1D.getText() + ";" + PTS1D.getText() + ";" + C1D.getText());
             bw.newLine();
-            bw.write(Time2GrupoD.getText() + ";" + V2D.getText() + ";" +  E2D.getText() + ";" + D2D.getText() + ";" + GP2D.getText() + ";" + GC2D.getText() + ";" + SG2D.getText() + ";" + PTS2D.getText());
+            bw.write(Time2GrupoD.getText() + ";" + V2D.getText() + ";" +  E2D.getText() + ";" + D2D.getText() + ";" + GP2D.getText() + ";" + GC2D.getText() + ";" + SG2D.getText() + ";" + PTS2D.getText() + ";" + C2D.getText());
             bw.newLine();
-            bw.write(Time3GrupoD.getText() + ";" + V3D.getText() + ";" +  E3D.getText() + ";" + D3D.getText() + ";" + GP3D.getText() + ";" + GC3D.getText() + ";" + SG3D.getText() + ";" + PTS3D.getText());
+            bw.write(Time3GrupoD.getText() + ";" + V3D.getText() + ";" +  E3D.getText() + ";" + D3D.getText() + ";" + GP3D.getText() + ";" + GC3D.getText() + ";" + SG3D.getText() + ";" + PTS3D.getText() + ";" + C3D.getText());
             bw.newLine();
-            bw.write(Time4GrupoD.getText() + ";" + V4D.getText() + ";" +  E4D.getText() + ";" + D4D.getText() + ";" + GP4D.getText() + ";" + GC4D.getText() + ";" + SG4D.getText() + ";" + PTS4D.getText());
+            bw.write(Time4GrupoD.getText() + ";" + V4D.getText() + ";" +  E4D.getText() + ";" + D4D.getText() + ";" + GP4D.getText() + ";" + GC4D.getText() + ";" + SG4D.getText() + ";" + PTS4D.getText() + ";" + C4D.getText());
             bw.newLine();
             //TabelaE
-            bw.write(Time1GrupoE.getText() + ";" + V1E.getText() + ";" +  E1E.getText() + ";" + D1E.getText() + ";" + GP1E.getText() + ";" + GC1E.getText() + ";" + SG1E.getText() + ";" + PTS1E.getText());
+            bw.write(Time1GrupoE.getText() + ";" + V1E.getText() + ";" +  E1E.getText() + ";" + D1E.getText() + ";" + GP1E.getText() + ";" + GC1E.getText() + ";" + SG1E.getText() + ";" + PTS1E.getText() + ";" + C1E.getText());
             bw.newLine();
-            bw.write(Time2GrupoE.getText() + ";" + V2E.getText() + ";" +  E2E.getText() + ";" + D2E.getText() + ";" + GP2E.getText() + ";" + GC2E.getText() + ";" + SG2E.getText() + ";" + PTS2E.getText());
+            bw.write(Time2GrupoE.getText() + ";" + V2E.getText() + ";" +  E2E.getText() + ";" + D2E.getText() + ";" + GP2E.getText() + ";" + GC2E.getText() + ";" + SG2E.getText() + ";" + PTS2E.getText() + ";" + C2E.getText());
             bw.newLine();
-            bw.write(Time3GrupoE.getText() + ";" + V3E.getText() + ";" +  E3E.getText() + ";" + D3E.getText() + ";" + GP3E.getText() + ";" + GC3E.getText() + ";" + SG3E.getText() + ";" + PTS3E.getText());
+            bw.write(Time3GrupoE.getText() + ";" + V3E.getText() + ";" +  E3E.getText() + ";" + D3E.getText() + ";" + GP3E.getText() + ";" + GC3E.getText() + ";" + SG3E.getText() + ";" + PTS3E.getText() + ";" + C3E.getText());
             bw.newLine();
-            bw.write(Time4GrupoE.getText() + ";" + V4E.getText() + ";" +  E4E.getText() + ";" + D4E.getText() + ";" + GP4E.getText() + ";" + GC4E.getText() + ";" + SG4E.getText() + ";" + PTS4E.getText());
+            bw.write(Time4GrupoE.getText() + ";" + V4E.getText() + ";" +  E4E.getText() + ";" + D4E.getText() + ";" + GP4E.getText() + ";" + GC4E.getText() + ";" + SG4E.getText() + ";" + PTS4E.getText() + ";" + C4E.getText());
             bw.newLine();
             //TabelaF
-            bw.write(Time1GrupoF.getText() + ";" + V1F.getText() + ";" +  E1F.getText() + ";" + D1F.getText() + ";" + GP1F.getText() + ";" + GC1F.getText() + ";" + SG1F.getText() + ";" + PTS1F.getText());
+            bw.write(Time1GrupoF.getText() + ";" + V1F.getText() + ";" +  E1F.getText() + ";" + D1F.getText() + ";" + GP1F.getText() + ";" + GC1F.getText() + ";" + SG1F.getText() + ";" + PTS1F.getText() + ";" + C1F.getText());
             bw.newLine();
-            bw.write(Time2GrupoF.getText() + ";" + V2F.getText() + ";" +  E2F.getText() + ";" + D2F.getText() + ";" + GP2F.getText() + ";" + GC2F.getText() + ";" + SG2F.getText() + ";" + PTS2F.getText());
+            bw.write(Time2GrupoF.getText() + ";" + V2F.getText() + ";" +  E2F.getText() + ";" + D2F.getText() + ";" + GP2F.getText() + ";" + GC2F.getText() + ";" + SG2F.getText() + ";" + PTS2F.getText() + ";" + C2F.getText());
             bw.newLine();
-            bw.write(Time3GrupoF.getText() + ";" + V3F.getText() + ";" +  E3F.getText() + ";" + D3F.getText() + ";" + GP3F.getText() + ";" + GC3F.getText() + ";" + SG3F.getText() + ";" + PTS3F.getText());
+            bw.write(Time3GrupoF.getText() + ";" + V3F.getText() + ";" +  E3F.getText() + ";" + D3F.getText() + ";" + GP3F.getText() + ";" + GC3F.getText() + ";" + SG3F.getText() + ";" + PTS3F.getText() + ";" + C3F.getText());
             bw.newLine();
-            bw.write(Time4GrupoF.getText() + ";" + V4F.getText() + ";" +  E4F.getText() + ";" + D4F.getText() + ";" + GP4F.getText() + ";" + GC4F.getText() + ";" + SG4F.getText() + ";" + PTS4F.getText());
+            bw.write(Time4GrupoF.getText() + ";" + V4F.getText() + ";" +  E4F.getText() + ";" + D4F.getText() + ";" + GP4F.getText() + ";" + GC4F.getText() + ";" + SG4F.getText() + ";" + PTS4F.getText() + ";" + C4F.getText());
             bw.newLine();
             //TabelaG
-            bw.write(Time1GrupoG.getText() + ";" + V1G.getText() + ";" +  E1G.getText() + ";" + D1G.getText() + ";" + GP1G.getText() + ";" + GC1G.getText() + ";" + SG1G.getText() + ";" + PTS1G.getText());
+            bw.write(Time1GrupoG.getText() + ";" + V1G.getText() + ";" +  E1G.getText() + ";" + D1G.getText() + ";" + GP1G.getText() + ";" + GC1G.getText() + ";" + SG1G.getText() + ";" + PTS1G.getText() + ";" + C1G.getText());
             bw.newLine();
-            bw.write(Time2GrupoG.getText() + ";" + V2G.getText() + ";" +  E2G.getText() + ";" + D2G.getText() + ";" + GP2G.getText() + ";" + GC2G.getText() + ";" + SG2G.getText() + ";" + PTS2G.getText());
+            bw.write(Time2GrupoG.getText() + ";" + V2G.getText() + ";" +  E2G.getText() + ";" + D2G.getText() + ";" + GP2G.getText() + ";" + GC2G.getText() + ";" + SG2G.getText() + ";" + PTS2G.getText() + ";" + C2G.getText());
             bw.newLine();
-            bw.write(Time3GrupoG.getText() + ";" + V3G.getText() + ";" +  E3G.getText() + ";" + D3G.getText() + ";" + GP3G.getText() + ";" + GC3G.getText() + ";" + SG3G.getText() + ";" + PTS3G.getText());
+            bw.write(Time3GrupoG.getText() + ";" + V3G.getText() + ";" +  E3G.getText() + ";" + D3G.getText() + ";" + GP3G.getText() + ";" + GC3G.getText() + ";" + SG3G.getText() + ";" + PTS3G.getText() + ";" + C3G.getText());
             bw.newLine();
-            bw.write(Time4GrupoG.getText() + ";" + V4G.getText() + ";" +  E4G.getText() + ";" + D4G.getText() + ";" + GP4G.getText() + ";" + GC4G.getText() + ";" + SG4G.getText() + ";" + PTS4G.getText());
+            bw.write(Time4GrupoG.getText() + ";" + V4G.getText() + ";" +  E4G.getText() + ";" + D4G.getText() + ";" + GP4G.getText() + ";" + GC4G.getText() + ";" + SG4G.getText() + ";" + PTS4G.getText() + ";" + C4G.getText());
             bw.newLine();
             //TabelaH
-            bw.write(Time1GrupoH.getText() + ";" + V1H.getText() + ";" +  E1H.getText() + ";" + D1H.getText() + ";" + GP1H.getText() + ";" + GC1H.getText() + ";" + SG1H.getText() + ";" + PTS1H.getText());
+            bw.write(Time1GrupoH.getText() + ";" + V1H.getText() + ";" +  E1H.getText() + ";" + D1H.getText() + ";" + GP1H.getText() + ";" + GC1H.getText() + ";" + SG1H.getText() + ";" + PTS1H.getText() + ";" + C1H.getText());
             bw.newLine();
-            bw.write(Time2GrupoH.getText() + ";" + V2H.getText() + ";" +  E2H.getText() + ";" + D2H.getText() + ";" + GP2H.getText() + ";" + GC2H.getText() + ";" + SG2H.getText() + ";" + PTS2H.getText());
+            bw.write(Time2GrupoH.getText() + ";" + V2H.getText() + ";" +  E2H.getText() + ";" + D2H.getText() + ";" + GP2H.getText() + ";" + GC2H.getText() + ";" + SG2H.getText() + ";" + PTS2H.getText() + ";" + C2H.getText());
             bw.newLine();
-            bw.write(Time3GrupoH.getText() + ";" + V3H.getText() + ";" +  E3H.getText() + ";" + D3H.getText() + ";" + GP3H.getText() + ";" + GC3H.getText() + ";" + SG3H.getText() + ";" + PTS3H.getText());
+            bw.write(Time3GrupoH.getText() + ";" + V3H.getText() + ";" +  E3H.getText() + ";" + D3H.getText() + ";" + GP3H.getText() + ";" + GC3H.getText() + ";" + SG3H.getText() + ";" + PTS3H.getText() + ";" + C3H.getText());
             bw.newLine();
-            bw.write(Time4GrupoH.getText() + ";" + V4H.getText() + ";" +  E4H.getText() + ";" + D4H.getText() + ";" + GP4H.getText() + ";" + GC4H.getText() + ";" + SG4H.getText() + ";" + PTS4H.getText());
+            bw.write(Time4GrupoH.getText() + ";" + V4H.getText() + ";" +  E4H.getText() + ";" + D4H.getText() + ";" + GP4H.getText() + ";" + GC4H.getText() + ";" + SG4H.getText() + ";" + PTS4H.getText() + ";" + C4H.getText());
             bw.newLine();
         } catch (IOException ex) {
             throw new RuntimeException(ex);
@@ -1672,417 +1704,1037 @@ public class Tabela {
 
                     if(nTabela == 1){
 
-                        Time1GrupoA.setText(linhaSplit[0]);
-                        V1A.setText(linhaSplit[1]);
-                        E1A.setText(linhaSplit[2]);
-                        D1A.setText(linhaSplit[3]);
-                        GP1A.setText(linhaSplit[4]);
-                        GC1A.setText(linhaSplit[5]);
-                        SG1A.setText(linhaSplit[6]);
-                        PTS1A.setText(linhaSplit[7]);
+                        try {
+
+                            Time1GrupoA.setText(linhaSplit[0]);
+                            V1A.setText(linhaSplit[1]);
+                            E1A.setText(linhaSplit[2]);
+                            D1A.setText(linhaSplit[3]);
+                            GP1A.setText(linhaSplit[4]);
+                            GC1A.setText(linhaSplit[5]);
+                            SG1A.setText(linhaSplit[6]);
+                            PTS1A.setText(linhaSplit[7]);
+                            C1A.setText(linhaSplit[8]);
+                            Time1GrupoA.setIcon(new ImageIcon(linhaSplit[8]));
+
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time1GrupoA.setText(linhaSplit[0]);
+                            V1A.setText(linhaSplit[1]);
+                            E1A.setText(linhaSplit[2]);
+                            D1A.setText(linhaSplit[3]);
+                            GP1A.setText(linhaSplit[4]);
+                            GC1A.setText(linhaSplit[5]);
+                            SG1A.setText(linhaSplit[6]);
+                            PTS1A.setText(linhaSplit[7]);
+                            C1A.setText("");
+                            Time1GrupoA.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 2){
 
-                        Time2GrupoA.setText(linhaSplit[0]);
-                        V2A.setText(linhaSplit[1]);
-                        E2A.setText(linhaSplit[2]);
-                        D2A.setText(linhaSplit[3]);
-                        GP2A.setText(linhaSplit[4]);
-                        GC2A.setText(linhaSplit[5]);
-                        SG2A.setText(linhaSplit[6]);
-                        PTS2A.setText(linhaSplit[7]);
+                        try {
+
+                            Time2GrupoA.setText(linhaSplit[0]);
+                            V2A.setText(linhaSplit[1]);
+                            E2A.setText(linhaSplit[2]);
+                            D2A.setText(linhaSplit[3]);
+                            GP2A.setText(linhaSplit[4]);
+                            GC2A.setText(linhaSplit[5]);
+                            SG2A.setText(linhaSplit[6]);
+                            PTS2A.setText(linhaSplit[7]);
+                            C2A.setText(linhaSplit[8]);
+                            Time2GrupoA.setIcon(new ImageIcon(linhaSplit[8]));
+
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time2GrupoA.setText(linhaSplit[0]);
+                            V2A.setText(linhaSplit[1]);
+                            E2A.setText(linhaSplit[2]);
+                            D2A.setText(linhaSplit[3]);
+                            GP2A.setText(linhaSplit[4]);
+                            GC2A.setText(linhaSplit[5]);
+                            SG2A.setText(linhaSplit[6]);
+                            PTS2A.setText(linhaSplit[7]);
+                            C2A.setText("");
+                            Time2GrupoA.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 3){
 
-                        Time3GrupoA.setText(linhaSplit[0]);
-                        V3A.setText(linhaSplit[1]);
-                        E3A.setText(linhaSplit[2]);
-                        D3A.setText(linhaSplit[3]);
-                        GP3A.setText(linhaSplit[4]);
-                        GC3A.setText(linhaSplit[5]);
-                        SG3A.setText(linhaSplit[6]);
-                        PTS3A.setText(linhaSplit[7]);
+                        try {
+
+                            Time3GrupoA.setText(linhaSplit[0]);
+                            V3A.setText(linhaSplit[1]);
+                            E3A.setText(linhaSplit[2]);
+                            D3A.setText(linhaSplit[3]);
+                            GP3A.setText(linhaSplit[4]);
+                            GC3A.setText(linhaSplit[5]);
+                            SG3A.setText(linhaSplit[6]);
+                            PTS3A.setText(linhaSplit[7]);
+                            C3A.setText(linhaSplit[8]);
+                            Time3GrupoA.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch(ArrayIndexOutOfBoundsException exception){
+
+                            Time3GrupoA.setText(linhaSplit[0]);
+                            V3A.setText(linhaSplit[1]);
+                            E3A.setText(linhaSplit[2]);
+                            D3A.setText(linhaSplit[3]);
+                            GP3A.setText(linhaSplit[4]);
+                            GC3A.setText(linhaSplit[5]);
+                            SG3A.setText(linhaSplit[6]);
+                            PTS3A.setText(linhaSplit[7]);
+                            C3A.setText("");
+                            Time3GrupoA.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 4){
 
-                        Time4GrupoA.setText(linhaSplit[0]);
-                        V4A.setText(linhaSplit[1]);
-                        E4A.setText(linhaSplit[2]);
-                        D4A.setText(linhaSplit[3]);
-                        GP4A.setText(linhaSplit[4]);
-                        GC4A.setText(linhaSplit[5]);
-                        SG4A.setText(linhaSplit[6]);
-                        PTS4A.setText(linhaSplit[7]);
+                        try {
+
+                            Time4GrupoA.setText(linhaSplit[0]);
+                            V4A.setText(linhaSplit[1]);
+                            E4A.setText(linhaSplit[2]);
+                            D4A.setText(linhaSplit[3]);
+                            GP4A.setText(linhaSplit[4]);
+                            GC4A.setText(linhaSplit[5]);
+                            SG4A.setText(linhaSplit[6]);
+                            PTS4A.setText(linhaSplit[7]);
+                            C4A.setText(linhaSplit[8]);
+                            Time4GrupoA.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time4GrupoA.setText(linhaSplit[0]);
+                            V4A.setText(linhaSplit[1]);
+                            E4A.setText(linhaSplit[2]);
+                            D4A.setText(linhaSplit[3]);
+                            GP4A.setText(linhaSplit[4]);
+                            GC4A.setText(linhaSplit[5]);
+                            SG4A.setText(linhaSplit[6]);
+                            PTS4A.setText(linhaSplit[7]);
+                            C4A.setText("");
+                            Time4GrupoA.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 5){
 
-                        Time1GrupoB.setText(linhaSplit[0]);
-                        V1B.setText(linhaSplit[1]);
-                        E1B.setText(linhaSplit[2]);
-                        D1B.setText(linhaSplit[3]);
-                        GP1B.setText(linhaSplit[4]);
-                        GC1B.setText(linhaSplit[5]);
-                        SG1B.setText(linhaSplit[6]);
-                        PTS1B.setText(linhaSplit[7]);
+                        try {
+
+                            Time1GrupoB.setText(linhaSplit[0]);
+                            V1B.setText(linhaSplit[1]);
+                            E1B.setText(linhaSplit[2]);
+                            D1B.setText(linhaSplit[3]);
+                            GP1B.setText(linhaSplit[4]);
+                            GC1B.setText(linhaSplit[5]);
+                            SG1B.setText(linhaSplit[6]);
+                            PTS1B.setText(linhaSplit[7]);
+                            C1B.setText(linhaSplit[8]);
+                            Time1GrupoB.setIcon(new ImageIcon(linhaSplit[8]));
+
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time1GrupoB.setText(linhaSplit[0]);
+                            V1B.setText(linhaSplit[1]);
+                            E1B.setText(linhaSplit[2]);
+                            D1B.setText(linhaSplit[3]);
+                            GP1B.setText(linhaSplit[4]);
+                            GC1B.setText(linhaSplit[5]);
+                            SG1B.setText(linhaSplit[6]);
+                            PTS1B.setText(linhaSplit[7]);
+                            C1B.setText("");
+                            Time1GrupoB.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 6){
 
-                        Time2GrupoB.setText(linhaSplit[0]);
-                        V2B.setText(linhaSplit[1]);
-                        E2B.setText(linhaSplit[2]);
-                        D2B.setText(linhaSplit[3]);
-                        GP2B.setText(linhaSplit[4]);
-                        GC2B.setText(linhaSplit[5]);
-                        SG2B.setText(linhaSplit[6]);
-                        PTS2B.setText(linhaSplit[7]);
+                        try {
+
+                            Time2GrupoB.setText(linhaSplit[0]);
+                            V2B.setText(linhaSplit[1]);
+                            E2B.setText(linhaSplit[2]);
+                            D2B.setText(linhaSplit[3]);
+                            GP2B.setText(linhaSplit[4]);
+                            GC2B.setText(linhaSplit[5]);
+                            SG2B.setText(linhaSplit[6]);
+                            PTS2B.setText(linhaSplit[7]);
+                            C2B.setText(linhaSplit[8]);
+                            Time2GrupoB.setIcon(new ImageIcon(linhaSplit[8]));
+
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time2GrupoB.setText(linhaSplit[0]);
+                            V2B.setText(linhaSplit[1]);
+                            E2B.setText(linhaSplit[2]);
+                            D2B.setText(linhaSplit[3]);
+                            GP2B.setText(linhaSplit[4]);
+                            GC2B.setText(linhaSplit[5]);
+                            SG2B.setText(linhaSplit[6]);
+                            PTS2B.setText(linhaSplit[7]);
+                            C2B.setText("");
+                            Time2GrupoB.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 7){
 
-                        Time3GrupoB.setText(linhaSplit[0]);
-                        V3B.setText(linhaSplit[1]);
-                        E3B.setText(linhaSplit[2]);
-                        D3B.setText(linhaSplit[3]);
-                        GP3B.setText(linhaSplit[4]);
-                        GC3B.setText(linhaSplit[5]);
-                        SG3B.setText(linhaSplit[6]);
-                        PTS3B.setText(linhaSplit[7]);
+                        try {
+                            Time3GrupoB.setText(linhaSplit[0]);
+                            V3B.setText(linhaSplit[1]);
+                            E3B.setText(linhaSplit[2]);
+                            D3B.setText(linhaSplit[3]);
+                            GP3B.setText(linhaSplit[4]);
+                            GC3B.setText(linhaSplit[5]);
+                            SG3B.setText(linhaSplit[6]);
+                            PTS3B.setText(linhaSplit[7]);
+                            C3B.setText(linhaSplit[8]);
+                            Time3GrupoB.setIcon(new ImageIcon(linhaSplit[8]));
+
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time3GrupoB.setText(linhaSplit[0]);
+                            V3B.setText(linhaSplit[1]);
+                            E3B.setText(linhaSplit[2]);
+                            D3B.setText(linhaSplit[3]);
+                            GP3B.setText(linhaSplit[4]);
+                            GC3B.setText(linhaSplit[5]);
+                            SG3B.setText(linhaSplit[6]);
+                            PTS3B.setText(linhaSplit[7]);
+                            C3B.setText("");
+                            Time3GrupoB.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 8){
+                        try {
+                            Time4GrupoB.setText(linhaSplit[0]);
+                            V4B.setText(linhaSplit[1]);
+                            E4B.setText(linhaSplit[2]);
+                            D4B.setText(linhaSplit[3]);
+                            GP4B.setText(linhaSplit[4]);
+                            GC4B.setText(linhaSplit[5]);
+                            SG4B.setText(linhaSplit[6]);
+                            PTS4B.setText(linhaSplit[7]);
+                            C4B.setText(linhaSplit[8]);
+                            Time4GrupoB.setIcon(new ImageIcon(linhaSplit[8]));
 
-                        Time4GrupoB.setText(linhaSplit[0]);
-                        V4B.setText(linhaSplit[1]);
-                        E4B.setText(linhaSplit[2]);
-                        D4B.setText(linhaSplit[3]);
-                        GP4B.setText(linhaSplit[4]);
-                        GC4B.setText(linhaSplit[5]);
-                        SG4B.setText(linhaSplit[6]);
-                        PTS4B.setText(linhaSplit[7]);
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time4GrupoB.setText(linhaSplit[0]);
+                            V4B.setText(linhaSplit[1]);
+                            E4B.setText(linhaSplit[2]);
+                            D4B.setText(linhaSplit[3]);
+                            GP4B.setText(linhaSplit[4]);
+                            GC4B.setText(linhaSplit[5]);
+                            SG4B.setText(linhaSplit[6]);
+                            PTS4B.setText(linhaSplit[7]);
+                            C4B.setText("");
+                            Time4GrupoB.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 9){
 
-                        Time1GrupoC.setText(linhaSplit[0]);
-                        V1C.setText(linhaSplit[1]);
-                        E1C.setText(linhaSplit[2]);
-                        D1C.setText(linhaSplit[3]);
-                        GP1C.setText(linhaSplit[4]);
-                        GC1C.setText(linhaSplit[5]);
-                        SG1C.setText(linhaSplit[6]);
-                        PTS1C.setText(linhaSplit[7]);
+                        try {
+                            Time1GrupoC.setText(linhaSplit[0]);
+                            V1C.setText(linhaSplit[1]);
+                            E1C.setText(linhaSplit[2]);
+                            D1C.setText(linhaSplit[3]);
+                            GP1C.setText(linhaSplit[4]);
+                            GC1C.setText(linhaSplit[5]);
+                            SG1C.setText(linhaSplit[6]);
+                            PTS1C.setText(linhaSplit[7]);
+                            C1C.setText(linhaSplit[8]);
+                            Time1GrupoC.setIcon(new ImageIcon(linhaSplit[8]));
+
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time1GrupoC.setText(linhaSplit[0]);
+                            V1C.setText(linhaSplit[1]);
+                            E1C.setText(linhaSplit[2]);
+                            D1C.setText(linhaSplit[3]);
+                            GP1C.setText(linhaSplit[4]);
+                            GC1C.setText(linhaSplit[5]);
+                            SG1C.setText(linhaSplit[6]);
+                            PTS1C.setText(linhaSplit[7]);
+                            C1C.setText("");
+                            Time1GrupoC.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 10){
 
-                        Time2GrupoC.setText(linhaSplit[0]);
-                        V2C.setText(linhaSplit[1]);
-                        E2C.setText(linhaSplit[2]);
-                        D2C.setText(linhaSplit[3]);
-                        GP2C.setText(linhaSplit[4]);
-                        GC2C.setText(linhaSplit[5]);
-                        SG2C.setText(linhaSplit[6]);
-                        PTS2C.setText(linhaSplit[7]);
+                        try {
+                            Time2GrupoC.setText(linhaSplit[0]);
+                            V2C.setText(linhaSplit[1]);
+                            E2C.setText(linhaSplit[2]);
+                            D2C.setText(linhaSplit[3]);
+                            GP2C.setText(linhaSplit[4]);
+                            GC2C.setText(linhaSplit[5]);
+                            SG2C.setText(linhaSplit[6]);
+                            PTS2C.setText(linhaSplit[7]);
+                            C2C.setText(linhaSplit[8]);
+                            Time2GrupoC.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time2GrupoC.setText(linhaSplit[0]);
+                            V2C.setText(linhaSplit[1]);
+                            E2C.setText(linhaSplit[2]);
+                            D2C.setText(linhaSplit[3]);
+                            GP2C.setText(linhaSplit[4]);
+                            GC2C.setText(linhaSplit[5]);
+                            SG2C.setText(linhaSplit[6]);
+                            PTS2C.setText(linhaSplit[7]);
+                            C2C.setText("");
+                            Time2GrupoC.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 11){
 
-                        Time3GrupoC.setText(linhaSplit[0]);
-                        V3C.setText(linhaSplit[1]);
-                        E3C.setText(linhaSplit[2]);
-                        D3C.setText(linhaSplit[3]);
-                        GP3C.setText(linhaSplit[4]);
-                        GC3C.setText(linhaSplit[5]);
-                        SG3C.setText(linhaSplit[6]);
-                        PTS3C.setText(linhaSplit[7]);
+                        try {
+                            Time3GrupoC.setText(linhaSplit[0]);
+                            V3C.setText(linhaSplit[1]);
+                            E3C.setText(linhaSplit[2]);
+                            D3C.setText(linhaSplit[3]);
+                            GP3C.setText(linhaSplit[4]);
+                            GC3C.setText(linhaSplit[5]);
+                            SG3C.setText(linhaSplit[6]);
+                            PTS3C.setText(linhaSplit[7]);
+                            C3C.setText(linhaSplit[8]);
+                            Time3GrupoC.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time3GrupoC.setText(linhaSplit[0]);
+                            V3C.setText(linhaSplit[1]);
+                            E3C.setText(linhaSplit[2]);
+                            D3C.setText(linhaSplit[3]);
+                            GP3C.setText(linhaSplit[4]);
+                            GC3C.setText(linhaSplit[5]);
+                            SG3C.setText(linhaSplit[6]);
+                            PTS3C.setText(linhaSplit[7]);
+                            C3C.setText("");
+                            Time3GrupoC.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 12){
 
-                        Time4GrupoC.setText(linhaSplit[0]);
-                        V4C.setText(linhaSplit[1]);
-                        E4C.setText(linhaSplit[2]);
-                        D4C.setText(linhaSplit[3]);
-                        GP4C.setText(linhaSplit[4]);
-                        GC4C.setText(linhaSplit[5]);
-                        SG4C.setText(linhaSplit[6]);
-                        PTS4C.setText(linhaSplit[7]);
+                        try {
+                            Time4GrupoC.setText(linhaSplit[0]);
+                            V4C.setText(linhaSplit[1]);
+                            E4C.setText(linhaSplit[2]);
+                            D4C.setText(linhaSplit[3]);
+                            GP4C.setText(linhaSplit[4]);
+                            GC4C.setText(linhaSplit[5]);
+                            SG4C.setText(linhaSplit[6]);
+                            PTS4C.setText(linhaSplit[7]);
+                            C4C.setText(linhaSplit[8]);
+                            Time4GrupoC.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time4GrupoC.setText(linhaSplit[0]);
+                            V4C.setText(linhaSplit[1]);
+                            E4C.setText(linhaSplit[2]);
+                            D4C.setText(linhaSplit[3]);
+                            GP4C.setText(linhaSplit[4]);
+                            GC4C.setText(linhaSplit[5]);
+                            SG4C.setText(linhaSplit[6]);
+                            PTS4C.setText(linhaSplit[7]);
+                            C4C.setText("");
+                            Time4GrupoC.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 13){
 
-                        Time1GrupoD.setText(linhaSplit[0]);
-                        V1D.setText(linhaSplit[1]);
-                        E1D.setText(linhaSplit[2]);
-                        D1D.setText(linhaSplit[3]);
-                        GP1D.setText(linhaSplit[4]);
-                        GC1D.setText(linhaSplit[5]);
-                        SG1D.setText(linhaSplit[6]);
-                        PTS1D.setText(linhaSplit[7]);
+                        try {
+                            Time1GrupoD.setText(linhaSplit[0]);
+                            V1D.setText(linhaSplit[1]);
+                            E1D.setText(linhaSplit[2]);
+                            D1D.setText(linhaSplit[3]);
+                            GP1D.setText(linhaSplit[4]);
+                            GC1D.setText(linhaSplit[5]);
+                            SG1D.setText(linhaSplit[6]);
+                            PTS1D.setText(linhaSplit[7]);
+                            C1D.setText(linhaSplit[8]);
+                            Time1GrupoD.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time1GrupoD.setText(linhaSplit[0]);
+                            V1D.setText(linhaSplit[1]);
+                            E1D.setText(linhaSplit[2]);
+                            D1D.setText(linhaSplit[3]);
+                            GP1D.setText(linhaSplit[4]);
+                            GC1D.setText(linhaSplit[5]);
+                            SG1D.setText(linhaSplit[6]);
+                            PTS1D.setText(linhaSplit[7]);
+                            C1D.setText("");
+                            Time1GrupoD.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 14){
 
-                        Time2GrupoD.setText(linhaSplit[0]);
-                        V2D.setText(linhaSplit[1]);
-                        E2D.setText(linhaSplit[2]);
-                        D2D.setText(linhaSplit[3]);
-                        GP2D.setText(linhaSplit[4]);
-                        GC2D.setText(linhaSplit[5]);
-                        SG2D.setText(linhaSplit[6]);
-                        PTS2D.setText(linhaSplit[7]);
+                        try {
+                            Time2GrupoD.setText(linhaSplit[0]);
+                            V2D.setText(linhaSplit[1]);
+                            E2D.setText(linhaSplit[2]);
+                            D2D.setText(linhaSplit[3]);
+                            GP2D.setText(linhaSplit[4]);
+                            GC2D.setText(linhaSplit[5]);
+                            SG2D.setText(linhaSplit[6]);
+                            PTS2D.setText(linhaSplit[7]);
+                            C2D.setText(linhaSplit[8]);
+                            Time2GrupoD.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time2GrupoD.setText(linhaSplit[0]);
+                            V2D.setText(linhaSplit[1]);
+                            E2D.setText(linhaSplit[2]);
+                            D2D.setText(linhaSplit[3]);
+                            GP2D.setText(linhaSplit[4]);
+                            GC2D.setText(linhaSplit[5]);
+                            SG2D.setText(linhaSplit[6]);
+                            PTS2D.setText(linhaSplit[7]);
+                            C2D.setText("");
+                            Time2GrupoD.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 15){
 
-                        Time3GrupoD.setText(linhaSplit[0]);
-                        V3D.setText(linhaSplit[1]);
-                        E3D.setText(linhaSplit[2]);
-                        D3D.setText(linhaSplit[3]);
-                        GP3D.setText(linhaSplit[4]);
-                        GC3D.setText(linhaSplit[5]);
-                        SG3D.setText(linhaSplit[6]);
-                        PTS3D.setText(linhaSplit[7]);
+                        try {
+                            Time3GrupoD.setText(linhaSplit[0]);
+                            V3D.setText(linhaSplit[1]);
+                            E3D.setText(linhaSplit[2]);
+                            D3D.setText(linhaSplit[3]);
+                            GP3D.setText(linhaSplit[4]);
+                            GC3D.setText(linhaSplit[5]);
+                            SG3D.setText(linhaSplit[6]);
+                            PTS3D.setText(linhaSplit[7]);
+                            C3D.setText(linhaSplit[8]);
+                            Time3GrupoD.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time3GrupoD.setText(linhaSplit[0]);
+                            V3D.setText(linhaSplit[1]);
+                            E3D.setText(linhaSplit[2]);
+                            D3D.setText(linhaSplit[3]);
+                            GP3D.setText(linhaSplit[4]);
+                            GC3D.setText(linhaSplit[5]);
+                            SG3D.setText(linhaSplit[6]);
+                            PTS3D.setText(linhaSplit[7]);
+                            C3D.setText("");
+                            Time3GrupoD.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 16){
 
-                        Time4GrupoD.setText(linhaSplit[0]);
-                        V4D.setText(linhaSplit[1]);
-                        E4D.setText(linhaSplit[2]);
-                        D4D.setText(linhaSplit[3]);
-                        GP4D.setText(linhaSplit[4]);
-                        GC4D.setText(linhaSplit[5]);
-                        SG4D.setText(linhaSplit[6]);
-                        PTS4D.setText(linhaSplit[7]);
+                        try {
+                            Time4GrupoD.setText(linhaSplit[0]);
+                            V4D.setText(linhaSplit[1]);
+                            E4D.setText(linhaSplit[2]);
+                            D4D.setText(linhaSplit[3]);
+                            GP4D.setText(linhaSplit[4]);
+                            GC4D.setText(linhaSplit[5]);
+                            SG4D.setText(linhaSplit[6]);
+                            PTS4D.setText(linhaSplit[7]);
+                            C4D.setText(linhaSplit[8]);
+                            Time4GrupoD.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time4GrupoD.setText(linhaSplit[0]);
+                            V4D.setText(linhaSplit[1]);
+                            E4D.setText(linhaSplit[2]);
+                            D4D.setText(linhaSplit[3]);
+                            GP4D.setText(linhaSplit[4]);
+                            GC4D.setText(linhaSplit[5]);
+                            SG4D.setText(linhaSplit[6]);
+                            PTS4D.setText(linhaSplit[7]);
+                            C4D.setText("");
+                            Time4GrupoD.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 17){
 
-                        Time1GrupoE.setText(linhaSplit[0]);
-                        V1E.setText(linhaSplit[1]);
-                        E1E.setText(linhaSplit[2]);
-                        D1E.setText(linhaSplit[3]);
-                        GP1E.setText(linhaSplit[4]);
-                        GC1E.setText(linhaSplit[5]);
-                        SG1E.setText(linhaSplit[6]);
-                        PTS1E.setText(linhaSplit[7]);
+                        try {
+                            Time1GrupoE.setText(linhaSplit[0]);
+                            V1E.setText(linhaSplit[1]);
+                            E1E.setText(linhaSplit[2]);
+                            D1E.setText(linhaSplit[3]);
+                            GP1E.setText(linhaSplit[4]);
+                            GC1E.setText(linhaSplit[5]);
+                            SG1E.setText(linhaSplit[6]);
+                            PTS1E.setText(linhaSplit[7]);
+                            C1E.setText(linhaSplit[8]);
+                            Time1GrupoE.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time1GrupoE.setText(linhaSplit[0]);
+                            V1E.setText(linhaSplit[1]);
+                            E1E.setText(linhaSplit[2]);
+                            D1E.setText(linhaSplit[3]);
+                            GP1E.setText(linhaSplit[4]);
+                            GC1E.setText(linhaSplit[5]);
+                            SG1E.setText(linhaSplit[6]);
+                            PTS1E.setText(linhaSplit[7]);
+                            C1E.setText("");
+                            Time1GrupoE.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 18){
 
-                        Time2GrupoE.setText(linhaSplit[0]);
-                        V2E.setText(linhaSplit[1]);
-                        E2E.setText(linhaSplit[2]);
-                        D2E.setText(linhaSplit[3]);
-                        GP2E.setText(linhaSplit[4]);
-                        GC2E.setText(linhaSplit[5]);
-                        SG2E.setText(linhaSplit[6]);
-                        PTS2E.setText(linhaSplit[7]);
+                        try {
+                            Time2GrupoE.setText(linhaSplit[0]);
+                            V2E.setText(linhaSplit[1]);
+                            E2E.setText(linhaSplit[2]);
+                            D2E.setText(linhaSplit[3]);
+                            GP2E.setText(linhaSplit[4]);
+                            GC2E.setText(linhaSplit[5]);
+                            SG2E.setText(linhaSplit[6]);
+                            PTS2E.setText(linhaSplit[7]);
+                            C2E.setText(linhaSplit[8]);
+                            Time2GrupoE.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time2GrupoE.setText(linhaSplit[0]);
+                            V2E.setText(linhaSplit[1]);
+                            E2E.setText(linhaSplit[2]);
+                            D2E.setText(linhaSplit[3]);
+                            GP2E.setText(linhaSplit[4]);
+                            GC2E.setText(linhaSplit[5]);
+                            SG2E.setText(linhaSplit[6]);
+                            PTS2E.setText(linhaSplit[7]);
+                            C2E.setText("");
+                            Time2GrupoE.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 19){
 
-                        Time3GrupoE.setText(linhaSplit[0]);
-                        V3E.setText(linhaSplit[1]);
-                        E3E.setText(linhaSplit[2]);
-                        D3E.setText(linhaSplit[3]);
-                        GP3E.setText(linhaSplit[4]);
-                        GC3E.setText(linhaSplit[5]);
-                        SG3E.setText(linhaSplit[6]);
-                        PTS3E.setText(linhaSplit[7]);
+                        try {
+                            Time3GrupoE.setText(linhaSplit[0]);
+                            V3E.setText(linhaSplit[1]);
+                            E3E.setText(linhaSplit[2]);
+                            D3E.setText(linhaSplit[3]);
+                            GP3E.setText(linhaSplit[4]);
+                            GC3E.setText(linhaSplit[5]);
+                            SG3E.setText(linhaSplit[6]);
+                            PTS3E.setText(linhaSplit[7]);
+                            C3E.setText(linhaSplit[8]);
+                            Time3GrupoE.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time3GrupoE.setText(linhaSplit[0]);
+                            V3E.setText(linhaSplit[1]);
+                            E3E.setText(linhaSplit[2]);
+                            D3E.setText(linhaSplit[3]);
+                            GP3E.setText(linhaSplit[4]);
+                            GC3E.setText(linhaSplit[5]);
+                            SG3E.setText(linhaSplit[6]);
+                            PTS3E.setText(linhaSplit[7]);
+                            C3E.setText("");
+                            Time3GrupoE.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 20){
 
-                        Time4GrupoE.setText(linhaSplit[0]);
-                        V4E.setText(linhaSplit[1]);
-                        E4E.setText(linhaSplit[2]);
-                        D4E.setText(linhaSplit[3]);
-                        GP4E.setText(linhaSplit[4]);
-                        GC4E.setText(linhaSplit[5]);
-                        SG4E.setText(linhaSplit[6]);
-                        PTS4E.setText(linhaSplit[7]);
+                        try {
+                            Time4GrupoE.setText(linhaSplit[0]);
+                            V4E.setText(linhaSplit[1]);
+                            E4E.setText(linhaSplit[2]);
+                            D4E.setText(linhaSplit[3]);
+                            GP4E.setText(linhaSplit[4]);
+                            GC4E.setText(linhaSplit[5]);
+                            SG4E.setText(linhaSplit[6]);
+                            PTS4E.setText(linhaSplit[7]);
+                            C4E.setText(linhaSplit[8]);
+                            Time4GrupoE.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time4GrupoE.setText(linhaSplit[0]);
+                            V4E.setText(linhaSplit[1]);
+                            E4E.setText(linhaSplit[2]);
+                            D4E.setText(linhaSplit[3]);
+                            GP4E.setText(linhaSplit[4]);
+                            GC4E.setText(linhaSplit[5]);
+                            SG4E.setText(linhaSplit[6]);
+                            PTS4E.setText(linhaSplit[7]);
+                            C4E.setText("");
+                            Time4GrupoE.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 21){
 
-                        Time1GrupoF.setText(linhaSplit[0]);
-                        V1F.setText(linhaSplit[1]);
-                        E1F.setText(linhaSplit[2]);
-                        D1F.setText(linhaSplit[3]);
-                        GP1F.setText(linhaSplit[4]);
-                        GC1F.setText(linhaSplit[5]);
-                        SG1F.setText(linhaSplit[6]);
-                        PTS1F.setText(linhaSplit[7]);
+                        try {
+                            Time1GrupoF.setText(linhaSplit[0]);
+                            V1F.setText(linhaSplit[1]);
+                            E1F.setText(linhaSplit[2]);
+                            D1F.setText(linhaSplit[3]);
+                            GP1F.setText(linhaSplit[4]);
+                            GC1F.setText(linhaSplit[5]);
+                            SG1F.setText(linhaSplit[6]);
+                            PTS1F.setText(linhaSplit[7]);
+                            C1F.setText(linhaSplit[8]);
+                            Time1GrupoF.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time1GrupoF.setText(linhaSplit[0]);
+                            V1F.setText(linhaSplit[1]);
+                            E1F.setText(linhaSplit[2]);
+                            D1F.setText(linhaSplit[3]);
+                            GP1F.setText(linhaSplit[4]);
+                            GC1F.setText(linhaSplit[5]);
+                            SG1F.setText(linhaSplit[6]);
+                            PTS1F.setText(linhaSplit[7]);
+                            C1F.setText("");
+                            Time1GrupoF.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 22){
 
-                        Time2GrupoF.setText(linhaSplit[0]);
-                        V2F.setText(linhaSplit[1]);
-                        E2F.setText(linhaSplit[2]);
-                        D2F.setText(linhaSplit[3]);
-                        GP2F.setText(linhaSplit[4]);
-                        GC2F.setText(linhaSplit[5]);
-                        SG2F.setText(linhaSplit[6]);
-                        PTS2F.setText(linhaSplit[7]);
+                        try {
+                            Time2GrupoF.setText(linhaSplit[0]);
+                            V2F.setText(linhaSplit[1]);
+                            E2F.setText(linhaSplit[2]);
+                            D2F.setText(linhaSplit[3]);
+                            GP2F.setText(linhaSplit[4]);
+                            GC2F.setText(linhaSplit[5]);
+                            SG2F.setText(linhaSplit[6]);
+                            PTS2F.setText(linhaSplit[7]);
+                            C2F.setText(linhaSplit[8]);
+                            Time2GrupoF.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time2GrupoF.setText(linhaSplit[0]);
+                            V2F.setText(linhaSplit[1]);
+                            E2F.setText(linhaSplit[2]);
+                            D2F.setText(linhaSplit[3]);
+                            GP2F.setText(linhaSplit[4]);
+                            GC2F.setText(linhaSplit[5]);
+                            SG2F.setText(linhaSplit[6]);
+                            PTS2F.setText(linhaSplit[7]);
+                            C2F.setText("");
+                            Time2GrupoF.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 23){
 
-                        Time3GrupoF.setText(linhaSplit[0]);
-                        V3F.setText(linhaSplit[1]);
-                        E3F.setText(linhaSplit[2]);
-                        D3F.setText(linhaSplit[3]);
-                        GP3F.setText(linhaSplit[4]);
-                        GC3F.setText(linhaSplit[5]);
-                        SG3F.setText(linhaSplit[6]);
-                        PTS3F.setText(linhaSplit[7]);
+                        try {
+                            Time3GrupoF.setText(linhaSplit[0]);
+                            V3F.setText(linhaSplit[1]);
+                            E3F.setText(linhaSplit[2]);
+                            D3F.setText(linhaSplit[3]);
+                            GP3F.setText(linhaSplit[4]);
+                            GC3F.setText(linhaSplit[5]);
+                            SG3F.setText(linhaSplit[6]);
+                            PTS3F.setText(linhaSplit[7]);
+                            C3F.setText(linhaSplit[8]);
+                            Time3GrupoF.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time3GrupoF.setText(linhaSplit[0]);
+                            V3F.setText(linhaSplit[1]);
+                            E3F.setText(linhaSplit[2]);
+                            D3F.setText(linhaSplit[3]);
+                            GP3F.setText(linhaSplit[4]);
+                            GC3F.setText(linhaSplit[5]);
+                            SG3F.setText(linhaSplit[6]);
+                            PTS3F.setText(linhaSplit[7]);
+                            C3F.setText("");
+                            Time3GrupoF.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 24){
 
-                        Time4GrupoF.setText(linhaSplit[0]);
-                        V4F.setText(linhaSplit[1]);
-                        E4F.setText(linhaSplit[2]);
-                        D4F.setText(linhaSplit[3]);
-                        GP4F.setText(linhaSplit[4]);
-                        GC4F.setText(linhaSplit[5]);
-                        SG4F.setText(linhaSplit[6]);
-                        PTS4F.setText(linhaSplit[7]);
+                        try {
+                            Time4GrupoF.setText(linhaSplit[0]);
+                            V4F.setText(linhaSplit[1]);
+                            E4F.setText(linhaSplit[2]);
+                            D4F.setText(linhaSplit[3]);
+                            GP4F.setText(linhaSplit[4]);
+                            GC4F.setText(linhaSplit[5]);
+                            SG4F.setText(linhaSplit[6]);
+                            PTS4F.setText(linhaSplit[7]);
+                            C4F.setText(linhaSplit[8]);
+                            Time4GrupoF.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time4GrupoF.setText(linhaSplit[0]);
+                            V4F.setText(linhaSplit[1]);
+                            E4F.setText(linhaSplit[2]);
+                            D4F.setText(linhaSplit[3]);
+                            GP4F.setText(linhaSplit[4]);
+                            GC4F.setText(linhaSplit[5]);
+                            SG4F.setText(linhaSplit[6]);
+                            PTS4F.setText(linhaSplit[7]);
+                            C4F.setText("");
+                            Time4GrupoF.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 25){
 
-                        Time1GrupoG.setText(linhaSplit[0]);
-                        V1G.setText(linhaSplit[1]);
-                        E1G.setText(linhaSplit[2]);
-                        D1G.setText(linhaSplit[3]);
-                        GP1G.setText(linhaSplit[4]);
-                        GC1G.setText(linhaSplit[5]);
-                        SG1G.setText(linhaSplit[6]);
-                        PTS1G.setText(linhaSplit[7]);
+                        try {
+                            Time1GrupoG.setText(linhaSplit[0]);
+                            V1G.setText(linhaSplit[1]);
+                            E1G.setText(linhaSplit[2]);
+                            D1G.setText(linhaSplit[3]);
+                            GP1G.setText(linhaSplit[4]);
+                            GC1G.setText(linhaSplit[5]);
+                            SG1G.setText(linhaSplit[6]);
+                            PTS1G.setText(linhaSplit[7]);
+                            C1G.setText(linhaSplit[8]);
+                            Time1GrupoG.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time1GrupoG.setText(linhaSplit[0]);
+                            V1G.setText(linhaSplit[1]);
+                            E1G.setText(linhaSplit[2]);
+                            D1G.setText(linhaSplit[3]);
+                            GP1G.setText(linhaSplit[4]);
+                            GC1G.setText(linhaSplit[5]);
+                            SG1G.setText(linhaSplit[6]);
+                            PTS1G.setText(linhaSplit[7]);
+                            C1G.setText("");
+                            Time1GrupoG.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 26){
 
-                        Time2GrupoG.setText(linhaSplit[0]);
-                        V2G.setText(linhaSplit[1]);
-                        E2G.setText(linhaSplit[2]);
-                        D2G.setText(linhaSplit[3]);
-                        GP2G.setText(linhaSplit[4]);
-                        GC2G.setText(linhaSplit[5]);
-                        SG2G.setText(linhaSplit[6]);
-                        PTS2G.setText(linhaSplit[7]);
+                        try {
+                            Time2GrupoG.setText(linhaSplit[0]);
+                            V2G.setText(linhaSplit[1]);
+                            E2G.setText(linhaSplit[2]);
+                            D2G.setText(linhaSplit[3]);
+                            GP2G.setText(linhaSplit[4]);
+                            GC2G.setText(linhaSplit[5]);
+                            SG2G.setText(linhaSplit[6]);
+                            PTS2G.setText(linhaSplit[7]);
+                            C2G.setText(linhaSplit[8]);
+                            Time2GrupoG.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time2GrupoG.setText(linhaSplit[0]);
+                            V2G.setText(linhaSplit[1]);
+                            E2G.setText(linhaSplit[2]);
+                            D2G.setText(linhaSplit[3]);
+                            GP2G.setText(linhaSplit[4]);
+                            GC2G.setText(linhaSplit[5]);
+                            SG2G.setText(linhaSplit[6]);
+                            PTS2G.setText(linhaSplit[7]);
+                            C2G.setText("");
+                            Time2GrupoG.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 27){
 
-                        Time3GrupoG.setText(linhaSplit[0]);
-                        V3G.setText(linhaSplit[1]);
-                        E3G.setText(linhaSplit[2]);
-                        D3G.setText(linhaSplit[3]);
-                        GP3G.setText(linhaSplit[4]);
-                        GC3G.setText(linhaSplit[5]);
-                        SG3G.setText(linhaSplit[6]);
-                        PTS3G.setText(linhaSplit[7]);
+                        try {
+                            Time3GrupoG.setText(linhaSplit[0]);
+                            V3G.setText(linhaSplit[1]);
+                            E3G.setText(linhaSplit[2]);
+                            D3G.setText(linhaSplit[3]);
+                            GP3G.setText(linhaSplit[4]);
+                            GC3G.setText(linhaSplit[5]);
+                            SG3G.setText(linhaSplit[6]);
+                            PTS3G.setText(linhaSplit[7]);
+                            C3G.setText(linhaSplit[8]);
+                            Time3GrupoG.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time3GrupoG.setText(linhaSplit[0]);
+                            V3G.setText(linhaSplit[1]);
+                            E3G.setText(linhaSplit[2]);
+                            D3G.setText(linhaSplit[3]);
+                            GP3G.setText(linhaSplit[4]);
+                            GC3G.setText(linhaSplit[5]);
+                            SG3G.setText(linhaSplit[6]);
+                            PTS3G.setText(linhaSplit[7]);
+                            C3G.setText("");
+                            Time3GrupoG.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 28){
 
-                        Time4GrupoG.setText(linhaSplit[0]);
-                        V4G.setText(linhaSplit[1]);
-                        E4G.setText(linhaSplit[2]);
-                        D4G.setText(linhaSplit[3]);
-                        GP4G.setText(linhaSplit[4]);
-                        GC4G.setText(linhaSplit[5]);
-                        SG4G.setText(linhaSplit[6]);
-                        PTS4G.setText(linhaSplit[7]);
+                        try {
+                            Time4GrupoG.setText(linhaSplit[0]);
+                            V4G.setText(linhaSplit[1]);
+                            E4G.setText(linhaSplit[2]);
+                            D4G.setText(linhaSplit[3]);
+                            GP4G.setText(linhaSplit[4]);
+                            GC4G.setText(linhaSplit[5]);
+                            SG4G.setText(linhaSplit[6]);
+                            PTS4G.setText(linhaSplit[7]);
+                            C4G.setText(linhaSplit[8]);
+                            Time4GrupoG.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time4GrupoG.setText(linhaSplit[0]);
+                            V4G.setText(linhaSplit[1]);
+                            E4G.setText(linhaSplit[2]);
+                            D4G.setText(linhaSplit[3]);
+                            GP4G.setText(linhaSplit[4]);
+                            GC4G.setText(linhaSplit[5]);
+                            SG4G.setText(linhaSplit[6]);
+                            PTS4G.setText(linhaSplit[7]);
+                            C4G.setText("");
+                            Time4GrupoG.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 29){
 
-                        Time1GrupoH.setText(linhaSplit[0]);
-                        V1H.setText(linhaSplit[1]);
-                        E1H.setText(linhaSplit[2]);
-                        D1H.setText(linhaSplit[3]);
-                        GP1H.setText(linhaSplit[4]);
-                        GC1H.setText(linhaSplit[5]);
-                        SG1H.setText(linhaSplit[6]);
-                        PTS1H.setText(linhaSplit[7]);
+                        try {
+                            Time1GrupoH.setText(linhaSplit[0]);
+                            V1H.setText(linhaSplit[1]);
+                            E1H.setText(linhaSplit[2]);
+                            D1H.setText(linhaSplit[3]);
+                            GP1H.setText(linhaSplit[4]);
+                            GC1H.setText(linhaSplit[5]);
+                            SG1H.setText(linhaSplit[6]);
+                            PTS1H.setText(linhaSplit[7]);
+                            C1H.setText(linhaSplit[8]);
+                            Time1GrupoH.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time1GrupoH.setText(linhaSplit[0]);
+                            V1H.setText(linhaSplit[1]);
+                            E1H.setText(linhaSplit[2]);
+                            D1H.setText(linhaSplit[3]);
+                            GP1H.setText(linhaSplit[4]);
+                            GC1H.setText(linhaSplit[5]);
+                            SG1H.setText(linhaSplit[6]);
+                            PTS1H.setText(linhaSplit[7]);
+                            C1H.setText("");
+                            Time1GrupoH.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 30){
 
-                        Time2GrupoH.setText(linhaSplit[0]);
-                        V2H.setText(linhaSplit[1]);
-                        E2H.setText(linhaSplit[2]);
-                        D2H.setText(linhaSplit[3]);
-                        GP2H.setText(linhaSplit[4]);
-                        GC2H.setText(linhaSplit[5]);
-                        SG2H.setText(linhaSplit[6]);
-                        PTS2H.setText(linhaSplit[7]);
+                        try {
+                            Time2GrupoH.setText(linhaSplit[0]);
+                            V2H.setText(linhaSplit[1]);
+                            E2H.setText(linhaSplit[2]);
+                            D2H.setText(linhaSplit[3]);
+                            GP2H.setText(linhaSplit[4]);
+                            GC2H.setText(linhaSplit[5]);
+                            SG2H.setText(linhaSplit[6]);
+                            PTS2H.setText(linhaSplit[7]);
+                            C2H.setText(linhaSplit[8]);
+                            Time2GrupoH.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time2GrupoH.setText(linhaSplit[0]);
+                            V2H.setText(linhaSplit[1]);
+                            E2H.setText(linhaSplit[2]);
+                            D2H.setText(linhaSplit[3]);
+                            GP2H.setText(linhaSplit[4]);
+                            GC2H.setText(linhaSplit[5]);
+                            SG2H.setText(linhaSplit[6]);
+                            PTS2H.setText(linhaSplit[7]);
+                            C2H.setText("");
+                            Time2GrupoH.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 31){
 
-                        Time3GrupoH.setText(linhaSplit[0]);
-                        V3H.setText(linhaSplit[1]);
-                        E3H.setText(linhaSplit[2]);
-                        D3H.setText(linhaSplit[3]);
-                        GP3H.setText(linhaSplit[4]);
-                        GC3H.setText(linhaSplit[5]);
-                        SG3H.setText(linhaSplit[6]);
-                        PTS3H.setText(linhaSplit[7]);
+                        try {
+                            Time3GrupoH.setText(linhaSplit[0]);
+                            V3H.setText(linhaSplit[1]);
+                            E3H.setText(linhaSplit[2]);
+                            D3H.setText(linhaSplit[3]);
+                            GP3H.setText(linhaSplit[4]);
+                            GC3H.setText(linhaSplit[5]);
+                            SG3H.setText(linhaSplit[6]);
+                            PTS3H.setText(linhaSplit[7]);
+                            C3H.setText(linhaSplit[8]);
+                            Time3GrupoH.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time3GrupoH.setText(linhaSplit[0]);
+                            V3H.setText(linhaSplit[1]);
+                            E3H.setText(linhaSplit[2]);
+                            D3H.setText(linhaSplit[3]);
+                            GP3H.setText(linhaSplit[4]);
+                            GC3H.setText(linhaSplit[5]);
+                            SG3H.setText(linhaSplit[6]);
+                            PTS3H.setText(linhaSplit[7]);
+                            C3H.setText("");
+                            Time3GrupoH.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
                     if(nTabela == 32){
 
-                        Time4GrupoH.setText(linhaSplit[0]);
-                        V4H.setText(linhaSplit[1]);
-                        E4H.setText(linhaSplit[2]);
-                        D4H.setText(linhaSplit[3]);
-                        GP4H.setText(linhaSplit[4]);
-                        GC4H.setText(linhaSplit[5]);
-                        SG4H.setText(linhaSplit[6]);
-                        PTS4H.setText(linhaSplit[7]);
+                        try {
+                            Time4GrupoH.setText(linhaSplit[0]);
+                            V4H.setText(linhaSplit[1]);
+                            E4H.setText(linhaSplit[2]);
+                            D4H.setText(linhaSplit[3]);
+                            GP4H.setText(linhaSplit[4]);
+                            GC4H.setText(linhaSplit[5]);
+                            SG4H.setText(linhaSplit[6]);
+                            PTS4H.setText(linhaSplit[7]);
+                            C4H.setText(linhaSplit[8]);
+                            Time4GrupoH.setIcon(new ImageIcon(linhaSplit[8]));
+                        }
+
+                        catch (ArrayIndexOutOfBoundsException exception){
+
+                            Time4GrupoH.setText(linhaSplit[0]);
+                            V4H.setText(linhaSplit[1]);
+                            E4H.setText(linhaSplit[2]);
+                            D4H.setText(linhaSplit[3]);
+                            GP4H.setText(linhaSplit[4]);
+                            GC4H.setText(linhaSplit[5]);
+                            SG4H.setText(linhaSplit[6]);
+                            PTS4H.setText(linhaSplit[7]);
+                            C4H.setText("");
+                            Time4GrupoH.setIcon(new ImageIcon());
+
+                        }
 
                     }
 
@@ -2318,6 +2970,8 @@ public class Tabela {
 
                     JLabel[] pontos = new JLabel[]{PTS1A, PTS2A, PTS3A, PTS4A};
 
+                    JLabel[] caminhosBandeira = new JLabel[]{C1A, C2A, C3A, C4A};
+
                     ArrayList<Time> GrupoAArrayList = new ArrayList<>();
 
                     for(int i = 0; i < GrupoATexts.length; i++){
@@ -2398,6 +3052,8 @@ public class Tabela {
 
                         times[i].setText(GrupoAArrayList.get(i).getNome());
 
+                        times[i].setIcon(GrupoAArrayList.get(i).getBandeira());
+
                         vitorias[i].setText(Integer.toString(GrupoAArrayList.get(i).getVitorias()));
 
                         empates[i].setText(Integer.toString(GrupoAArrayList.get(i).getEmpates()));
@@ -2411,6 +3067,8 @@ public class Tabela {
                         saldoGols[i].setText(Integer.toString(GrupoAArrayList.get(i).getSaldoGols()));
 
                         pontos[i].setText(Integer.toString(GrupoAArrayList.get(i).getPontos()));
+
+                        caminhosBandeira[i].setText(GrupoAArrayList.get(i).getCaminhoBandeira());
 
                     }
 
@@ -2451,6 +3109,8 @@ public class Tabela {
                     JLabel[] saldoGols = new JLabel[]{SG1B, SG2B, SG3B, SG4B};
 
                     JLabel[] pontos = new JLabel[]{PTS1B, PTS2B, PTS3B, PTS4B};
+
+                    JLabel[] caminhosBandeira = new JLabel[]{C1B, C2B, C3B, C4B};
 
                     ArrayList<Time> GrupoBArrayList = new ArrayList<>();
 
@@ -2532,6 +3192,8 @@ public class Tabela {
 
                         times[i].setText(GrupoBArrayList.get(i).getNome());
 
+                        times[i].setIcon(GrupoBArrayList.get(i).getBandeira());
+
                         vitorias[i].setText(Integer.toString(GrupoBArrayList.get(i).getVitorias()));
 
                         empates[i].setText(Integer.toString(GrupoBArrayList.get(i).getEmpates()));
@@ -2545,6 +3207,8 @@ public class Tabela {
                         saldoGols[i].setText(Integer.toString(GrupoBArrayList.get(i).getSaldoGols()));
 
                         pontos[i].setText(Integer.toString(GrupoBArrayList.get(i).getPontos()));
+
+                        caminhosBandeira[i].setText(GrupoBArrayList.get(i).getCaminhoBandeira());
 
                     }
 
@@ -2584,6 +3248,8 @@ public class Tabela {
                     JLabel[] saldoGols = new JLabel[]{SG1C, SG2C, SG3C, SG4C};
 
                     JLabel[] pontos = new JLabel[]{PTS1C, PTS2C, PTS3C, PTS4C};
+
+                    JLabel[] caminhosBandeira = new JLabel[]{C1C, C2C, C3C, C4C};
 
                     ArrayList<Time> GrupoCArrayList = new ArrayList<>();
 
@@ -2665,6 +3331,8 @@ public class Tabela {
 
                         times[i].setText(GrupoCArrayList.get(i).getNome());
 
+                        times[i].setIcon(GrupoCArrayList.get(i).getBandeira());
+
                         vitorias[i].setText(Integer.toString(GrupoCArrayList.get(i).getVitorias()));
 
                         empates[i].setText(Integer.toString(GrupoCArrayList.get(i).getEmpates()));
@@ -2678,6 +3346,8 @@ public class Tabela {
                         saldoGols[i].setText(Integer.toString(GrupoCArrayList.get(i).getSaldoGols()));
 
                         pontos[i].setText(Integer.toString(GrupoCArrayList.get(i).getPontos()));
+
+                        caminhosBandeira[i].setText(GrupoCArrayList.get(i).getCaminhoBandeira());
 
                     }
 
@@ -2718,6 +3388,8 @@ public class Tabela {
                     JLabel[] saldoGols = new JLabel[]{SG1D, SG2D, SG3D, SG4D};
 
                     JLabel[] pontos = new JLabel[]{PTS1D, PTS2D, PTS3D, PTS4D};
+
+                    JLabel[] caminhosBandeira = new JLabel[]{C1D, C2D, C3D, C4D};
 
                     ArrayList<Time> GrupoDArrayList = new ArrayList<>();
 
@@ -2799,6 +3471,8 @@ public class Tabela {
 
                         times[i].setText(GrupoDArrayList.get(i).getNome());
 
+                        times[i].setIcon(GrupoDArrayList.get(i).getBandeira());
+
                         vitorias[i].setText(Integer.toString(GrupoDArrayList.get(i).getVitorias()));
 
                         empates[i].setText(Integer.toString(GrupoDArrayList.get(i).getEmpates()));
@@ -2812,6 +3486,8 @@ public class Tabela {
                         saldoGols[i].setText(Integer.toString(GrupoDArrayList.get(i).getSaldoGols()));
 
                         pontos[i].setText(Integer.toString(GrupoDArrayList.get(i).getPontos()));
+
+                        caminhosBandeira[i].setText(GrupoDArrayList.get(i).getCaminhoBandeira());
 
                     }
 
@@ -2852,6 +3528,8 @@ public class Tabela {
                     JLabel[] saldoGols = new JLabel[]{SG1E, SG2E, SG3E, SG4E};
 
                     JLabel[] pontos = new JLabel[]{PTS1E, PTS2E, PTS3E, PTS4E};
+
+                    JLabel[] caminhosBandeira = new JLabel[]{C1E, C2E, C3E, C4E};
 
                     ArrayList<Time> GrupoEArrayList = new ArrayList<>();
 
@@ -2933,6 +3611,8 @@ public class Tabela {
 
                         times[i].setText(GrupoEArrayList.get(i).getNome());
 
+                        times[i].setIcon(GrupoEArrayList.get(i).getBandeira());
+
                         vitorias[i].setText(Integer.toString(GrupoEArrayList.get(i).getVitorias()));
 
                         empates[i].setText(Integer.toString(GrupoEArrayList.get(i).getEmpates()));
@@ -2946,6 +3626,8 @@ public class Tabela {
                         saldoGols[i].setText(Integer.toString(GrupoEArrayList.get(i).getSaldoGols()));
 
                         pontos[i].setText(Integer.toString(GrupoEArrayList.get(i).getPontos()));
+
+                        caminhosBandeira[i].setText(GrupoEArrayList.get(i).getCaminhoBandeira());
 
                     }
 
@@ -2986,6 +3668,8 @@ public class Tabela {
                     JLabel[] saldoGols = new JLabel[]{SG1F, SG2F, SG3F, SG4F};
 
                     JLabel[] pontos = new JLabel[]{PTS1F, PTS2F, PTS3F, PTS4F};
+
+                    JLabel[] caminhosBandeira = new JLabel[]{C1F, C2F, C3F, C4F};
 
                     ArrayList<Time> GrupoFArrayList = new ArrayList<>();
 
@@ -3067,6 +3751,8 @@ public class Tabela {
 
                         times[i].setText(GrupoFArrayList.get(i).getNome());
 
+                        times[i].setIcon(GrupoFArrayList.get(i).getBandeira());
+
                         vitorias[i].setText(Integer.toString(GrupoFArrayList.get(i).getVitorias()));
 
                         empates[i].setText(Integer.toString(GrupoFArrayList.get(i).getEmpates()));
@@ -3080,6 +3766,8 @@ public class Tabela {
                         saldoGols[i].setText(Integer.toString(GrupoFArrayList.get(i).getSaldoGols()));
 
                         pontos[i].setText(Integer.toString(GrupoFArrayList.get(i).getPontos()));
+
+                        caminhosBandeira[i].setText(GrupoFArrayList.get(i).getCaminhoBandeira());
 
                     }
 
@@ -3120,6 +3808,8 @@ public class Tabela {
                     JLabel[] saldoGols = new JLabel[]{SG1G, SG2G, SG3G, SG4G};
 
                     JLabel[] pontos = new JLabel[]{PTS1G, PTS2G, PTS3G, PTS4G};
+
+                    JLabel[] caminhosBandeira = new JLabel[]{C1G, C2G, C3G, C4G};
 
                     ArrayList<Time> GrupoGArrayList = new ArrayList<>();
 
@@ -3201,6 +3891,8 @@ public class Tabela {
 
                         times[i].setText(GrupoGArrayList.get(i).getNome());
 
+                        times[i].setIcon(GrupoGArrayList.get(i).getBandeira());
+
                         vitorias[i].setText(Integer.toString(GrupoGArrayList.get(i).getVitorias()));
 
                         empates[i].setText(Integer.toString(GrupoGArrayList.get(i).getEmpates()));
@@ -3214,6 +3906,8 @@ public class Tabela {
                         saldoGols[i].setText(Integer.toString(GrupoGArrayList.get(i).getSaldoGols()));
 
                         pontos[i].setText(Integer.toString(GrupoGArrayList.get(i).getPontos()));
+
+                        caminhosBandeira[i].setText(GrupoGArrayList.get(i).getCaminhoBandeira());
 
                     }
 
@@ -3254,6 +3948,8 @@ public class Tabela {
                     JLabel[] saldoGols = new JLabel[]{SG1H, SG2H, SG3H, SG4H};
 
                     JLabel[] pontos = new JLabel[]{PTS1H, PTS2H, PTS3H, PTS4H};
+
+                    JLabel[] caminhosBandeira = new JLabel[]{C1H, C2H, C3H, C4H};
 
                     ArrayList<Time> GrupoHArrayList = new ArrayList<>();
 
@@ -3335,6 +4031,8 @@ public class Tabela {
 
                         times[i].setText(GrupoHArrayList.get(i).getNome());
 
+                        times[i].setIcon(GrupoHArrayList.get(i).getBandeira());
+
                         vitorias[i].setText(Integer.toString(GrupoHArrayList.get(i).getVitorias()));
 
                         empates[i].setText(Integer.toString(GrupoHArrayList.get(i).getEmpates()));
@@ -3348,6 +4046,8 @@ public class Tabela {
                         saldoGols[i].setText(Integer.toString(GrupoHArrayList.get(i).getSaldoGols()));
 
                         pontos[i].setText(Integer.toString(GrupoHArrayList.get(i).getPontos()));
+
+                        caminhosBandeira[i].setText(GrupoHArrayList.get(i).getCaminhoBandeira());
 
                     }
 

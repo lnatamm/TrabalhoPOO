@@ -1,9 +1,13 @@
+import javax.swing.*;
+
 public class Time {
 
     //Atributos
     private String nome;
 
-    private String bandeira;
+    private ImageIcon bandeira;
+
+    private String caminhoBandeira;
 
     private int vitorias;
 
@@ -47,7 +51,7 @@ public class Time {
 
         this.nome = "";
 
-        this.bandeira = "";
+        this.bandeira = new ImageIcon();
 
         this.vitorias = 0;
 
@@ -70,6 +74,30 @@ public class Time {
     public Time(String nome){
 
         this.nome = nome;
+
+        this.vitorias = 0;
+
+        this.derrotas = 0;
+
+        this.empates = 0;
+
+        this.pontos = 0;
+
+        this.saldoGols = 0;
+
+        this.nGols = 0;
+
+        this.nGolsSofridos = 0;
+
+    }
+
+    public Time(String nome, ImageIcon bandeira, String caminhoBandeira){
+
+        this.nome = nome;
+
+        this.bandeira = bandeira;
+
+        this.caminhoBandeira = caminhoBandeira;
 
         this.vitorias = 0;
 
@@ -134,6 +162,18 @@ public class Time {
     public int getnGolsSofridos(){
 
         return this.nGolsSofridos;
+
+    }
+
+    public ImageIcon getBandeira(){
+
+        return this.bandeira;
+
+    }
+
+    public String getCaminhoBandeira(){
+
+        return this.caminhoBandeira;
 
     }
 
