@@ -69,14 +69,14 @@ Austrália
 Costa Rica
 Croácia
 Camarões
-2H
+Coréia
 Estados Unidos
 Senegal
 França
 Argentina
 Canadá
 Alemanha
-1H
+Portugal
 Suíça
 A definir
 A definir
@@ -124,7 +124,7 @@ Camarões;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/camaroes.png
 Suíça;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/suica.png
 Brasil;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/brasil.png
 Sérvia;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/servia.png
-A definir;0;0;0;0;0;0;0;
-A definir;0;0;0;0;0;0;0;
-A definir;0;0;0;0;0;0;0;
-A definir;0;0;0;0;0;0;0;
+Portugal;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/portugal.png
+Coréia;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/coreia do sul.png
+Uruguai;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/uruguai.png
+Gana;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/gana.png

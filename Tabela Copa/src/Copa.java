@@ -31,7 +31,7 @@ public class Copa {
     private Time brazil = new Time("Brasil", new ImageIcon(System.getProperty("user.dir") + "/icons/brasil.png"), System.getProperty("user.dir") + "/icons/brasil.png");
     private Time serbia = new Time("Sérvia", new ImageIcon(System.getProperty("user.dir") + "/icons/servia.png"), System.getProperty("user.dir") + "/icons/servia.png");
     private Time uruguay = new Time("Uruguai", new ImageIcon(System.getProperty("user.dir") + "/icons/uruguai.png"), System.getProperty("user.dir") + "/icons/uruguai.png");
-    private Time korea = new Time("Coréia", new ImageIcon(System.getProperty("user.dir") + "/icons/coreia.png"), System.getProperty("user.dir") + "/icons/coreia.png");
+    private Time korea = new Time("Coréia", new ImageIcon(System.getProperty("user.dir") + "/icons/coreia do sul.png"), System.getProperty("user.dir") + "/icons/coreia do sul.png");
     private Time portugal = new Time("Portugal", new ImageIcon(System.getProperty("user.dir") + "/icons/portugal.png"), System.getProperty("user.dir") + "/icons/portugal.png");
     private Time ghana = new Time("Gana", new ImageIcon(System.getProperty("user.dir") + "/icons/gana.png"), System.getProperty("user.dir") + "/icons/gana.png");
 
