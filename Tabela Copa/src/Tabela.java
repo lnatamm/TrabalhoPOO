@@ -539,6 +539,103 @@ public class Tabela {
     private JButton Reset7;
     private JButton Reset8;
     private JButton Reset9;
+    private JButton atualizarButton;
+    private JLabel Catar1;
+    private JLabel Catar2;
+    private JLabel Catar3;
+    private JLabel Equador1;
+    private JLabel Equador2;
+    private JLabel Equador3;
+    private JLabel Senegal1;
+    private JLabel Senegal2;
+    private JLabel Senegal3;
+    private JLabel Holanda1;
+    private JLabel Holanda2;
+    private JLabel Holanda3;
+    private JLabel Inglaterra1;
+    private JLabel Inglaterra2;
+    private JLabel Inglaterra3;
+    private JLabel Ira1;
+    private JLabel Ira2;
+    private JLabel Ira3;
+    private JLabel Gales1;
+    private JLabel Gales2;
+    private JLabel Gales3;
+    private JLabel Usa1;
+    private JLabel Usa2;
+    private JLabel Usa3;
+    private JLabel Argentina1;
+    private JLabel Argentina2;
+    private JLabel Argentina3;
+    private JLabel Arabia1;
+    private JLabel Arabia2;
+    private JLabel Arabia3;
+    private JLabel Mexico1;
+    private JLabel Mexico2;
+    private JLabel Mexico3;
+    private JLabel Polonia1;
+    private JLabel Polonia2;
+    private JLabel Polonia3;
+    private JLabel Dinamarca1;
+    private JLabel Dinamarca2;
+    private JLabel Dinamarca3;
+    private JLabel Tunisia1;
+    private JLabel Tunisia2;
+    private JLabel Tunisia3;
+    private JLabel Franca1;
+    private JLabel Franca2;
+    private JLabel Franca3;
+    private JLabel Australia1;
+    private JLabel Australia2;
+    private JLabel Australia3;
+    private JLabel Alemanha1;
+    private JLabel Alemanha2;
+    private JLabel Alemanha3;
+    private JLabel Japao1;
+    private JLabel Japao2;
+    private JLabel Japao3;
+    private JLabel Espanha1;
+    private JLabel Espanha2;
+    private JLabel Espanha3;
+    private JLabel Costa1;
+    private JLabel Costa2;
+    private JLabel Costa3;
+    private JLabel Marrocos1;
+    private JLabel Marrocos2;
+    private JLabel Marrocos3;
+    private JLabel Croacia1;
+    private JLabel Croacia2;
+    private JLabel Croacia3;
+    private JLabel Belgica1;
+    private JLabel Belgica2;
+    private JLabel Belgica3;
+    private JLabel Canada1;
+    private JLabel Canada2;
+    private JLabel Canada3;
+    private JLabel Suica1;
+    private JLabel Suica2;
+    private JLabel Suica3;
+    private JLabel Camaroes1;
+    private JLabel Camaroes2;
+    private JLabel Camaroes3;
+    private JLabel Brasil1;
+    private JLabel Brasil2;
+    private JLabel Brasil3;
+    private JLabel Servia1;
+    private JLabel Servia2;
+    private JLabel Servia3;
+    private JLabel Uruguai1;
+    private JLabel Uruguai2;
+    private JLabel Uruguai3;
+    private JLabel Coreia1;
+    private JLabel Coreia2;
+    private JLabel Coreia3;
+    private JLabel Portugal1;
+    private JLabel Portugal2;
+    private JLabel Portugal3;
+    private JLabel Gana1;
+    private JLabel Gana2;
+    private JLabel Gana3;
 
     private void Reset(){
 
@@ -750,234 +847,78 @@ public class Tabela {
             bw.write("A definir");
             bw.newLine();
             bw.write("A definir");
-
-            JLabel[] vitoriasA = new JLabel[]{V1A, V2A, V3A, V4A};
-
-            JLabel[] empatesA = new JLabel[]{E1A, E2A, E3A, E4A};
-
-            JLabel[] derrotasA = new JLabel[]{D1A, D2A, D3A, D4A};
-
-            JLabel[] golsProA = new JLabel[]{GP1A, GP2A, GP3A, GP4A};
-
-            JLabel[] golsConA = new JLabel[]{GC1A, GC2A, GC3A, GC4A};
-
-            JLabel[] saldoGolsA = new JLabel[]{SG1A, SG2A, SG3A, SG4A};
-
-            JLabel[] pontosA = new JLabel[]{PTS1A, PTS2A, PTS3A, PTS4A};
-
-            JLabel[] vitoriasB = new JLabel[]{V1B, V2B, V3B, V4B};
-
-            JLabel[] empatesB = new JLabel[]{E1B, E2B, E3B, E4B};
-
-            JLabel[] derrotasB = new JLabel[]{D1B, D2B, D3B, D4B};
-
-            JLabel[] golsProB = new JLabel[]{GP1B, GP2B, GP3B, GP4B};
-
-            JLabel[] golsConB = new JLabel[]{GC1B, GC2B, GC3B, GC4B};
-
-            JLabel[] saldoGolsB = new JLabel[]{SG1B, SG2B, SG3B, SG4B};
-
-            JLabel[] pontosB = new JLabel[]{PTS1B, PTS2B, PTS3B, PTS4B};
-
-            JLabel[] vitoriasC = new JLabel[]{V1C, V2C, V3C, V4C};
-
-            JLabel[] empatesC = new JLabel[]{E1C, E2C, E3C, E4C};
-
-            JLabel[] derrotasC = new JLabel[]{D1C, D2C, D3C, D4C};
-
-            JLabel[] golsProC = new JLabel[]{GP1C, GP2C, GP3C, GP4C};
-
-            JLabel[] golsConC = new JLabel[]{GC1C, GC2C, GC3C, GC4C};
-
-            JLabel[] saldoGolsC = new JLabel[]{SG1C, SG2C, SG3C, SG4C};
-
-            JLabel[] pontosC = new JLabel[]{PTS1C, PTS2C, PTS3C, PTS4C};
-
-            JLabel[] vitoriasD = new JLabel[]{V1D, V2D, V3D, V4D};
-
-            JLabel[] empatesD = new JLabel[]{E1D, E2D, E3D, E4D};
-
-            JLabel[] derrotasD = new JLabel[]{D1D, D2D, D3D, D4D};
-
-            JLabel[] golsProD = new JLabel[]{GP1D, GP2D, GP3D, GP4D};
-
-            JLabel[] golsConD = new JLabel[]{GC1D, GC2D, GC3D, GC4D};
-
-            JLabel[] saldoGolsD = new JLabel[]{SG1D, SG2D, SG3D, SG4D};
-
-            JLabel[] pontosD = new JLabel[]{PTS1D, PTS2D, PTS3D, PTS4D};
-
-            JLabel[] vitoriasE = new JLabel[]{V1E, V2E, V3E, V4E};
-
-            JLabel[] empatesE = new JLabel[]{E1E, E2E, E3E, E4E};
-
-            JLabel[] derrotasE = new JLabel[]{D1E, D2E, D3E, D4E};
-
-            JLabel[] golsProE = new JLabel[]{GP1E, GP2E, GP3E, GP4E};
-
-            JLabel[] golsConE = new JLabel[]{GC1E, GC2E, GC3E, GC4E};
-
-            JLabel[] saldoGolsE = new JLabel[]{SG1E, SG2E, SG3E, SG4E};
-
-            JLabel[] pontosE = new JLabel[]{PTS1E, PTS2E, PTS3E, PTS4E};
-
-            JLabel[] vitoriasF = new JLabel[]{V1F, V2F, V3F, V4F};
-
-            JLabel[] empatesF = new JLabel[]{E1F, E2F, E3F, E4F};
-
-            JLabel[] derrotasF = new JLabel[]{D1F, D2F, D3F, D4F};
-
-            JLabel[] golsProF = new JLabel[]{GP1F, GP2F, GP3F, GP4F};
-
-            JLabel[] golsConF = new JLabel[]{GC1F, GC2F, GC3F, GC4F};
-
-            JLabel[] saldoGolsF = new JLabel[]{SG1F, SG2F, SG3F, SG4F};
-
-            JLabel[] pontosF = new JLabel[]{PTS1F, PTS2F, PTS3F, PTS4F};
-
-            JLabel[] vitoriasG = new JLabel[]{V1G, V2G, V3G, V4G};
-
-            JLabel[] empatesG = new JLabel[]{E1G, E2G, E3G, E4G};
-
-            JLabel[] derrotasG = new JLabel[]{D1G, D2G, D3G, D4G};
-
-            JLabel[] golsProG = new JLabel[]{GP1G, GP2G, GP3G, GP4G};
-
-            JLabel[] golsConG = new JLabel[]{GC1G, GC2G, GC3G, GC4G};
-
-            JLabel[] saldoGolsG = new JLabel[]{SG1G, SG2G, SG3G, SG4G};
-
-            JLabel[] pontosG = new JLabel[]{PTS1G, PTS2G, PTS3G, PTS4G};
-
-            JLabel[] vitoriasH = new JLabel[]{V1H, V2H, V3H, V4H};
-
-            JLabel[] empatesH = new JLabel[]{E1H, E2H, E3H, E4H};
-
-            JLabel[] derrotasH = new JLabel[]{D1H, D2H, D3H, D4H};
-
-            JLabel[] golsProH = new JLabel[]{GP1H, GP2H, GP3H, GP4H};
-
-            JLabel[] golsConH = new JLabel[]{GC1H, GC2H, GC3H, GC4H};
-
-            JLabel[] saldoGolsH = new JLabel[]{SG1H, SG2H, SG3H, SG4H};
-
-            JLabel[] pontosH = new JLabel[]{PTS1H, PTS2H, PTS3H, PTS4H};
-
-            for (int i = 0; i < 4; i++) {
-
-                vitoriasA[i].setText("0");
-
-                empatesA[i].setText("0");
-
-                derrotasA[i].setText("0");
-
-                golsProA[i].setText("0");
-
-                golsConA[i].setText("0");
-
-                saldoGolsA[i].setText("0");
-
-                pontosA[i].setText("0");
-
-                vitoriasB[i].setText("0");
-
-                empatesB[i].setText("0");
-
-                derrotasB[i].setText("0");
-
-                golsProB[i].setText("0");
-
-                golsConB[i].setText("0");
-
-                saldoGolsB[i].setText("0");
-
-                pontosB[i].setText("0");
-
-                vitoriasC[i].setText("0");
-
-                empatesC[i].setText("0");
-
-                derrotasC[i].setText("0");
-
-                golsProC[i].setText("0");
-
-                golsConC[i].setText("0");
-
-                saldoGolsC[i].setText("0");
-
-                pontosC[i].setText("0");
-
-                vitoriasD[i].setText("0");
-
-                empatesD[i].setText("0");
-
-                derrotasD[i].setText("0");
-
-                golsProD[i].setText("0");
-
-                golsConD[i].setText("0");
-
-                saldoGolsD[i].setText("0");
-
-                pontosD[i].setText("0");
-
-                vitoriasE[i].setText("0");
-
-                empatesE[i].setText("0");
-
-                derrotasE[i].setText("0");
-
-                golsProE[i].setText("0");
-
-                golsConE[i].setText("0");
-
-                saldoGolsE[i].setText("0");
-
-                pontosE[i].setText("0");
-
-                vitoriasF[i].setText("0");
-
-                empatesF[i].setText("0");
-
-                derrotasF[i].setText("0");
-
-                golsProF[i].setText("0");
-
-                golsConF[i].setText("0");
-
-                saldoGolsF[i].setText("0");
-
-                pontosF[i].setText("0");
-
-                vitoriasG[i].setText("0");
-
-                empatesG[i].setText("0");
-
-                derrotasG[i].setText("0");
-
-                golsProG[i].setText("0");
-
-                golsConG[i].setText("0");
-
-                saldoGolsG[i].setText("0");
-
-                pontosG[i].setText("0");
-
-                vitoriasH[i].setText("0");
-
-                empatesH[i].setText("0");
-
-                derrotasH[i].setText("0");
-
-                golsProH[i].setText("0");
-
-                golsConH[i].setText("0");
-
-                saldoGolsH[i].setText("0");
-
-                pontosH[i].setText("0");
-
-            }
+            bw.newLine();
+            //TabelaA
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            //TabelaB
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            //TabelaC
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            //TabelaD
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            //TabelaE
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            //TabelaF
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            //TabelaG
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            //TabelaH
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
+            bw.newLine();
+            bw.write("A definir;0;0;0;0;0;0;0");
 
         } catch (IOException ex) {
             throw new RuntimeException(ex);
@@ -1005,6 +946,7 @@ public class Tabela {
         }
         BufferedWriter bw = new BufferedWriter(fw);
         try {
+            //GrupoA
             bw.write(CatarGolsXEquador.getText() + ";" + EquadorGolsXCatar.getText());
             bw.newLine();
             bw.write(SenegalGolsXHolanda.getText() + ";" + HolandaGolsXSenegal.getText());
@@ -1017,6 +959,7 @@ public class Tabela {
             bw.newLine();
             bw.write(HolandaGolsXCatar.getText() + ";" + CatarGolsXHolanda.getText());
             bw.newLine();
+            //GrupoB
             bw.write(InglaterraGolsXIra.getText() + ";" + IraGolsXInglaterra.getText());
             bw.newLine();
             bw.write(GalesGolsXEstadosUnidos.getText() + ";" + EstadosUnidosGolsXGales.getText());
@@ -1029,6 +972,7 @@ public class Tabela {
             bw.newLine();
             bw.write(GalesGolsXInglaterra.getText() + ";" + InglaterraGolsXGales.getText());
             bw.newLine();
+            //GrupoC
             bw.write(ArgentinaGolsXArabia.getText() + ";" + ArabiaGolsXArgentina.getText());
             bw.newLine();
             bw.write(MexicoGolsXPolonia.getText() + ";" + PoloniaGolsXMexico.getText());
@@ -1041,6 +985,7 @@ public class Tabela {
             bw.newLine();
             bw.write(ArabiaGolsXMexico.getText() + ";" + MexicoGolsXArabia.getText());
             bw.newLine();
+            //GrupoD
             bw.write(DinamarcaGolsXTunisia.getText() + ";" + TunisiaGolsXDinamarca.getText());
             bw.newLine();
             bw.write(FrancaGolsXAustralia.getText() + ";" + AustraliaGolsXFranca.getText());
@@ -1053,6 +998,7 @@ public class Tabela {
             bw.newLine();
             bw.write(AustraliaGolsXDinamarca.getText() + ";" + DinamarcaGolsXAustralia.getText());
             bw.newLine();
+            //GrupoE
             bw.write(AlemanhaGolsXJapao.getText() + ";" + JapaoGolsXAlemanha.getText());
             bw.newLine();
             bw.write(EspanhaGolsXCostaRica.getText() + ";" + CostaRicaGolsXEspanha.getText());
@@ -1065,6 +1011,7 @@ public class Tabela {
             bw.newLine();
             bw.write(CostaRicaGolsXAlemanha.getText() + ";" + AlemanhaGolsXCostaRica.getText());
             bw.newLine();
+            //GrupoF
             bw.write(MarrocosGolsXCroacia.getText() + ";" + CroaciaGolsXMarrocos.getText());
             bw.newLine();
             bw.write(BelgicaGolsXCanada.getText() + ";" + CanadaGolsXBelgica.getText());
@@ -1077,6 +1024,7 @@ public class Tabela {
             bw.newLine();
             bw.write(CroaciaGolsXBelgica.getText() + ";" + BelgicaGolsXCroacia.getText());
             bw.newLine();
+            //GrupoG
             bw.write(SuicaGolsXCamaroes.getText() + ";" + CamaroesGolsXSuica.getText());
             bw.newLine();
             bw.write(BrasilGolsXServia.getText() + ";" + SerrviaGolsXBrasil.getText());
@@ -1089,6 +1037,7 @@ public class Tabela {
             bw.newLine();
             bw.write(CamaroesGolsXBrasil.getText() + ";" + BrasilGolsXCamaroes.getText());
             bw.newLine();
+            //GrupoH
             bw.write(UruguaiGolsXCoreia.getText() + ";" + CoreiaGolsXUruguai.getText());
             bw.newLine();
             bw.write(PortugalGolsXGana.getText() + ";" + GanaGolsXPortugal.getText());
@@ -1204,7 +1153,79 @@ public class Tabela {
             bw.write(VencedorFinal.getText());
             bw.newLine();
             bw.write(VencedorTerceiro.getText());
-
+            bw.newLine();
+            //TabelaA
+            bw.write(Time1GrupoA.getText() + ";" + V1A.getText() + ";" +  E1A.getText() + ";" + D1A.getText() + ";" + GP1A.getText() + ";" + GC1A.getText() + ";" + SG1A.getText() + ";" + PTS1A.getText());
+            bw.newLine();
+            bw.write(Time2GrupoA.getText() + ";" + V2A.getText() + ";" +  E2A.getText() + ";" + D2A.getText() + ";" + GP2A.getText() + ";" + GC2A.getText() + ";" + SG2A.getText() + ";" + PTS2A.getText());
+            bw.newLine();
+            bw.write(Time3GrupoA.getText() + ";" + V3A.getText() + ";" +  E3A.getText() + ";" + D3A.getText() + ";" + GP3A.getText() + ";" + GC3A.getText() + ";" + SG3A.getText() + ";" + PTS3A.getText());
+            bw.newLine();
+            bw.write(Time4GrupoA.getText() + ";" + V4A.getText() + ";" +  E4A.getText() + ";" + D4A.getText() + ";" + GP4A.getText() + ";" + GC4A.getText() + ";" + SG4A.getText() + ";" + PTS4A.getText());
+            bw.newLine();
+            //TabelaB
+            bw.write(Time1GrupoB.getText() + ";" + V1B.getText() + ";" +  E1B.getText() + ";" + D1B.getText() + ";" + GP1B.getText() + ";" + GC1B.getText() + ";" + SG1B.getText() + ";" + PTS1B.getText());
+            bw.newLine();
+            bw.write(Time2GrupoB.getText() + ";" + V2B.getText() + ";" +  E2B.getText() + ";" + D2B.getText() + ";" + GP2B.getText() + ";" + GC2B.getText() + ";" + SG2B.getText() + ";" + PTS2B.getText());
+            bw.newLine();
+            bw.write(Time3GrupoB.getText() + ";" + V3B.getText() + ";" +  E3B.getText() + ";" + D3B.getText() + ";" + GP3B.getText() + ";" + GC3B.getText() + ";" + SG3B.getText() + ";" + PTS3B.getText());
+            bw.newLine();
+            bw.write(Time4GrupoB.getText() + ";" + V4B.getText() + ";" +  E4B.getText() + ";" + D4B.getText() + ";" + GP4B.getText() + ";" + GC4B.getText() + ";" + SG4B.getText() + ";" + PTS4B.getText());
+            bw.newLine();
+            //TabelaC
+            bw.write(Time1GrupoC.getText() + ";" + V1C.getText() + ";" +  E1C.getText() + ";" + D1C.getText() + ";" + GP1C.getText() + ";" + GC1C.getText() + ";" + SG1C.getText() + ";" + PTS1C.getText());
+            bw.newLine();
+            bw.write(Time2GrupoC.getText() + ";" + V2C.getText() + ";" +  E2C.getText() + ";" + D2C.getText() + ";" + GP2C.getText() + ";" + GC2C.getText() + ";" + SG2C.getText() + ";" + PTS2C.getText());
+            bw.newLine();
+            bw.write(Time3GrupoC.getText() + ";" + V3C.getText() + ";" +  E3C.getText() + ";" + D3C.getText() + ";" + GP3C.getText() + ";" + GC3C.getText() + ";" + SG3C.getText() + ";" + PTS3C.getText());
+            bw.newLine();
+            bw.write(Time4GrupoC.getText() + ";" + V4C.getText() + ";" +  E4C.getText() + ";" + D4C.getText() + ";" + GP4C.getText() + ";" + GC4C.getText() + ";" + SG4C.getText() + ";" + PTS4C.getText());
+            bw.newLine();
+            //TabelaD
+            bw.write(Time1GrupoD.getText() + ";" + V1D.getText() + ";" +  E1D.getText() + ";" + D1D.getText() + ";" + GP1D.getText() + ";" + GC1D.getText() + ";" + SG1D.getText() + ";" + PTS1D.getText());
+            bw.newLine();
+            bw.write(Time2GrupoD.getText() + ";" + V2D.getText() + ";" +  E2D.getText() + ";" + D2D.getText() + ";" + GP2D.getText() + ";" + GC2D.getText() + ";" + SG2D.getText() + ";" + PTS2D.getText());
+            bw.newLine();
+            bw.write(Time3GrupoD.getText() + ";" + V3D.getText() + ";" +  E3D.getText() + ";" + D3D.getText() + ";" + GP3D.getText() + ";" + GC3D.getText() + ";" + SG3D.getText() + ";" + PTS3D.getText());
+            bw.newLine();
+            bw.write(Time4GrupoD.getText() + ";" + V4D.getText() + ";" +  E4D.getText() + ";" + D4D.getText() + ";" + GP4D.getText() + ";" + GC4D.getText() + ";" + SG4D.getText() + ";" + PTS4D.getText());
+            bw.newLine();
+            //TabelaE
+            bw.write(Time1GrupoE.getText() + ";" + V1E.getText() + ";" +  E1E.getText() + ";" + D1E.getText() + ";" + GP1E.getText() + ";" + GC1E.getText() + ";" + SG1E.getText() + ";" + PTS1E.getText());
+            bw.newLine();
+            bw.write(Time2GrupoE.getText() + ";" + V2E.getText() + ";" +  E2E.getText() + ";" + D2E.getText() + ";" + GP2E.getText() + ";" + GC2E.getText() + ";" + SG2E.getText() + ";" + PTS2E.getText());
+            bw.newLine();
+            bw.write(Time3GrupoE.getText() + ";" + V3E.getText() + ";" +  E3E.getText() + ";" + D3E.getText() + ";" + GP3E.getText() + ";" + GC3E.getText() + ";" + SG3E.getText() + ";" + PTS3E.getText());
+            bw.newLine();
+            bw.write(Time4GrupoE.getText() + ";" + V4E.getText() + ";" +  E4E.getText() + ";" + D4E.getText() + ";" + GP4E.getText() + ";" + GC4E.getText() + ";" + SG4E.getText() + ";" + PTS4E.getText());
+            bw.newLine();
+            //TabelaF
+            bw.write(Time1GrupoF.getText() + ";" + V1F.getText() + ";" +  E1F.getText() + ";" + D1F.getText() + ";" + GP1F.getText() + ";" + GC1F.getText() + ";" + SG1F.getText() + ";" + PTS1F.getText());
+            bw.newLine();
+            bw.write(Time2GrupoF.getText() + ";" + V2F.getText() + ";" +  E2F.getText() + ";" + D2F.getText() + ";" + GP2F.getText() + ";" + GC2F.getText() + ";" + SG2F.getText() + ";" + PTS2F.getText());
+            bw.newLine();
+            bw.write(Time3GrupoF.getText() + ";" + V3F.getText() + ";" +  E3F.getText() + ";" + D3F.getText() + ";" + GP3F.getText() + ";" + GC3F.getText() + ";" + SG3F.getText() + ";" + PTS3F.getText());
+            bw.newLine();
+            bw.write(Time4GrupoF.getText() + ";" + V4F.getText() + ";" +  E4F.getText() + ";" + D4F.getText() + ";" + GP4F.getText() + ";" + GC4F.getText() + ";" + SG4F.getText() + ";" + PTS4F.getText());
+            bw.newLine();
+            //TabelaG
+            bw.write(Time1GrupoG.getText() + ";" + V1G.getText() + ";" +  E1G.getText() + ";" + D1G.getText() + ";" + GP1G.getText() + ";" + GC1G.getText() + ";" + SG1G.getText() + ";" + PTS1G.getText());
+            bw.newLine();
+            bw.write(Time2GrupoG.getText() + ";" + V2G.getText() + ";" +  E2G.getText() + ";" + D2G.getText() + ";" + GP2G.getText() + ";" + GC2G.getText() + ";" + SG2G.getText() + ";" + PTS2G.getText());
+            bw.newLine();
+            bw.write(Time3GrupoG.getText() + ";" + V3G.getText() + ";" +  E3G.getText() + ";" + D3G.getText() + ";" + GP3G.getText() + ";" + GC3G.getText() + ";" + SG3G.getText() + ";" + PTS3G.getText());
+            bw.newLine();
+            bw.write(Time4GrupoG.getText() + ";" + V4G.getText() + ";" +  E4G.getText() + ";" + D4G.getText() + ";" + GP4G.getText() + ";" + GC4G.getText() + ";" + SG4G.getText() + ";" + PTS4G.getText());
+            bw.newLine();
+            //TabelaH
+            bw.write(Time1GrupoH.getText() + ";" + V1H.getText() + ";" +  E1H.getText() + ";" + D1H.getText() + ";" + GP1H.getText() + ";" + GC1H.getText() + ";" + SG1H.getText() + ";" + PTS1H.getText());
+            bw.newLine();
+            bw.write(Time2GrupoH.getText() + ";" + V2H.getText() + ";" +  E2H.getText() + ";" + D2H.getText() + ";" + GP2H.getText() + ";" + GC2H.getText() + ";" + SG2H.getText() + ";" + PTS2H.getText());
+            bw.newLine();
+            bw.write(Time3GrupoH.getText() + ";" + V3H.getText() + ";" +  E3H.getText() + ";" + D3H.getText() + ";" + GP3H.getText() + ";" + GC3H.getText() + ";" + SG3H.getText() + ";" + PTS3H.getText());
+            bw.newLine();
+            bw.write(Time4GrupoH.getText() + ";" + V4H.getText() + ";" +  E4H.getText() + ";" + D4H.getText() + ";" + GP4H.getText() + ";" + GC4H.getText() + ";" + SG4H.getText() + ";" + PTS4H.getText());
+            bw.newLine();
         } catch (IOException ex) {
             throw new RuntimeException(ex);
         }
@@ -1231,8 +1252,9 @@ public class Tabela {
 
                 for(int nLinha = 1 ; nLinha<=64;nLinha++){
                     String linha = sc.nextLine();
-                    String linhaSplit [] = linha.split(";");
+                    String[] linhaSplit = linha.split(";");
 
+                    //GrupoA
                     if(nLinha == 1){
                         CatarGolsXEquador.setText(linhaSplit[0]);
                         EquadorGolsXCatar.setText(linhaSplit[1]);
@@ -1642,6 +1664,430 @@ public class Tabela {
                     }
 
                 }
+
+                for(int nTabela = 1; nTabela <= 32; nTabela++){
+
+                    String linha = sc.nextLine();
+                    String linhaSplit [] = linha.split(";");
+
+                    if(nTabela == 1){
+
+                        Time1GrupoA.setText(linhaSplit[0]);
+                        V1A.setText(linhaSplit[1]);
+                        E1A.setText(linhaSplit[2]);
+                        D1A.setText(linhaSplit[3]);
+                        GP1A.setText(linhaSplit[4]);
+                        GC1A.setText(linhaSplit[5]);
+                        SG1A.setText(linhaSplit[6]);
+                        PTS1A.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 2){
+
+                        Time2GrupoA.setText(linhaSplit[0]);
+                        V2A.setText(linhaSplit[1]);
+                        E2A.setText(linhaSplit[2]);
+                        D2A.setText(linhaSplit[3]);
+                        GP2A.setText(linhaSplit[4]);
+                        GC2A.setText(linhaSplit[5]);
+                        SG2A.setText(linhaSplit[6]);
+                        PTS2A.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 3){
+
+                        Time3GrupoA.setText(linhaSplit[0]);
+                        V3A.setText(linhaSplit[1]);
+                        E3A.setText(linhaSplit[2]);
+                        D3A.setText(linhaSplit[3]);
+                        GP3A.setText(linhaSplit[4]);
+                        GC3A.setText(linhaSplit[5]);
+                        SG3A.setText(linhaSplit[6]);
+                        PTS3A.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 4){
+
+                        Time4GrupoA.setText(linhaSplit[0]);
+                        V4A.setText(linhaSplit[1]);
+                        E4A.setText(linhaSplit[2]);
+                        D4A.setText(linhaSplit[3]);
+                        GP4A.setText(linhaSplit[4]);
+                        GC4A.setText(linhaSplit[5]);
+                        SG4A.setText(linhaSplit[6]);
+                        PTS4A.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 5){
+
+                        Time1GrupoB.setText(linhaSplit[0]);
+                        V1B.setText(linhaSplit[1]);
+                        E1B.setText(linhaSplit[2]);
+                        D1B.setText(linhaSplit[3]);
+                        GP1B.setText(linhaSplit[4]);
+                        GC1B.setText(linhaSplit[5]);
+                        SG1B.setText(linhaSplit[6]);
+                        PTS1B.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 6){
+
+                        Time2GrupoB.setText(linhaSplit[0]);
+                        V2B.setText(linhaSplit[1]);
+                        E2B.setText(linhaSplit[2]);
+                        D2B.setText(linhaSplit[3]);
+                        GP2B.setText(linhaSplit[4]);
+                        GC2B.setText(linhaSplit[5]);
+                        SG2B.setText(linhaSplit[6]);
+                        PTS2B.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 7){
+
+                        Time3GrupoB.setText(linhaSplit[0]);
+                        V3B.setText(linhaSplit[1]);
+                        E3B.setText(linhaSplit[2]);
+                        D3B.setText(linhaSplit[3]);
+                        GP3B.setText(linhaSplit[4]);
+                        GC3B.setText(linhaSplit[5]);
+                        SG3B.setText(linhaSplit[6]);
+                        PTS3B.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 8){
+
+                        Time4GrupoB.setText(linhaSplit[0]);
+                        V4B.setText(linhaSplit[1]);
+                        E4B.setText(linhaSplit[2]);
+                        D4B.setText(linhaSplit[3]);
+                        GP4B.setText(linhaSplit[4]);
+                        GC4B.setText(linhaSplit[5]);
+                        SG4B.setText(linhaSplit[6]);
+                        PTS4B.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 9){
+
+                        Time1GrupoC.setText(linhaSplit[0]);
+                        V1C.setText(linhaSplit[1]);
+                        E1C.setText(linhaSplit[2]);
+                        D1C.setText(linhaSplit[3]);
+                        GP1C.setText(linhaSplit[4]);
+                        GC1C.setText(linhaSplit[5]);
+                        SG1C.setText(linhaSplit[6]);
+                        PTS1C.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 10){
+
+                        Time2GrupoC.setText(linhaSplit[0]);
+                        V2C.setText(linhaSplit[1]);
+                        E2C.setText(linhaSplit[2]);
+                        D2C.setText(linhaSplit[3]);
+                        GP2C.setText(linhaSplit[4]);
+                        GC2C.setText(linhaSplit[5]);
+                        SG2C.setText(linhaSplit[6]);
+                        PTS2C.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 11){
+
+                        Time3GrupoC.setText(linhaSplit[0]);
+                        V3C.setText(linhaSplit[1]);
+                        E3C.setText(linhaSplit[2]);
+                        D3C.setText(linhaSplit[3]);
+                        GP3C.setText(linhaSplit[4]);
+                        GC3C.setText(linhaSplit[5]);
+                        SG3C.setText(linhaSplit[6]);
+                        PTS3C.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 12){
+
+                        Time4GrupoC.setText(linhaSplit[0]);
+                        V4C.setText(linhaSplit[1]);
+                        E4C.setText(linhaSplit[2]);
+                        D4C.setText(linhaSplit[3]);
+                        GP4C.setText(linhaSplit[4]);
+                        GC4C.setText(linhaSplit[5]);
+                        SG4C.setText(linhaSplit[6]);
+                        PTS4C.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 13){
+
+                        Time1GrupoD.setText(linhaSplit[0]);
+                        V1D.setText(linhaSplit[1]);
+                        E1D.setText(linhaSplit[2]);
+                        D1D.setText(linhaSplit[3]);
+                        GP1D.setText(linhaSplit[4]);
+                        GC1D.setText(linhaSplit[5]);
+                        SG1D.setText(linhaSplit[6]);
+                        PTS1D.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 14){
+
+                        Time2GrupoD.setText(linhaSplit[0]);
+                        V2D.setText(linhaSplit[1]);
+                        E2D.setText(linhaSplit[2]);
+                        D2D.setText(linhaSplit[3]);
+                        GP2D.setText(linhaSplit[4]);
+                        GC2D.setText(linhaSplit[5]);
+                        SG2D.setText(linhaSplit[6]);
+                        PTS2D.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 15){
+
+                        Time3GrupoD.setText(linhaSplit[0]);
+                        V3D.setText(linhaSplit[1]);
+                        E3D.setText(linhaSplit[2]);
+                        D3D.setText(linhaSplit[3]);
+                        GP3D.setText(linhaSplit[4]);
+                        GC3D.setText(linhaSplit[5]);
+                        SG3D.setText(linhaSplit[6]);
+                        PTS3D.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 16){
+
+                        Time4GrupoD.setText(linhaSplit[0]);
+                        V4D.setText(linhaSplit[1]);
+                        E4D.setText(linhaSplit[2]);
+                        D4D.setText(linhaSplit[3]);
+                        GP4D.setText(linhaSplit[4]);
+                        GC4D.setText(linhaSplit[5]);
+                        SG4D.setText(linhaSplit[6]);
+                        PTS4D.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 17){
+
+                        Time1GrupoE.setText(linhaSplit[0]);
+                        V1E.setText(linhaSplit[1]);
+                        E1E.setText(linhaSplit[2]);
+                        D1E.setText(linhaSplit[3]);
+                        GP1E.setText(linhaSplit[4]);
+                        GC1E.setText(linhaSplit[5]);
+                        SG1E.setText(linhaSplit[6]);
+                        PTS1E.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 18){
+
+                        Time2GrupoE.setText(linhaSplit[0]);
+                        V2E.setText(linhaSplit[1]);
+                        E2E.setText(linhaSplit[2]);
+                        D2E.setText(linhaSplit[3]);
+                        GP2E.setText(linhaSplit[4]);
+                        GC2E.setText(linhaSplit[5]);
+                        SG2E.setText(linhaSplit[6]);
+                        PTS2E.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 19){
+
+                        Time3GrupoE.setText(linhaSplit[0]);
+                        V3E.setText(linhaSplit[1]);
+                        E3E.setText(linhaSplit[2]);
+                        D3E.setText(linhaSplit[3]);
+                        GP3E.setText(linhaSplit[4]);
+                        GC3E.setText(linhaSplit[5]);
+                        SG3E.setText(linhaSplit[6]);
+                        PTS3E.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 20){
+
+                        Time4GrupoE.setText(linhaSplit[0]);
+                        V4E.setText(linhaSplit[1]);
+                        E4E.setText(linhaSplit[2]);
+                        D4E.setText(linhaSplit[3]);
+                        GP4E.setText(linhaSplit[4]);
+                        GC4E.setText(linhaSplit[5]);
+                        SG4E.setText(linhaSplit[6]);
+                        PTS4E.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 21){
+
+                        Time1GrupoF.setText(linhaSplit[0]);
+                        V1F.setText(linhaSplit[1]);
+                        E1F.setText(linhaSplit[2]);
+                        D1F.setText(linhaSplit[3]);
+                        GP1F.setText(linhaSplit[4]);
+                        GC1F.setText(linhaSplit[5]);
+                        SG1F.setText(linhaSplit[6]);
+                        PTS1F.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 22){
+
+                        Time2GrupoF.setText(linhaSplit[0]);
+                        V2F.setText(linhaSplit[1]);
+                        E2F.setText(linhaSplit[2]);
+                        D2F.setText(linhaSplit[3]);
+                        GP2F.setText(linhaSplit[4]);
+                        GC2F.setText(linhaSplit[5]);
+                        SG2F.setText(linhaSplit[6]);
+                        PTS2F.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 23){
+
+                        Time3GrupoF.setText(linhaSplit[0]);
+                        V3F.setText(linhaSplit[1]);
+                        E3F.setText(linhaSplit[2]);
+                        D3F.setText(linhaSplit[3]);
+                        GP3F.setText(linhaSplit[4]);
+                        GC3F.setText(linhaSplit[5]);
+                        SG3F.setText(linhaSplit[6]);
+                        PTS3F.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 24){
+
+                        Time4GrupoF.setText(linhaSplit[0]);
+                        V4F.setText(linhaSplit[1]);
+                        E4F.setText(linhaSplit[2]);
+                        D4F.setText(linhaSplit[3]);
+                        GP4F.setText(linhaSplit[4]);
+                        GC4F.setText(linhaSplit[5]);
+                        SG4F.setText(linhaSplit[6]);
+                        PTS4F.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 25){
+
+                        Time1GrupoG.setText(linhaSplit[0]);
+                        V1G.setText(linhaSplit[1]);
+                        E1G.setText(linhaSplit[2]);
+                        D1G.setText(linhaSplit[3]);
+                        GP1G.setText(linhaSplit[4]);
+                        GC1G.setText(linhaSplit[5]);
+                        SG1G.setText(linhaSplit[6]);
+                        PTS1G.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 26){
+
+                        Time2GrupoG.setText(linhaSplit[0]);
+                        V2G.setText(linhaSplit[1]);
+                        E2G.setText(linhaSplit[2]);
+                        D2G.setText(linhaSplit[3]);
+                        GP2G.setText(linhaSplit[4]);
+                        GC2G.setText(linhaSplit[5]);
+                        SG2G.setText(linhaSplit[6]);
+                        PTS2G.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 27){
+
+                        Time3GrupoG.setText(linhaSplit[0]);
+                        V3G.setText(linhaSplit[1]);
+                        E3G.setText(linhaSplit[2]);
+                        D3G.setText(linhaSplit[3]);
+                        GP3G.setText(linhaSplit[4]);
+                        GC3G.setText(linhaSplit[5]);
+                        SG3G.setText(linhaSplit[6]);
+                        PTS3G.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 28){
+
+                        Time4GrupoG.setText(linhaSplit[0]);
+                        V4G.setText(linhaSplit[1]);
+                        E4G.setText(linhaSplit[2]);
+                        D4G.setText(linhaSplit[3]);
+                        GP4G.setText(linhaSplit[4]);
+                        GC4G.setText(linhaSplit[5]);
+                        SG4G.setText(linhaSplit[6]);
+                        PTS4G.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 29){
+
+                        Time1GrupoH.setText(linhaSplit[0]);
+                        V1H.setText(linhaSplit[1]);
+                        E1H.setText(linhaSplit[2]);
+                        D1H.setText(linhaSplit[3]);
+                        GP1H.setText(linhaSplit[4]);
+                        GC1H.setText(linhaSplit[5]);
+                        SG1H.setText(linhaSplit[6]);
+                        PTS1H.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 30){
+
+                        Time2GrupoH.setText(linhaSplit[0]);
+                        V2H.setText(linhaSplit[1]);
+                        E2H.setText(linhaSplit[2]);
+                        D2H.setText(linhaSplit[3]);
+                        GP2H.setText(linhaSplit[4]);
+                        GC2H.setText(linhaSplit[5]);
+                        SG2H.setText(linhaSplit[6]);
+                        PTS2H.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 31){
+
+                        Time3GrupoH.setText(linhaSplit[0]);
+                        V3H.setText(linhaSplit[1]);
+                        E3H.setText(linhaSplit[2]);
+                        D3H.setText(linhaSplit[3]);
+                        GP3H.setText(linhaSplit[4]);
+                        GC3H.setText(linhaSplit[5]);
+                        SG3H.setText(linhaSplit[6]);
+                        PTS3H.setText(linhaSplit[7]);
+
+                    }
+
+                    if(nTabela == 32){
+
+                        Time4GrupoH.setText(linhaSplit[0]);
+                        V4H.setText(linhaSplit[1]);
+                        E4H.setText(linhaSplit[2]);
+                        D4H.setText(linhaSplit[3]);
+                        GP4H.setText(linhaSplit[4]);
+                        GC4H.setText(linhaSplit[5]);
+                        SG4H.setText(linhaSplit[6]);
+                        PTS4H.setText(linhaSplit[7]);
+
+                    }
+
+                }
+
             }
         }catch (IOException ex){
 
@@ -1649,6 +2095,198 @@ public class Tabela {
     }
 
     public Tabela() {
+
+        Icon catar = new ImageIcon(System.getProperty("user.dir") + "/icons/catar.png");
+
+        Catar1.setIcon(catar);
+        Catar2.setIcon(catar);
+        Catar3.setIcon(catar);
+
+        Icon equador = new ImageIcon(System.getProperty("user.dir") + "/icons/equador.png");
+
+        Equador1.setIcon(equador);
+        Equador2.setIcon(equador);
+        Equador3.setIcon(equador);
+
+        Icon senegal = new ImageIcon(System.getProperty("user.dir") + "/icons/senegal.png");
+
+        Senegal1.setIcon(senegal);
+        Senegal2.setIcon(senegal);
+        Senegal3.setIcon(senegal);
+
+        Icon holanda = new ImageIcon(System.getProperty("user.dir") + "/icons/holanda.png");
+
+        Holanda1.setIcon(holanda);
+        Holanda2.setIcon(holanda);
+        Holanda3.setIcon(holanda);
+
+        Icon inglaterra = new ImageIcon(System.getProperty("user.dir") + "/icons/inglaterra.png");
+
+        Inglaterra1.setIcon(inglaterra);
+        Inglaterra2.setIcon(inglaterra);
+        Inglaterra3.setIcon(inglaterra);
+
+        Icon ira = new ImageIcon(System.getProperty("user.dir") + "/icons/ira.png");
+
+        Ira1.setIcon(ira);
+        Ira2.setIcon(ira);
+        Ira3.setIcon(ira);
+
+        Icon gales = new ImageIcon(System.getProperty("user.dir") + "/icons/gales.png");
+
+        Gales1.setIcon(gales);
+        Gales2.setIcon(gales);
+        Gales3.setIcon(gales);
+
+        Icon usa = new ImageIcon(System.getProperty("user.dir") + "/icons/eua.png");
+
+        Usa1.setIcon(usa);
+        Usa2.setIcon(usa);
+        Usa3.setIcon(usa);
+
+        Icon argentina = new ImageIcon(System.getProperty("user.dir") + "/icons/argentina.png");
+
+        Argentina1.setIcon(argentina);
+        Argentina2.setIcon(argentina);
+        Argentina3.setIcon(argentina);
+
+        Icon arabia = new ImageIcon(System.getProperty("user.dir") + "/icons/arabia saudita.png");
+
+        Arabia1.setIcon(arabia);
+        Arabia2.setIcon(arabia);
+        Arabia3.setIcon(arabia);
+
+        Icon mexico = new ImageIcon(System.getProperty("user.dir") + "/icons/mexico.png");
+
+        Mexico1.setIcon(mexico);
+        Mexico2.setIcon(mexico);
+        Mexico3.setIcon(mexico);
+
+        Icon polonia = new ImageIcon(System.getProperty("user.dir") + "/icons/polonia.png");
+
+        Polonia1.setIcon(polonia);
+        Polonia2.setIcon(polonia);
+        Polonia3.setIcon(polonia);
+
+        Icon dinamarca = new ImageIcon(System.getProperty("user.dir") + "/icons/dinamarca.png");
+
+        Dinamarca1.setIcon(dinamarca);
+        Dinamarca2.setIcon(dinamarca);
+        Dinamarca3.setIcon(dinamarca);
+
+        Icon tunisia = new ImageIcon(System.getProperty("user.dir") + "/icons/tunisia.png");
+
+        Tunisia1.setIcon(tunisia);
+        Tunisia2.setIcon(tunisia);
+        Tunisia3.setIcon(tunisia);
+
+        Icon franca = new ImageIcon(System.getProperty("user.dir") + "/icons/franca.png");
+
+        Franca1.setIcon(franca);
+        Franca2.setIcon(franca);
+        Franca3.setIcon(franca);
+
+        Icon australia = new ImageIcon(System.getProperty("user.dir") + "/icons/australia.png");
+
+        Australia1.setIcon(australia);
+        Australia2.setIcon(australia);
+        Australia3.setIcon(australia);
+
+        Icon alemanha = new ImageIcon(System.getProperty("user.dir") + "/icons/alemanha.png");
+
+        Alemanha1.setIcon(alemanha);
+        Alemanha2.setIcon(alemanha);
+        Alemanha3.setIcon(alemanha);
+
+        Icon japao = new ImageIcon(System.getProperty("user.dir") + "/icons/japao.png");
+
+        Japao1.setIcon(japao);
+        Japao2.setIcon(japao);
+        Japao3.setIcon(japao);
+
+        Icon espanha = new ImageIcon(System.getProperty("user.dir") + "/icons/espanha.png");
+
+        Espanha1.setIcon(espanha);
+        Espanha2.setIcon(espanha);
+        Espanha3.setIcon(espanha);
+
+        Icon costa = new ImageIcon(System.getProperty("user.dir") + "/icons/costa rica.png");
+
+        Costa1.setIcon(costa);
+        Costa2.setIcon(costa);
+        Costa3.setIcon(costa);
+
+        Icon marrocos = new ImageIcon(System.getProperty("user.dir") + "/icons/marrocos.png");
+
+        Marrocos1.setIcon(marrocos);
+        Marrocos2.setIcon(marrocos);
+        Marrocos3.setIcon(marrocos);
+
+        Icon croacia = new ImageIcon(System.getProperty("user.dir") + "/icons/croacia.png");
+
+        Croacia1.setIcon(croacia);
+        Croacia2.setIcon(croacia);
+        Croacia3.setIcon(croacia);
+
+        Icon belgica = new ImageIcon(System.getProperty("user.dir") + "/icons/belgica.png");
+
+        Belgica1.setIcon(belgica);
+        Belgica2.setIcon(belgica);
+        Belgica3.setIcon(belgica);
+
+        Icon canada = new ImageIcon(System.getProperty("user.dir") + "/icons/canada.png");
+
+        Canada1.setIcon(canada);
+        Canada2.setIcon(canada);
+        Canada3.setIcon(canada);
+
+        Icon suica = new ImageIcon(System.getProperty("user.dir") + "/icons/suica.png");
+
+        Suica1.setIcon(suica);
+        Suica2.setIcon(suica);
+        Suica3.setIcon(suica);
+
+        Icon camaroes = new ImageIcon(System.getProperty("user.dir") + "/icons/camaroes.png");
+
+        Camaroes1.setIcon(camaroes);
+        Camaroes2.setIcon(camaroes);
+        Camaroes3.setIcon(camaroes);
+
+        Icon brasil = new ImageIcon(System.getProperty("user.dir") + "/icons/brasil.png");
+
+        Brasil1.setIcon(brasil);
+        Brasil2.setIcon(brasil);
+        Brasil3.setIcon(brasil);
+
+        Icon servia = new ImageIcon(System.getProperty("user.dir") + "/icons/servia.png");
+
+        Servia1.setIcon(servia);
+        Servia2.setIcon(servia);
+        Servia3.setIcon(servia);
+
+        Icon uruguai = new ImageIcon(System.getProperty("user.dir") + "/icons/uruguai.png");
+
+        Uruguai1.setIcon(uruguai);
+        Uruguai2.setIcon(uruguai);
+        Uruguai3.setIcon(uruguai);
+
+        Icon coreia = new ImageIcon(System.getProperty("user.dir") + "/icons/coreia do sul.png");
+
+        Coreia1.setIcon(coreia);
+        Coreia2.setIcon(coreia);
+        Coreia3.setIcon(coreia);
+
+        Icon portugal = new ImageIcon(System.getProperty("user.dir") + "/icons/portugal.png");
+
+        Portugal1.setIcon(portugal);
+        Portugal2.setIcon(portugal);
+        Portugal3.setIcon(portugal);
+
+        Icon gana = new ImageIcon(System.getProperty("user.dir") + "/icons/gana.png");
+
+        Gana1.setIcon(gana);
+        Gana2.setIcon(gana);
+        Gana3.setIcon(gana);
 
         try {
             Ler();
@@ -4643,6 +5281,29 @@ public class Tabela {
         enviarBotaoGrupoH.doClick();
         */
 
+        atualizarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                enviarOitavas1.doClick();
+                enviarOitavas2.doClick();
+                enviarOitavas3.doClick();
+                enviarOitavas4.doClick();
+                enviarOitavas5.doClick();
+                enviarOitavas6.doClick();
+                enviarOitavas7.doClick();
+                enviarOitavas8.doClick();
+                enviarQuartas1.doClick();
+                enviarQuartas2.doClick();
+                enviarQuartas3.doClick();
+                enviarQuartas4.doClick();
+                enviarSemi1.doClick();
+                enviarSemi2.doClick();
+                enviarFinal.doClick();
+                enviarTerceira.doClick();
+
+            }
+        });
     }
 
     public static void main(String[] args) {

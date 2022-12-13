@@ -35,7 +35,7 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="fd009" class="javax.swing.JLabel">
+                  <component id="fd009" class="javax.swing.JLabel" binding="Catar1">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -73,7 +73,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="3f316" class="javax.swing.JLabel">
+                  <component id="3f316" class="javax.swing.JLabel" binding="Equador1">
                     <constraints>
                       <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -81,7 +81,7 @@
                       <text value="Equador"/>
                     </properties>
                   </component>
-                  <component id="6e268" class="javax.swing.JLabel">
+                  <component id="6e268" class="javax.swing.JLabel" binding="Senegal1">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -119,7 +119,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="13b80" class="javax.swing.JLabel">
+                  <component id="13b80" class="javax.swing.JLabel" binding="Holanda1">
                     <constraints>
                       <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -127,7 +127,7 @@
                       <text value="Holanda"/>
                     </properties>
                   </component>
-                  <component id="d2d15" class="javax.swing.JLabel">
+                  <component id="d2d15" class="javax.swing.JLabel" binding="Catar2">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -189,7 +189,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="fc0c6" class="javax.swing.JLabel">
+                  <component id="fc0c6" class="javax.swing.JLabel" binding="Senegal2">
                     <constraints>
                       <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -197,7 +197,7 @@
                       <text value="Senegal"/>
                     </properties>
                   </component>
-                  <component id="2bfa0" class="javax.swing.JLabel">
+                  <component id="2bfa0" class="javax.swing.JLabel" binding="Holanda2">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -227,7 +227,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="d89b2" class="javax.swing.JLabel">
+                  <component id="d89b2" class="javax.swing.JLabel" binding="Equador2">
                     <constraints>
                       <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -235,7 +235,7 @@
                       <text value="Equador"/>
                     </properties>
                   </component>
-                  <component id="aca36" class="javax.swing.JLabel">
+                  <component id="aca36" class="javax.swing.JLabel" binding="Equador3">
                     <constraints>
                       <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -265,7 +265,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="a967f" class="javax.swing.JLabel">
+                  <component id="a967f" class="javax.swing.JLabel" binding="Senegal3">
                     <constraints>
                       <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -273,7 +273,7 @@
                       <text value="Senegal"/>
                     </properties>
                   </component>
-                  <component id="91db3" class="javax.swing.JLabel">
+                  <component id="91db3" class="javax.swing.JLabel" binding="Holanda3">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -303,7 +303,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="c609a" class="javax.swing.JLabel">
+                  <component id="c609a" class="javax.swing.JLabel" binding="Catar3">
                     <constraints>
                       <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -785,7 +785,7 @@
                       <text value="21/11/2022 10:00"/>
                     </properties>
                   </component>
-                  <component id="1f0a2" class="javax.swing.JLabel">
+                  <component id="1f0a2" class="javax.swing.JLabel" binding="Inglaterra1">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -823,7 +823,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="dc565" class="javax.swing.JLabel">
+                  <component id="dc565" class="javax.swing.JLabel" binding="Ira1">
                     <constraints>
                       <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -839,7 +839,7 @@
                       <text value="21/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="d9fff" class="javax.swing.JLabel">
+                  <component id="d9fff" class="javax.swing.JLabel" binding="Gales1">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -877,7 +877,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="f0032" class="javax.swing.JLabel">
+                  <component id="f0032" class="javax.swing.JLabel" binding="Usa1">
                     <constraints>
                       <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -893,7 +893,7 @@
                       <text value="25/11/2022 07:00"/>
                     </properties>
                   </component>
-                  <component id="ffbe3" class="javax.swing.JLabel">
+                  <component id="ffbe3" class="javax.swing.JLabel" binding="Gales2">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -931,7 +931,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="56325" class="javax.swing.JLabel">
+                  <component id="56325" class="javax.swing.JLabel" binding="Ira2">
                     <constraints>
                       <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -947,7 +947,7 @@
                       <text value="25/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="d00c0" class="javax.swing.JLabel">
+                  <component id="d00c0" class="javax.swing.JLabel" binding="Inglaterra2">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -985,7 +985,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="ccbb5" class="javax.swing.JLabel">
+                  <component id="ccbb5" class="javax.swing.JLabel" binding="Usa2">
                     <constraints>
                       <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1001,7 +1001,7 @@
                       <text value="29/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="28908" class="javax.swing.JLabel">
+                  <component id="28908" class="javax.swing.JLabel" binding="Ira3">
                     <constraints>
                       <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1039,7 +1039,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="4e953" class="javax.swing.JLabel">
+                  <component id="4e953" class="javax.swing.JLabel" binding="Usa3">
                     <constraints>
                       <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1055,7 +1055,7 @@
                       <text value="29/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="22798" class="javax.swing.JLabel">
+                  <component id="22798" class="javax.swing.JLabel" binding="Gales3">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1093,7 +1093,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="6d0a9" class="javax.swing.JLabel">
+                  <component id="6d0a9" class="javax.swing.JLabel" binding="Inglaterra3">
                     <constraints>
                       <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1525,7 +1525,7 @@
                       <text value="22/11/2022 07:00"/>
                     </properties>
                   </component>
-                  <component id="3adf5" class="javax.swing.JLabel">
+                  <component id="3adf5" class="javax.swing.JLabel" binding="Argentina1">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1563,7 +1563,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="ea22a" class="javax.swing.JLabel">
+                  <component id="ea22a" class="javax.swing.JLabel" binding="Arabia1">
                     <constraints>
                       <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1579,7 +1579,7 @@
                       <text value="22/11/2022 13:00"/>
                     </properties>
                   </component>
-                  <component id="7c0d8" class="javax.swing.JLabel">
+                  <component id="7c0d8" class="javax.swing.JLabel" binding="Mexico1">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1617,7 +1617,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="f0063" class="javax.swing.JLabel">
+                  <component id="f0063" class="javax.swing.JLabel" binding="Polonia1">
                     <constraints>
                       <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1633,7 +1633,7 @@
                       <text value="26/11/2022 10:00"/>
                     </properties>
                   </component>
-                  <component id="59e6a" class="javax.swing.JLabel">
+                  <component id="59e6a" class="javax.swing.JLabel" binding="Polonia2">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1671,7 +1671,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="85e2" class="javax.swing.JLabel">
+                  <component id="85e2" class="javax.swing.JLabel" binding="Arabia2">
                     <constraints>
                       <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1687,7 +1687,7 @@
                       <text value="26/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="34910" class="javax.swing.JLabel">
+                  <component id="34910" class="javax.swing.JLabel" binding="Argentina2">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1725,7 +1725,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="6fdc4" class="javax.swing.JLabel">
+                  <component id="6fdc4" class="javax.swing.JLabel" binding="Mexico2">
                     <constraints>
                       <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1741,7 +1741,7 @@
                       <text value="30/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="9b7d1" class="javax.swing.JLabel">
+                  <component id="9b7d1" class="javax.swing.JLabel" binding="Polonia3">
                     <constraints>
                       <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1779,7 +1779,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="ac7fb" class="javax.swing.JLabel">
+                  <component id="ac7fb" class="javax.swing.JLabel" binding="Argentina3">
                     <constraints>
                       <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1795,7 +1795,7 @@
                       <text value="30/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="ba16a" class="javax.swing.JLabel">
+                  <component id="ba16a" class="javax.swing.JLabel" binding="Arabia3">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -1833,7 +1833,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="4d09f" class="javax.swing.JLabel">
+                  <component id="4d09f" class="javax.swing.JLabel" binding="Mexico3">
                     <constraints>
                       <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2265,7 +2265,7 @@
                       <text value="22/11/2022 10:00"/>
                     </properties>
                   </component>
-                  <component id="18bf3" class="javax.swing.JLabel">
+                  <component id="18bf3" class="javax.swing.JLabel" binding="Dinamarca1">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2303,7 +2303,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="ec975" class="javax.swing.JLabel">
+                  <component id="ec975" class="javax.swing.JLabel" binding="Tunisia1">
                     <constraints>
                       <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2319,7 +2319,7 @@
                       <text value="22/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="7308e" class="javax.swing.JLabel">
+                  <component id="7308e" class="javax.swing.JLabel" binding="Franca1">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2357,7 +2357,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="10f6f" class="javax.swing.JLabel">
+                  <component id="10f6f" class="javax.swing.JLabel" binding="Australia1">
                     <constraints>
                       <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2373,7 +2373,7 @@
                       <text value="26/11/2022 07:00"/>
                     </properties>
                   </component>
-                  <component id="6f190" class="javax.swing.JLabel">
+                  <component id="6f190" class="javax.swing.JLabel" binding="Tunisia2">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2411,7 +2411,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="7135d" class="javax.swing.JLabel">
+                  <component id="7135d" class="javax.swing.JLabel" binding="Australia2">
                     <constraints>
                       <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2427,7 +2427,7 @@
                       <text value="26/11/2022 13:00"/>
                     </properties>
                   </component>
-                  <component id="b5309" class="javax.swing.JLabel">
+                  <component id="b5309" class="javax.swing.JLabel" binding="Franca2">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2465,7 +2465,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="6e574" class="javax.swing.JLabel">
+                  <component id="6e574" class="javax.swing.JLabel" binding="Dinamarca2">
                     <constraints>
                       <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2483,7 +2483,7 @@
                       <text value="30/11/2022 12:00"/>
                     </properties>
                   </component>
-                  <component id="73d32" class="javax.swing.JLabel">
+                  <component id="73d32" class="javax.swing.JLabel" binding="Tunisia3">
                     <constraints>
                       <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
                         <preferred-size width="37" height="30"/>
@@ -2525,7 +2525,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="d8de9" class="javax.swing.JLabel">
+                  <component id="d8de9" class="javax.swing.JLabel" binding="Franca3">
                     <constraints>
                       <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
                         <preferred-size width="35" height="30"/>
@@ -2543,7 +2543,7 @@
                       <text value="30/11/2022 12:00"/>
                     </properties>
                   </component>
-                  <component id="b00b0" class="javax.swing.JLabel">
+                  <component id="b00b0" class="javax.swing.JLabel" binding="Australia3">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -2581,7 +2581,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="d4ab2" class="javax.swing.JLabel">
+                  <component id="d4ab2" class="javax.swing.JLabel" binding="Dinamarca3">
                     <constraints>
                       <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3013,7 +3013,7 @@
                       <text value="23/11/2022 10:00"/>
                     </properties>
                   </component>
-                  <component id="a6ff8" class="javax.swing.JLabel">
+                  <component id="a6ff8" class="javax.swing.JLabel" binding="Alemanha1">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3051,7 +3051,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="cd859" class="javax.swing.JLabel">
+                  <component id="cd859" class="javax.swing.JLabel" binding="Japao1">
                     <constraints>
                       <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3067,7 +3067,7 @@
                       <text value="23/11/2022 13:00"/>
                     </properties>
                   </component>
-                  <component id="3c572" class="javax.swing.JLabel">
+                  <component id="3c572" class="javax.swing.JLabel" binding="Espanha1">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3105,7 +3105,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="d5587" class="javax.swing.JLabel">
+                  <component id="d5587" class="javax.swing.JLabel" binding="Costa1">
                     <constraints>
                       <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3121,7 +3121,7 @@
                       <text value="27/11/2022 07:00"/>
                     </properties>
                   </component>
-                  <component id="c320e" class="javax.swing.JLabel">
+                  <component id="c320e" class="javax.swing.JLabel" binding="Japao2">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3159,7 +3159,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="d82b0" class="javax.swing.JLabel">
+                  <component id="d82b0" class="javax.swing.JLabel" binding="Costa2">
                     <constraints>
                       <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3175,7 +3175,7 @@
                       <text value="27/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="f4e0d" class="javax.swing.JLabel">
+                  <component id="f4e0d" class="javax.swing.JLabel" binding="Espanha2">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3213,7 +3213,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="7840a" class="javax.swing.JLabel">
+                  <component id="7840a" class="javax.swing.JLabel" binding="Alemanha2">
                     <constraints>
                       <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3229,7 +3229,7 @@
                       <text value="01/12/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="83c2" class="javax.swing.JLabel">
+                  <component id="83c2" class="javax.swing.JLabel" binding="Japao3">
                     <constraints>
                       <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3267,7 +3267,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="6b80f" class="javax.swing.JLabel">
+                  <component id="6b80f" class="javax.swing.JLabel" binding="Espanha3">
                     <constraints>
                       <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3283,7 +3283,7 @@
                       <text value="01/12/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="96c2c" class="javax.swing.JLabel">
+                  <component id="96c2c" class="javax.swing.JLabel" binding="Costa3">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3321,7 +3321,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="a4e71" class="javax.swing.JLabel">
+                  <component id="a4e71" class="javax.swing.JLabel" binding="Alemanha3">
                     <constraints>
                       <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3753,7 +3753,7 @@
                       <text value="23/11/2022 07:00"/>
                     </properties>
                   </component>
-                  <component id="df02e" class="javax.swing.JLabel">
+                  <component id="df02e" class="javax.swing.JLabel" binding="Marrocos1">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3791,7 +3791,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="29c57" class="javax.swing.JLabel">
+                  <component id="29c57" class="javax.swing.JLabel" binding="Croacia1">
                     <constraints>
                       <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3807,7 +3807,7 @@
                       <text value="23/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="37b53" class="javax.swing.JLabel">
+                  <component id="37b53" class="javax.swing.JLabel" binding="Belgica1">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3845,7 +3845,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="e027b" class="javax.swing.JLabel">
+                  <component id="e027b" class="javax.swing.JLabel" binding="Canada1">
                     <constraints>
                       <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3861,7 +3861,7 @@
                       <text value="27/11/2022 10:00"/>
                     </properties>
                   </component>
-                  <component id="27d79" class="javax.swing.JLabel">
+                  <component id="27d79" class="javax.swing.JLabel" binding="Belgica2">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3899,7 +3899,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="2fadd" class="javax.swing.JLabel">
+                  <component id="2fadd" class="javax.swing.JLabel" binding="Marrocos2">
                     <constraints>
                       <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3915,7 +3915,7 @@
                       <text value="27/11/2022 13:00"/>
                     </properties>
                   </component>
-                  <component id="fc6c3" class="javax.swing.JLabel">
+                  <component id="fc6c3" class="javax.swing.JLabel" binding="Croacia2">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3953,7 +3953,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="894be" class="javax.swing.JLabel">
+                  <component id="894be" class="javax.swing.JLabel" binding="Canada2">
                     <constraints>
                       <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -3969,7 +3969,7 @@
                       <text value="01/12/2022 12:00"/>
                     </properties>
                   </component>
-                  <component id="8677f" class="javax.swing.JLabel">
+                  <component id="8677f" class="javax.swing.JLabel" binding="Canada3">
                     <constraints>
                       <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4015,7 +4015,7 @@
                       <text value="01/12/2022 12:00"/>
                     </properties>
                   </component>
-                  <component id="f821f" class="javax.swing.JLabel">
+                  <component id="f821f" class="javax.swing.JLabel" binding="Croacia3">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4042,7 +4042,7 @@
                       <text value="V"/>
                     </properties>
                   </component>
-                  <component id="78887" class="javax.swing.JLabel">
+                  <component id="78887" class="javax.swing.JLabel" binding="Marrocos3">
                     <constraints>
                       <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4061,7 +4061,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="4a9f7" class="javax.swing.JLabel">
+                  <component id="4a9f7" class="javax.swing.JLabel" binding="Belgica3">
                     <constraints>
                       <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4493,7 +4493,7 @@
                       <text value="24/11/2022 07:00"/>
                     </properties>
                   </component>
-                  <component id="f0500" class="javax.swing.JLabel">
+                  <component id="f0500" class="javax.swing.JLabel" binding="Suica1">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4531,7 +4531,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="a0575" class="javax.swing.JLabel">
+                  <component id="a0575" class="javax.swing.JLabel" binding="Camaroes1">
                     <constraints>
                       <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4547,7 +4547,7 @@
                       <text value="24/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="cb012" class="javax.swing.JLabel">
+                  <component id="cb012" class="javax.swing.JLabel" binding="Brasil1">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4585,7 +4585,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="99fee" class="javax.swing.JLabel">
+                  <component id="99fee" class="javax.swing.JLabel" binding="Servia1">
                     <constraints>
                       <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4601,7 +4601,7 @@
                       <text value="28/11/2022 07:00"/>
                     </properties>
                   </component>
-                  <component id="7fb87" class="javax.swing.JLabel">
+                  <component id="7fb87" class="javax.swing.JLabel" binding="Camaroes2">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4639,7 +4639,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="24bf2" class="javax.swing.JLabel">
+                  <component id="24bf2" class="javax.swing.JLabel" binding="Servia2">
                     <constraints>
                       <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4655,7 +4655,7 @@
                       <text value="28/11/2022 13:00"/>
                     </properties>
                   </component>
-                  <component id="7fe34" class="javax.swing.JLabel">
+                  <component id="7fe34" class="javax.swing.JLabel" binding="Brasil2">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4693,7 +4693,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="687c4" class="javax.swing.JLabel">
+                  <component id="687c4" class="javax.swing.JLabel" binding="Suica2">
                     <constraints>
                       <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4709,7 +4709,7 @@
                       <text value="02/12/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="331e7" class="javax.swing.JLabel">
+                  <component id="331e7" class="javax.swing.JLabel" binding="Servia3">
                     <constraints>
                       <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4747,7 +4747,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="d7e07" class="javax.swing.JLabel">
+                  <component id="d7e07" class="javax.swing.JLabel" binding="Suica3">
                     <constraints>
                       <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4763,7 +4763,7 @@
                       <text value="02/12/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="24051" class="javax.swing.JLabel">
+                  <component id="24051" class="javax.swing.JLabel" binding="Camaroes3">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -4801,7 +4801,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="a0a35" class="javax.swing.JLabel">
+                  <component id="a0a35" class="javax.swing.JLabel" binding="Brasil3">
                     <constraints>
                       <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5233,7 +5233,7 @@
                       <text value="24/11/2022 10:00"/>
                     </properties>
                   </component>
-                  <component id="1ec96" class="javax.swing.JLabel">
+                  <component id="1ec96" class="javax.swing.JLabel" binding="Uruguai1">
                     <constraints>
                       <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5271,7 +5271,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="7c0b2" class="javax.swing.JLabel">
+                  <component id="7c0b2" class="javax.swing.JLabel" binding="Coreia1">
                     <constraints>
                       <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5287,7 +5287,7 @@
                       <text value="24/11/2022 13:00"/>
                     </properties>
                   </component>
-                  <component id="6749a" class="javax.swing.JLabel">
+                  <component id="6749a" class="javax.swing.JLabel" binding="Portugal1">
                     <constraints>
                       <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5325,7 +5325,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="9fbf3" class="javax.swing.JLabel">
+                  <component id="9fbf3" class="javax.swing.JLabel" binding="Gana1">
                     <constraints>
                       <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5341,7 +5341,7 @@
                       <text value="28/11/2022 10:00"/>
                     </properties>
                   </component>
-                  <component id="35da3" class="javax.swing.JLabel">
+                  <component id="35da3" class="javax.swing.JLabel" binding="Coreia2">
                     <constraints>
                       <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5379,7 +5379,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="90d6d" class="javax.swing.JLabel">
+                  <component id="90d6d" class="javax.swing.JLabel" binding="Gana2">
                     <constraints>
                       <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5395,7 +5395,7 @@
                       <text value="28/11/2022 16:00"/>
                     </properties>
                   </component>
-                  <component id="4a606" class="javax.swing.JLabel">
+                  <component id="4a606" class="javax.swing.JLabel" binding="Portugal2">
                     <constraints>
                       <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5433,7 +5433,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="4904e" class="javax.swing.JLabel">
+                  <component id="4904e" class="javax.swing.JLabel" binding="Uruguai2">
                     <constraints>
                       <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5449,7 +5449,7 @@
                       <text value="02/12/2022 12:00"/>
                     </properties>
                   </component>
-                  <component id="b4e4c" class="javax.swing.JLabel">
+                  <component id="b4e4c" class="javax.swing.JLabel" binding="Coreia3">
                     <constraints>
                       <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5487,7 +5487,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="8ef89" class="javax.swing.JLabel">
+                  <component id="8ef89" class="javax.swing.JLabel" binding="Portugal3">
                     <constraints>
                       <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5503,7 +5503,7 @@
                       <text value="02/12/2022 12:00"/>
                     </properties>
                   </component>
-                  <component id="4a9e1" class="javax.swing.JLabel">
+                  <component id="4a9e1" class="javax.swing.JLabel" binding="Gana3">
                     <constraints>
                       <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -5541,7 +5541,7 @@
                       <text value="0"/>
                     </properties>
                   </component>
-                  <component id="3f480" class="javax.swing.JLabel">
+                  <component id="3f480" class="javax.swing.JLabel" binding="Uruguai3">
                     <constraints>
                       <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                     </constraints>
@@ -7417,6 +7417,14 @@
                     </constraints>
                     <properties>
                       <text value="ResetAll"/>
+                    </properties>
+                  </component>
+                  <component id="8bf97" class="javax.swing.JButton" binding="atualizarButton" default-binding="true">
+                    <constraints>
+                      <grid row="20" column="20" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Atualizar"/>
                     </properties>
                   </component>
                 </children>

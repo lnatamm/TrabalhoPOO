@@ -3,6 +3,8 @@ public class Time {
     //Atributos
     private String nome;
 
+    private String bandeira;
+
     private int vitorias;
 
     private int derrotas;
@@ -44,6 +46,8 @@ public class Time {
     public Time(){
 
         this.nome = "";
+
+        this.bandeira = "";
 
         this.vitorias = 0;
 
