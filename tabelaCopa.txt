@@ -46,6 +46,8 @@
 0;0
 0;0
 0;0
+02;0;0;0
+0;02;0;0
 0;0;0;0
 0;0;0;0
 0;0;0;0
@@ -60,26 +62,24 @@
 0;0;0;0
 0;0;0;0
 0;0;0;0
-0;0;0;0
-0;0;0;0
-Holanda
-2B
-1C
-2D
-1E
-2F
-1G
-2H
-1B
-Catar
-1D
-2C
-1F
-2E
-1H
-2G
-A definir
-A definir
+Equador
+Inglaterra
+México
+Tunísia
+Costa Rica
+Canadá
+Sérvia
+Gana
+Estados Unidos
+Senegal
+Dinamarca
+Arabia Saudita
+Marrocos
+Alemanha
+Portugal
+Camarões
+Equador
+Tunísia
 A definir
 A definir
 A definir
