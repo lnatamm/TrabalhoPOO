@@ -1,7 +1,5 @@
 import java.util.*;
 
-//commit
-
 class Comparador implements Comparator<Time> {
 
     Copa c = new Copa();

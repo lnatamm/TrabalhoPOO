@@ -1,7 +1,5 @@
 import java.util.*;
 
-//commit
-
 public class Copa {
     private Time ecuador = new Time("Equador");
     private Time netherlands = new Time("Holanda");

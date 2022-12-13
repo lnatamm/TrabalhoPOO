@@ -3,8 +3,6 @@ import java.awt.event.*;
 import java.io.*;
 import java.util.*;
 
-//commit
-
 public class Tabela {
 
     private Copa copa = new Copa();

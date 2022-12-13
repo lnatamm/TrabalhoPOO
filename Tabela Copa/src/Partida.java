@@ -1,7 +1,5 @@
 public class Partida {
 
-    //commit
-
     private Time time1;
     private Time time2;
     private int gols1;
