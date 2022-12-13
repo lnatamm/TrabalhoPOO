@@ -62,22 +62,22 @@
 0;0;0;0
 0;0;0;0
 0;0;0;0
-Holanda
-Inglaterra
-Polônia
-Austrália
-Costa Rica
-Croácia
-Camarões
-Coréia
-Estados Unidos
-Senegal
-França
-Argentina
-Canadá
-Alemanha
-Portugal
-Suíça
+1A
+2B
+1C
+2D
+1E
+2F
+1G
+2H
+1B
+2A
+1D
+2C
+1F
+2E
+1H
+2G
 A definir
 A definir
 A definir
@@ -96,35 +96,35 @@ A definir
 A definir
 A definir
 A definir
-Holanda;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/holanda.png
-Senegal;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/senegal.png
-Equador;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/equador.png
-Catar;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/catar.png
-Estados Unidos;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/eua.png
-Inglaterra;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/inglaterra.png
-Irã;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/ira.png
-Gales;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/gales.png
-Polônia;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/polonia.png
-Argentina;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/argentina.png
-México;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/mexico.png
-Arabia Saudita;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/arabia saudita.png
-França;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/franca.png
-Austrália;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/australia.png
-Tunísia;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/tunisia.png
-Dinamarca;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/dinamarca.png
-Costa Rica;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/costa rica.png
-Alemanha;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/alemanha.png
-Espanha;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/espanha.png
-Japão;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/japao.png
-Canadá;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/canada.png
-Croácia;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/croacia.png
-Marrocos;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/marrocos.png
-Bélgica;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/belgica.png
-Camarões;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/camaroes.png
-Suíça;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/suica.png
-Brasil;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/brasil.png
-Sérvia;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/servia.png
-Portugal;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/portugal.png
-Coréia;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/coreia do sul.png
-Uruguai;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/uruguai.png
-Gana;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/gana.png
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
