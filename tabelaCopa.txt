@@ -1,130 +1,130 @@
-02;0
-0;0
-02;0
 0;0
 0;0
-02;0
-02;0
-0;0
-2;0
-0;0
-02;0
-0;0
-02;0
 0;0
 0;0
-02;0
-0;0
-02;0
-02;0
-0;0
-02;0
-0;0
-02;0
-0;0
-02;0
-0;0
-02;0
-0;0
-02;0
-0;0
-02;0
 0;0
 0;0
-02;0
 0;0
-02;0
-02;0
 0;0
-02;0
 0;0
-02;0
 0;0
-02;0
 0;0
-02;0
 0;0
-02;0
 0;0
-0;0;03;0
-02;0;0;0
-0;0;30;0
-0;02;0;0
-0;02;0;0
-0;02;0;0
-02;0;0;0
-02;0;0;0
-0;02;0;0
-02;0;0;0
-02;0;0;0
-0;02;0;0
-0;0;03;0
-0;0;0;03
-0;0;0;03
-0;0;03;0
-Catar
-Gales
-Argentina
-Dinamarca
-Japão
-Marrocos
-Suíça
-Uruguai
-Inglaterra
-Holanda
-Tunísia
-Arabia Saudita
-Croácia
-Alemanha
-Coréia
-Camarões
-Catar
-Argentina
-Japão
-Uruguai
-Holanda
-Arabia Saudita
-Croácia
-Coréia
-Argentina
-Japão
-Holanda
-Coréia
-Argentina
-Coréia
-Japão
-Holanda
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+0;0;0;0
+1A
+2B
+1C
+2D
+1E
+2F
+1G
+2H
+1B
+2A
+1D
+2C
+1F
+2E
+1H
+2G
 A definir
-Japão
-Catar;2;0;1;4;2;2;6;D:\TrabalhoPOO\TrabalhoPOO/icons/catar.png
-Holanda;1;2;0;2;0;2;5;D:\TrabalhoPOO\TrabalhoPOO/icons/holanda.png
-Senegal;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/senegal.png
-Equador;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/equador.png
-Inglaterra;1;2;0;2;0;2;5;D:\TrabalhoPOO\TrabalhoPOO/icons/inglaterra.png
-Gales;1;2;0;2;0;2;5;D:\TrabalhoPOO\TrabalhoPOO/icons/gales.png
-Irã;1;0;2;2;4;-2;3;D:\TrabalhoPOO\TrabalhoPOO/icons/ira.png
-Estados Unidos;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/eua.png
-Argentina;2;1;0;4;0;4;7;D:\TrabalhoPOO\TrabalhoPOO/icons/argentina.png
-Arabia Saudita;1;1;1;2;2;0;4;D:\TrabalhoPOO\TrabalhoPOO/icons/arabia saudita.png
-Polônia;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/polonia.png
-México;0;1;2;0;4;-4;1;D:\TrabalhoPOO\TrabalhoPOO/icons/mexico.png
-Tunísia;2;0;1;4;2;2;6;D:\TrabalhoPOO\TrabalhoPOO/icons/tunisia.png
-Dinamarca;1;2;0;2;0;2;5;D:\TrabalhoPOO\TrabalhoPOO/icons/dinamarca.png
-França;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/franca.png
-Austrália;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/australia.png
-Japão;2;0;1;4;2;2;6;D:\TrabalhoPOO\TrabalhoPOO/icons/japao.png
-Alemanha;1;2;0;2;0;2;5;D:\TrabalhoPOO\TrabalhoPOO/icons/alemanha.png
-Costa Rica;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/costa rica.png
-Espanha;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/espanha.png
-Croácia;2;0;1;4;2;2;6;D:\TrabalhoPOO\TrabalhoPOO/icons/croacia.png
-Marrocos;1;2;0;2;0;2;5;D:\TrabalhoPOO\TrabalhoPOO/icons/marrocos.png
-Canadá;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/canada.png
-Bélgica;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/belgica.png
-Suíça;1;1;1;2;2;0;4;D:\TrabalhoPOO\TrabalhoPOO/icons/suica.png
-Camarões;1;1;1;2;2;0;4;D:\TrabalhoPOO\TrabalhoPOO/icons/camaroes.png
-Sérvia;1;1;1;2;2;0;4;D:\TrabalhoPOO\TrabalhoPOO/icons/servia.png
-Brasil;0;3;0;0;0;0;3;D:\TrabalhoPOO\TrabalhoPOO/icons/brasil.png
-Coréia;2;0;1;4;2;2;6;D:\TrabalhoPOO\TrabalhoPOO/icons/coreia do sul.png
-Uruguai;1;2;0;2;0;2;5;D:\TrabalhoPOO\TrabalhoPOO/icons/uruguai.png
-Gana;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/gana.png
-Portugal;0;2;1;0;2;-2;2;D:\TrabalhoPOO\TrabalhoPOO/icons/portugal.png
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
+A definir;0;0;0;0;0;0;0;
