@@ -1109,9 +1109,9 @@ public class Tabela {
             bw.write(Gols1Quartas4.getText() + ";" + Gols2Quartas4.getText() + ";" + Penaltis1Quartas4.getText() + ";" + Penaltis2Quartas4.getText());
             bw.newLine();
             //Semis
-            bw.write(Gols1Semi1.getText() + ";" + Gols2Semi1.getText() + ";" + Penaltis1Semi1.getText() + ";" + Penaltis1Semi1.getText());
+            bw.write(Gols1Semi1.getText() + ";" + Gols2Semi1.getText() + ";" + Penaltis1Semi1.getText() + ";" + Penaltis2Semi1.getText());
             bw.newLine();
-            bw.write(Gols1Semi2.getText() + ";" + Gols2Semi2.getText() + ";" + Penaltis1Semi2.getText() + ";" + Penaltis1Semi2.getText());
+            bw.write(Gols1Semi2.getText() + ";" + Gols2Semi2.getText() + ";" + Penaltis1Semi2.getText() + ";" + Penaltis2Semi2.getText());
             bw.newLine();
             //Final e Terceiro Lugar
             bw.write(Gols1Final.getText() + ";" + Gols2Final.getText() + ";" + Penaltis1Final.getText() + ";" + Penaltis2Final.getText());
