@@ -4531,7 +4531,7 @@ public class Tabela {
 
                                     if (Integer.parseInt(Penaltis1Oitavas5.getText()) > Integer.parseInt(Penaltis2Oitavas5.getText())) {
 
-                                        VencedorOitavas1.setText(B1.getText());
+                                        VencedorOitavas5.setText(B1.getText());
 
                                     }
 
