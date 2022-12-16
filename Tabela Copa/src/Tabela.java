@@ -2110,32 +2110,11 @@ public class Tabela {
 
                                 Gols2Oitavas1.setEditable(false);
 
-                                if(Integer.parseInt(Penaltis1Oitavas1.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas1.getText()) >= 0) {
-
-                                    if (Integer.parseInt(Penaltis1Oitavas1.getText()) > Integer.parseInt(Penaltis2Oitavas1.getText())) {
-
-                                        VencedorOitavas1.setText(A1.getText());
-
-                                        VencedorOitavas1.setIcon(A1.getIcon());
-
-                                        CVO1.setText(CM1A.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Oitavas1.getText()) < Integer.parseInt(Penaltis2Oitavas1.getText())) {
-
-                                        VencedorOitavas1.setText(B2.getText());
-
-                                        VencedorOitavas1.setIcon(B2.getIcon());
-
-                                        CVO1.setText(CM2B.getText());
-
-                                    }
+                                if((Integer.parseInt(Penaltis1Oitavas1.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas1.getText()) >= 0)) {
 
                                     if (Integer.parseInt(Penaltis1Oitavas1.getText()) == Integer.parseInt(Penaltis2Oitavas1.getText())) {
 
-                                        if(Integer.parseInt(Penaltis1Oitavas1.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas1.getText()) == 0){
-                                        }else {
+                                        if(!(Integer.parseInt(Penaltis1Oitavas1.getText()) == 0) && !(Integer.parseInt(Penaltis2Oitavas1.getText()) == 0)) {
 
                                             Penaltis1Oitavas1.setText("0");
 
@@ -2148,9 +2127,54 @@ public class Tabela {
                                             Gols1Oitavas1.setEditable(true);
 
                                             Gols2Oitavas1.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas1.getText()) < 5 && Integer.parseInt(Penaltis2Oitavas1.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Oitavas1.getText()) - Integer.parseInt(Penaltis2Oitavas1.getText())) == 3) {
+
+                                            conferePenaltisOitavas1();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Oitavas1.getText()) == 5 && Integer.parseInt(Penaltis2Oitavas1.getText()) < 5) || (Integer.parseInt(Penaltis2Oitavas1.getText()) == 5 && Integer.parseInt(Penaltis1Oitavas1.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Oitavas1.getText()) - Integer.parseInt(Penaltis2Oitavas1.getText())) < 4){
+
+                                            conferePenaltisOitavas1();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas1.getText()) >= 5 && Integer.parseInt(Penaltis2Oitavas1.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Oitavas1.getText()) - Integer.parseInt(Penaltis2Oitavas1.getText())) > 1) {
+
+                                        conferePenaltisOitavas1();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -2211,6 +2235,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
             }
         });
@@ -2237,30 +2267,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Oitavas2.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas2.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Oitavas2.getText()) > Integer.parseInt(Penaltis2Oitavas2.getText())) {
-
-                                        VencedorOitavas2.setText(C1.getText());
-
-                                        VencedorOitavas2.setIcon(C1.getIcon());
-
-                                        CVO2.setText(CM1C.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Oitavas2.getText()) < Integer.parseInt(Penaltis2Oitavas2.getText())) {
-
-                                        VencedorOitavas2.setText(D2.getText());
-
-                                        VencedorOitavas2.setIcon(D2.getIcon());
-
-                                        CVO2.setText(CM2D.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Oitavas2.getText()) == Integer.parseInt(Penaltis2Oitavas2.getText())) {
 
-                                        if(Integer.parseInt(Penaltis1Oitavas2.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas2.getText()) == 0){
-                                        }else {
+                                        if(!(Integer.parseInt(Penaltis1Oitavas2.getText()) == 0) && !(Integer.parseInt(Penaltis2Oitavas2.getText()) == 0)) {
 
                                             Penaltis1Oitavas2.setText("0");
 
@@ -2273,7 +2282,51 @@ public class Tabela {
                                             Gols1Oitavas2.setEditable(true);
 
                                             Gols2Oitavas2.setEditable(true);
+
                                         }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas2.getText()) < 5 && Integer.parseInt(Penaltis2Oitavas2.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Oitavas2.getText()) - Integer.parseInt(Penaltis2Oitavas2.getText())) == 3) {
+
+                                            conferePenaltisOitavas2();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Oitavas2.getText()) == 5 && Integer.parseInt(Penaltis2Oitavas2.getText()) < 5) || (Integer.parseInt(Penaltis2Oitavas2.getText()) == 5 && Integer.parseInt(Penaltis1Oitavas2.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Oitavas2.getText()) - Integer.parseInt(Penaltis2Oitavas2.getText())) < 4){
+
+                                            conferePenaltisOitavas2();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas2.getText()) >= 5 && Integer.parseInt(Penaltis2Oitavas2.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Oitavas2.getText()) - Integer.parseInt(Penaltis2Oitavas2.getText())) > 1) {
+
+                                        conferePenaltisOitavas2();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
 
                                     }
 
@@ -2337,6 +2390,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -2364,30 +2423,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Oitavas3.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas3.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Oitavas3.getText()) > Integer.parseInt(Penaltis2Oitavas3.getText())) {
-
-                                        VencedorOitavas3.setText(E1.getText());
-
-                                        VencedorOitavas3.setIcon(E1.getIcon());
-
-                                        CVO3.setText(CM1E.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Oitavas3.getText()) < Integer.parseInt(Penaltis2Oitavas3.getText())) {
-
-                                        VencedorOitavas3.setText(F2.getText());
-
-                                        VencedorOitavas3.setIcon(F2.getIcon());
-
-                                        CVO3.setText(CM2F.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Oitavas3.getText()) == Integer.parseInt(Penaltis2Oitavas3.getText())) {
 
-                                        if(Integer.parseInt(Penaltis1Oitavas3.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas3.getText()) == 0){
-                                        }else {
+                                        if(!(Integer.parseInt(Penaltis1Oitavas3.getText()) == 0) && !(Integer.parseInt(Penaltis2Oitavas3.getText()) == 0)) {
 
                                             Penaltis1Oitavas3.setText("0");
 
@@ -2400,7 +2438,51 @@ public class Tabela {
                                             Gols1Oitavas3.setEditable(true);
 
                                             Gols2Oitavas3.setEditable(true);
+
                                         }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas3.getText()) < 5 && Integer.parseInt(Penaltis2Oitavas3.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Oitavas3.getText()) - Integer.parseInt(Penaltis2Oitavas3.getText())) == 3) {
+
+                                            conferePenaltisOitavas3();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Oitavas3.getText()) == 5 && Integer.parseInt(Penaltis2Oitavas3.getText()) < 5) || (Integer.parseInt(Penaltis2Oitavas3.getText()) == 5 && Integer.parseInt(Penaltis1Oitavas3.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Oitavas3.getText()) - Integer.parseInt(Penaltis2Oitavas3.getText())) < 4){
+
+                                            conferePenaltisOitavas3();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas3.getText()) >= 5 && Integer.parseInt(Penaltis2Oitavas3.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Oitavas3.getText()) - Integer.parseInt(Penaltis2Oitavas3.getText())) > 1) {
+
+                                        conferePenaltisOitavas3();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
 
                                     }
 
@@ -2464,6 +2546,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
             }
         });
@@ -2490,30 +2578,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Oitavas4.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas4.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Oitavas4.getText()) > Integer.parseInt(Penaltis2Oitavas4.getText())) {
-
-                                        VencedorOitavas4.setText(G1.getText());
-
-                                        VencedorOitavas4.setIcon(G1.getIcon());
-
-                                        CVO4.setText(CM1G.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Oitavas4.getText()) < Integer.parseInt(Penaltis2Oitavas4.getText())) {
-
-                                        VencedorOitavas4.setText(H2.getText());
-
-                                        VencedorOitavas4.setIcon(H2.getIcon());
-
-                                        CVO4.setText(CM2H.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Oitavas4.getText()) == Integer.parseInt(Penaltis2Oitavas4.getText())) {
 
-                                        if(Integer.parseInt(Penaltis1Oitavas4.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas4.getText()) == 0){
-                                        }else {
+                                        if(!(Integer.parseInt(Penaltis1Oitavas4.getText()) == 0) && !(Integer.parseInt(Penaltis2Oitavas4.getText()) == 0)) {
 
                                             Penaltis1Oitavas4.setText("0");
 
@@ -2526,9 +2593,54 @@ public class Tabela {
                                             Gols1Oitavas4.setEditable(true);
 
                                             Gols2Oitavas4.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas4.getText()) < 5 && Integer.parseInt(Penaltis2Oitavas4.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Oitavas4.getText()) - Integer.parseInt(Penaltis2Oitavas4.getText())) == 3) {
+
+                                            conferePenaltisOitavas4();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Oitavas4.getText()) == 5 && Integer.parseInt(Penaltis2Oitavas4.getText()) < 5) || (Integer.parseInt(Penaltis2Oitavas4.getText()) == 5 && Integer.parseInt(Penaltis1Oitavas4.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Oitavas4.getText()) - Integer.parseInt(Penaltis2Oitavas4.getText())) < 4){
+
+                                            conferePenaltisOitavas4();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas4.getText()) >= 5 && Integer.parseInt(Penaltis2Oitavas4.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Oitavas4.getText()) - Integer.parseInt(Penaltis2Oitavas4.getText())) > 1) {
+
+                                        conferePenaltisOitavas4();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -2589,6 +2701,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -2616,30 +2734,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Oitavas5.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas5.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Oitavas5.getText()) > Integer.parseInt(Penaltis2Oitavas5.getText())) {
-
-                                        VencedorOitavas5.setText(B1.getText());
-
-                                        VencedorOitavas5.setIcon(B1.getIcon());
-
-                                        CVO5.setText(CM1B.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Oitavas5.getText()) < Integer.parseInt(Penaltis2Oitavas5.getText())) {
-
-                                        VencedorOitavas5.setText(A2.getText());
-
-                                        VencedorOitavas5.setIcon(A2.getIcon());
-
-                                        CVO5.setText(CM2A.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Oitavas5.getText()) == Integer.parseInt(Penaltis2Oitavas5.getText())) {
 
-                                        if(Integer.parseInt(Penaltis1Oitavas5.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas5.getText()) == 0){
-                                        }else {
+                                        if(!(Integer.parseInt(Penaltis1Oitavas5.getText()) == 0) && !(Integer.parseInt(Penaltis2Oitavas5.getText()) == 0)) {
 
                                             Penaltis1Oitavas5.setText("0");
 
@@ -2652,9 +2749,54 @@ public class Tabela {
                                             Gols1Oitavas5.setEditable(true);
 
                                             Gols2Oitavas5.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas5.getText()) < 5 && Integer.parseInt(Penaltis2Oitavas5.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Oitavas5.getText()) - Integer.parseInt(Penaltis2Oitavas5.getText())) == 3) {
+
+                                            conferePenaltisOitavas5();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Oitavas5.getText()) == 5 && Integer.parseInt(Penaltis2Oitavas5.getText()) < 5) || (Integer.parseInt(Penaltis2Oitavas5.getText()) == 5 && Integer.parseInt(Penaltis1Oitavas5.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Oitavas5.getText()) - Integer.parseInt(Penaltis2Oitavas5.getText())) < 4){
+
+                                            conferePenaltisOitavas5();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas5.getText()) >= 5 && Integer.parseInt(Penaltis2Oitavas5.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Oitavas5.getText()) - Integer.parseInt(Penaltis2Oitavas5.getText())) > 1) {
+
+                                        conferePenaltisOitavas5();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -2715,6 +2857,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -2742,30 +2890,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Oitavas6.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas6.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Oitavas6.getText()) > Integer.parseInt(Penaltis2Oitavas6.getText())) {
-
-                                        VencedorOitavas6.setText(D1.getText());
-
-                                        VencedorOitavas6.setIcon(D1.getIcon());
-
-                                        CVO6.setText(CM1D.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Oitavas6.getText()) < Integer.parseInt(Penaltis2Oitavas6.getText())) {
-
-                                        VencedorOitavas6.setText(C2.getText());
-
-                                        VencedorOitavas6.setIcon(C2.getIcon());
-
-                                        CVO6.setText(CM2C.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Oitavas6.getText()) == Integer.parseInt(Penaltis2Oitavas6.getText())) {
 
-                                        if(Integer.parseInt(Penaltis1Oitavas6.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas6.getText()) == 0){
-                                        }else {
+                                        if(!(Integer.parseInt(Penaltis1Oitavas6.getText()) == 0) && !(Integer.parseInt(Penaltis2Oitavas6.getText()) == 0)) {
 
                                             Penaltis1Oitavas6.setText("0");
 
@@ -2780,6 +2907,49 @@ public class Tabela {
                                             Gols2Oitavas6.setEditable(true);
 
                                         }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas6.getText()) < 5 && Integer.parseInt(Penaltis2Oitavas6.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Oitavas6.getText()) - Integer.parseInt(Penaltis2Oitavas6.getText())) == 3) {
+
+                                            conferePenaltisOitavas6();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Oitavas6.getText()) == 5 && Integer.parseInt(Penaltis2Oitavas6.getText()) < 5) || (Integer.parseInt(Penaltis2Oitavas6.getText()) == 5 && Integer.parseInt(Penaltis1Oitavas6.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Oitavas6.getText()) - Integer.parseInt(Penaltis2Oitavas6.getText())) < 4){
+
+                                            conferePenaltisOitavas6();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas6.getText()) >= 5 && Integer.parseInt(Penaltis2Oitavas6.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Oitavas6.getText()) - Integer.parseInt(Penaltis2Oitavas6.getText())) > 1) {
+
+                                        conferePenaltisOitavas6();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
 
                                     }
 
@@ -2843,6 +3013,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -2870,30 +3046,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Oitavas7.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas7.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Oitavas7.getText()) > Integer.parseInt(Penaltis2Oitavas7.getText())) {
-
-                                        VencedorOitavas7.setText(F1.getText());
-
-                                        VencedorOitavas7.setIcon(F1.getIcon());
-
-                                        CVO7.setText(CM1F.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Oitavas7.getText()) < Integer.parseInt(Penaltis2Oitavas7.getText())) {
-
-                                        VencedorOitavas7.setText(E2.getText());
-
-                                        VencedorOitavas7.setIcon(E2.getIcon());
-
-                                        CVO7.setText(CM2E.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Oitavas7.getText()) == Integer.parseInt(Penaltis2Oitavas7.getText())) {
 
-                                        if(Integer.parseInt(Penaltis1Oitavas7.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas7.getText()) == 0){
-                                        }else {
+                                        if(!(Integer.parseInt(Penaltis1Oitavas7.getText()) == 0) && !(Integer.parseInt(Penaltis2Oitavas7.getText()) == 0)) {
 
                                             Penaltis1Oitavas7.setText("0");
 
@@ -2906,9 +3061,54 @@ public class Tabela {
                                             Gols1Oitavas7.setEditable(true);
 
                                             Gols2Oitavas7.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas7.getText()) < 5 && Integer.parseInt(Penaltis2Oitavas7.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Oitavas7.getText()) - Integer.parseInt(Penaltis2Oitavas7.getText())) == 3) {
+
+                                            conferePenaltisOitavas7();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Oitavas7.getText()) == 5 && Integer.parseInt(Penaltis2Oitavas7.getText()) < 5) || (Integer.parseInt(Penaltis2Oitavas7.getText()) == 5 && Integer.parseInt(Penaltis1Oitavas7.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Oitavas7.getText()) - Integer.parseInt(Penaltis2Oitavas7.getText())) < 4){
+
+                                            conferePenaltisOitavas7();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas7.getText()) >= 5 && Integer.parseInt(Penaltis2Oitavas7.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Oitavas7.getText()) - Integer.parseInt(Penaltis2Oitavas7.getText())) > 1) {
+
+                                        conferePenaltisOitavas7();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -2969,6 +3169,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -2996,30 +3202,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Oitavas8.getText()) >= 0 && Integer.parseInt(Penaltis2Oitavas8.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Oitavas8.getText()) > Integer.parseInt(Penaltis2Oitavas8.getText())) {
-
-                                        VencedorOitavas8.setText(H1.getText());
-
-                                        VencedorOitavas8.setIcon(H1.getIcon());
-
-                                        CVO8.setText(CM1H.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Oitavas8.getText()) < Integer.parseInt(Penaltis2Oitavas8.getText())) {
-
-                                        VencedorOitavas8.setText(G2.getText());
-
-                                        VencedorOitavas8.setIcon(G2.getIcon());
-
-                                        CVO8.setText(CM2G.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Oitavas8.getText()) == Integer.parseInt(Penaltis2Oitavas8.getText())) {
 
-                                        if(Integer.parseInt(Penaltis1Oitavas8.getText()) == 0 && Integer.parseInt(Penaltis2Oitavas8.getText()) == 0){
-                                        }else {
+                                        if(!(Integer.parseInt(Penaltis1Oitavas8.getText()) == 0) && !(Integer.parseInt(Penaltis2Oitavas8.getText()) == 0)) {
 
                                             Penaltis1Oitavas8.setText("0");
 
@@ -3034,7 +3219,52 @@ public class Tabela {
                                             Gols2Oitavas8.setEditable(true);
 
                                         }
+
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas8.getText()) < 5 && Integer.parseInt(Penaltis2Oitavas8.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Oitavas8.getText()) - Integer.parseInt(Penaltis2Oitavas8.getText())) == 3) {
+
+                                            conferePenaltisOitavas8();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Oitavas8.getText()) == 5 && Integer.parseInt(Penaltis2Oitavas8.getText()) < 5) || (Integer.parseInt(Penaltis2Oitavas8.getText()) == 5 && Integer.parseInt(Penaltis1Oitavas8.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Oitavas8.getText()) - Integer.parseInt(Penaltis2Oitavas8.getText())) < 4){
+
+                                            conferePenaltisOitavas1();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Oitavas8.getText()) >= 5 && Integer.parseInt(Penaltis2Oitavas8.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Oitavas8.getText()) - Integer.parseInt(Penaltis2Oitavas8.getText())) > 1) {
+
+                                        conferePenaltisOitavas1();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else {
@@ -3095,6 +3325,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -3122,30 +3358,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Quartas1.getText()) >= 0 && Integer.parseInt(Penaltis2Quartas1.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Quartas1.getText()) > Integer.parseInt(Penaltis2Quartas1.getText())) {
-
-                                        VencedorQuartas1.setText(VencedorOitavas1.getText());
-
-                                        VencedorQuartas1.setIcon(VencedorOitavas1.getIcon());
-
-                                        CVQ1.setText(CVO1.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Quartas1.getText()) < Integer.parseInt(Penaltis2Quartas1.getText())) {
-
-                                        VencedorQuartas1.setText(VencedorOitavas2.getText());
-
-                                        VencedorQuartas1.setIcon(VencedorOitavas2.getIcon());
-
-                                        CVQ1.setText(CVO2.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Quartas1.getText()) == Integer.parseInt(Penaltis2Quartas1.getText())) {
 
-                                        if (Integer.parseInt(Penaltis1Quartas1.getText()) == 0 && Integer.parseInt(Penaltis2Quartas1.getText()) == 0) {
-                                        } else {
+                                        if(!(Integer.parseInt(Penaltis1Quartas1.getText()) == 0) && !(Integer.parseInt(Penaltis2Quartas1.getText()) == 0)) {
 
                                             Penaltis1Quartas1.setText("0");
 
@@ -3158,9 +3373,54 @@ public class Tabela {
                                             Gols1Quartas1.setEditable(true);
 
                                             Gols2Quartas1.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Quartas1.getText()) < 5 && Integer.parseInt(Penaltis2Quartas1.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Quartas1.getText()) - Integer.parseInt(Penaltis2Quartas1.getText())) == 3) {
+
+                                            conferePenaltisQuartas1();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Quartas1.getText()) == 5 && Integer.parseInt(Penaltis2Quartas1.getText()) < 5) || (Integer.parseInt(Penaltis2Quartas1.getText()) == 5 && Integer.parseInt(Penaltis1Quartas1.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Quartas1.getText()) - Integer.parseInt(Penaltis2Quartas1.getText())) < 4){
+
+                                            conferePenaltisQuartas1();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Quartas1.getText()) >= 5 && Integer.parseInt(Penaltis2Quartas1.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Quartas1.getText()) - Integer.parseInt(Penaltis2Quartas1.getText())) > 1) {
+
+                                        conferePenaltisQuartas1();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -3220,6 +3480,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -3247,30 +3513,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Quartas2.getText()) >= 0 && Integer.parseInt(Penaltis2Quartas2.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Quartas2.getText()) > Integer.parseInt(Penaltis2Quartas2.getText())) {
-
-                                        VencedorQuartas2.setText(VencedorOitavas3.getText());
-
-                                        VencedorQuartas2.setIcon(VencedorOitavas3.getIcon());
-
-                                        CVQ2.setText(CVO3.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Quartas2.getText()) < Integer.parseInt(Penaltis2Quartas2.getText())) {
-
-                                        VencedorQuartas2.setText(VencedorOitavas4.getText());
-
-                                        VencedorQuartas2.setIcon(VencedorOitavas4.getIcon());
-
-                                        CVQ2.setText(CVO4.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Quartas2.getText()) == Integer.parseInt(Penaltis2Quartas2.getText())) {
 
-                                        if (Integer.parseInt(Penaltis1Quartas2.getText()) == 0 && Integer.parseInt(Penaltis2Quartas2.getText()) == 0) {
-                                        } else {
+                                        if(!(Integer.parseInt(Penaltis1Quartas2.getText()) == 0) && !(Integer.parseInt(Penaltis2Quartas2.getText()) == 0)) {
 
                                             Penaltis1Quartas2.setText("0");
 
@@ -3287,6 +3532,50 @@ public class Tabela {
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Quartas2.getText()) < 5 && Integer.parseInt(Penaltis2Quartas2.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Quartas2.getText()) - Integer.parseInt(Penaltis2Quartas2.getText())) == 3) {
+
+                                            conferePenaltisQuartas2();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Quartas2.getText()) == 5 && Integer.parseInt(Penaltis2Quartas2.getText()) < 5) || (Integer.parseInt(Penaltis2Quartas2.getText()) == 5 && Integer.parseInt(Penaltis1Quartas2.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Quartas2.getText()) - Integer.parseInt(Penaltis2Quartas2.getText())) < 4){
+
+                                            conferePenaltisQuartas2();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Quartas2.getText()) >= 5 && Integer.parseInt(Penaltis2Quartas2.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Quartas2.getText()) - Integer.parseInt(Penaltis2Quartas2.getText())) > 1) {
+
+                                        conferePenaltisQuartas2();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -3346,6 +3635,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -3373,30 +3668,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Quartas3.getText()) >= 0 && Integer.parseInt(Penaltis2Quartas3.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Quartas3.getText()) > Integer.parseInt(Penaltis2Quartas3.getText())) {
-
-                                        VencedorQuartas3.setText(VencedorOitavas5.getText());
-
-                                        VencedorQuartas3.setIcon(VencedorOitavas5.getIcon());
-
-                                        CVQ3.setText(CVO5.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Quartas3.getText()) < Integer.parseInt(Penaltis2Quartas3.getText())) {
-
-                                        VencedorQuartas3.setText(VencedorOitavas6.getText());
-
-                                        VencedorQuartas3.setIcon(VencedorOitavas6.getIcon());
-
-                                        CVQ3.setText(CVO6.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Quartas3.getText()) == Integer.parseInt(Penaltis2Quartas3.getText())) {
 
-                                        if (Integer.parseInt(Penaltis1Quartas3.getText()) == 0 && Integer.parseInt(Penaltis2Quartas3.getText()) == 0) {
-                                        } else {
+                                        if(!(Integer.parseInt(Penaltis1Quartas3.getText()) == 0) && !(Integer.parseInt(Penaltis2Quartas3.getText()) == 0)) {
 
                                             Penaltis1Quartas3.setText("0");
 
@@ -3409,9 +3683,54 @@ public class Tabela {
                                             Gols1Quartas3.setEditable(true);
 
                                             Gols2Quartas3.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Quartas3.getText()) < 5 && Integer.parseInt(Penaltis2Quartas3.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Quartas3.getText()) - Integer.parseInt(Penaltis2Quartas3.getText())) == 3) {
+
+                                            conferePenaltisQuartas3();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Quartas3.getText()) == 5 && Integer.parseInt(Penaltis2Quartas3.getText()) < 5) || (Integer.parseInt(Penaltis2Quartas3.getText()) == 5 && Integer.parseInt(Penaltis1Quartas3.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Quartas3.getText()) - Integer.parseInt(Penaltis2Quartas3.getText())) < 4){
+
+                                            conferePenaltisQuartas3();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Quartas3.getText()) >= 5 && Integer.parseInt(Penaltis2Quartas3.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Quartas3.getText()) - Integer.parseInt(Penaltis2Quartas3.getText())) > 1) {
+
+                                        conferePenaltisQuartas3();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -3471,6 +3790,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -3498,30 +3823,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Quartas4.getText()) >= 0 && Integer.parseInt(Penaltis2Quartas4.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Quartas4.getText()) > Integer.parseInt(Penaltis2Quartas4.getText())) {
-
-                                        VencedorQuartas4.setText(VencedorOitavas7.getText());
-
-                                        VencedorQuartas4.setIcon(VencedorOitavas7.getIcon());
-
-                                        CVQ4.setText(CVO7.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Quartas4.getText()) < Integer.parseInt(Penaltis2Quartas4.getText())) {
-
-                                        VencedorQuartas4.setText(VencedorOitavas8.getText());
-
-                                        VencedorQuartas4.setIcon(VencedorOitavas8.getIcon());
-
-                                        CVQ4.setText(CVO8.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Quartas4.getText()) == Integer.parseInt(Penaltis2Quartas4.getText())) {
 
-                                        if (Integer.parseInt(Penaltis1Quartas4.getText()) == 0 && Integer.parseInt(Penaltis2Quartas4.getText()) == 0) {
-                                        } else {
+                                        if(!(Integer.parseInt(Penaltis1Quartas4.getText()) == 0) && !(Integer.parseInt(Penaltis2Quartas4.getText()) == 0)) {
 
                                             Penaltis1Quartas4.setText("0");
 
@@ -3534,9 +3838,54 @@ public class Tabela {
                                             Gols1Quartas4.setEditable(true);
 
                                             Gols2Quartas4.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Quartas4.getText()) < 5 && Integer.parseInt(Penaltis2Quartas4.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Quartas4.getText()) - Integer.parseInt(Penaltis2Quartas4.getText())) == 3) {
+
+                                            conferePenaltisQuartas4();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Quartas4.getText()) == 5 && Integer.parseInt(Penaltis2Quartas4.getText()) < 5) || (Integer.parseInt(Penaltis2Quartas4.getText()) == 5 && Integer.parseInt(Penaltis1Quartas4.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Quartas4.getText()) - Integer.parseInt(Penaltis2Quartas4.getText())) < 4){
+
+                                            conferePenaltisQuartas4();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Quartas4.getText()) >= 5 && Integer.parseInt(Penaltis2Quartas4.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Quartas4.getText()) - Integer.parseInt(Penaltis2Quartas4.getText())) > 1) {
+
+                                        conferePenaltisQuartas4();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -3596,6 +3945,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -3623,42 +3978,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Semi1.getText()) >= 0 && Integer.parseInt(Penaltis2Semi1.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Semi1.getText()) > Integer.parseInt(Penaltis2Semi1.getText())) {
-
-                                        VencedorSemi1.setText(VencedorQuartas1.getText());
-
-                                        VencedorSemi1.setIcon(VencedorQuartas1.getIcon());
-
-                                        CVS1.setText(CVQ1.getText());
-
-                                        PerderdorSemi1.setText(VencedorQuartas2.getText());
-
-                                        PerderdorSemi1.setIcon(VencedorQuartas2.getIcon());
-
-                                        CPS1.setText(CVQ2.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Semi1.getText()) < Integer.parseInt(Penaltis2Semi1.getText())) {
-
-                                        VencedorSemi1.setText(VencedorQuartas2.getText());
-
-                                        VencedorSemi1.setIcon(VencedorQuartas2.getIcon());
-
-                                        CVS1.setText(CVQ2.getText());
-
-                                        PerderdorSemi1.setText(VencedorQuartas1.getText());
-
-                                        PerderdorSemi1.setIcon(VencedorQuartas1.getIcon());
-
-                                        CPS1.setText(CVQ1.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Semi1.getText()) == Integer.parseInt(Penaltis2Semi1.getText())) {
 
-                                        if (Integer.parseInt(Penaltis1Semi1.getText()) == 0 && Integer.parseInt(Penaltis2Semi1.getText()) == 0) {
-                                        } else {
+                                        if(!(Integer.parseInt(Penaltis1Semi1.getText()) == 0) && !(Integer.parseInt(Penaltis2Semi1.getText()) == 0)) {
 
                                             Penaltis1Semi1.setText("0");
 
@@ -3671,9 +3993,54 @@ public class Tabela {
                                             Gols1Semi1.setEditable(true);
 
                                             Gols2Semi1.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Semi1.getText()) < 5 && Integer.parseInt(Penaltis2Semi1.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Semi1.getText()) - Integer.parseInt(Penaltis2Semi1.getText())) == 3) {
+
+                                            conferePenaltisSemi1();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Semi1.getText()) == 5 && Integer.parseInt(Penaltis2Semi1.getText()) < 5) || (Integer.parseInt(Penaltis2Semi1.getText()) == 5 && Integer.parseInt(Penaltis1Semi1.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Semi1.getText()) - Integer.parseInt(Penaltis2Semi1.getText())) < 4){
+
+                                            conferePenaltisSemi1();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Semi1.getText()) >= 5 && Integer.parseInt(Penaltis2Semi1.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Semi1.getText()) - Integer.parseInt(Penaltis2Semi1.getText())) > 1) {
+
+                                        conferePenaltisSemi1();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -3745,6 +4112,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -3772,42 +4145,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Semi2.getText()) >= 0 && Integer.parseInt(Penaltis2Semi2.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Semi2.getText()) > Integer.parseInt(Penaltis2Semi2.getText())) {
-
-                                        VencedorSemi2.setText(VencedorQuartas3.getText());
-
-                                        VencedorSemi2.setIcon(VencedorQuartas3.getIcon());
-
-                                        CVS2.setText(CVQ3.getText());
-
-                                        PerderdorSemi2.setText(VencedorQuartas4.getText());
-
-                                        PerderdorSemi2.setIcon(VencedorQuartas4.getIcon());
-
-                                        CPS2.setText(CVQ4.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Semi2.getText()) < Integer.parseInt(Penaltis2Semi2.getText())) {
-
-                                        VencedorSemi2.setText(VencedorQuartas4.getText());
-
-                                        VencedorSemi2.setIcon(VencedorQuartas4.getIcon());
-
-                                        CVS2.setText(CVQ4.getText());
-
-                                        PerderdorSemi2.setText(VencedorQuartas3.getText());
-
-                                        PerderdorSemi2.setIcon(VencedorQuartas3.getIcon());
-
-                                        CPS2.setText(CVQ3.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Semi2.getText()) == Integer.parseInt(Penaltis2Semi2.getText())) {
 
-                                        if (Integer.parseInt(Penaltis1Semi2.getText()) == 0 && Integer.parseInt(Penaltis2Semi2.getText()) == 0) {
-                                        } else {
+                                        if(!(Integer.parseInt(Penaltis1Semi2.getText()) == 0) && !(Integer.parseInt(Penaltis2Semi2.getText()) == 0)) {
 
                                             Penaltis1Semi2.setText("0");
 
@@ -3820,9 +4160,54 @@ public class Tabela {
                                             Gols1Semi2.setEditable(true);
 
                                             Gols2Semi2.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Semi2.getText()) < 5 && Integer.parseInt(Penaltis2Semi2.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Semi2.getText()) - Integer.parseInt(Penaltis2Semi2.getText())) == 3) {
+
+                                            conferePenaltisSemi2();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Semi2.getText()) == 5 && Integer.parseInt(Penaltis2Semi2.getText()) < 5) || (Integer.parseInt(Penaltis2Semi2.getText()) == 5 && Integer.parseInt(Penaltis1Semi2.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Semi2.getText()) - Integer.parseInt(Penaltis2Semi2.getText())) < 4){
+
+                                            conferePenaltisSemi2();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Semi2.getText()) >= 5 && Integer.parseInt(Penaltis2Semi2.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Semi2.getText()) - Integer.parseInt(Penaltis2Semi2.getText())) > 1) {
+
+                                        conferePenaltisSemi2();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -3894,6 +4279,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -3921,30 +4312,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Final.getText()) >= 0 && Integer.parseInt(Penaltis2Final.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Final.getText()) > Integer.parseInt(Penaltis2Final.getText())) {
-
-                                        VencedorFinal.setText(VencedorSemi1.getText());
-
-                                        VencedorFinal.setIcon(VencedorSemi1.getIcon());
-
-                                        CVC.setText(CVS1.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Final.getText()) < Integer.parseInt(Penaltis2Final.getText())) {
-
-                                        VencedorFinal.setText(VencedorSemi2.getText());
-
-                                        VencedorFinal.setIcon(VencedorSemi2.getIcon());
-
-                                        CVC.setText(CVS2.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Final.getText()) == Integer.parseInt(Penaltis2Final.getText())) {
 
-                                        if (Integer.parseInt(Penaltis1Final.getText()) == 0 && Integer.parseInt(Penaltis2Final.getText()) == 0) {
-                                        } else {
+                                        if(!(Integer.parseInt(Penaltis1Final.getText()) == 0) && !(Integer.parseInt(Penaltis2Final.getText()) == 0)) {
 
                                             Penaltis1Final.setText("0");
 
@@ -3957,9 +4327,54 @@ public class Tabela {
                                             Gols1Final.setEditable(true);
 
                                             Gols2Final.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Final.getText()) < 5 && Integer.parseInt(Penaltis2Final.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Final.getText()) - Integer.parseInt(Penaltis2Final.getText())) == 3) {
+
+                                            conferePenaltisFinal();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Final.getText()) == 5 && Integer.parseInt(Penaltis2Final.getText()) < 5) || (Integer.parseInt(Penaltis2Final.getText()) == 5 && Integer.parseInt(Penaltis1Final.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Final.getText()) - Integer.parseInt(Penaltis2Final.getText())) < 4){
+
+                                            conferePenaltisFinal();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Final.getText()) >= 5 && Integer.parseInt(Penaltis2Final.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Final.getText()) - Integer.parseInt(Penaltis2Final.getText())) > 1) {
+
+                                        conferePenaltisFinal();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -4019,6 +4434,12 @@ public class Tabela {
 
                     }
 
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
+
+                    }
+
                 }
 
             }
@@ -4045,30 +4466,9 @@ public class Tabela {
 
                                 if(Integer.parseInt(Penaltis1Terceiro.getText()) >= 0 && Integer.parseInt(Penaltis2Terceiro.getText()) >= 0) {
 
-                                    if (Integer.parseInt(Penaltis1Terceiro.getText()) > Integer.parseInt(Penaltis2Terceiro.getText())) {
-
-                                        VencedorTerceiro.setText(PerderdorSemi1.getText());
-
-                                        VencedorTerceiro.setIcon(PerderdorSemi1.getIcon());
-
-                                        CVT.setText(CPS1.getText());
-
-                                    }
-
-                                    if (Integer.parseInt(Penaltis1Terceiro.getText()) < Integer.parseInt(Penaltis2Terceiro.getText())) {
-
-                                        VencedorTerceiro.setText(PerderdorSemi2.getText());
-
-                                        VencedorTerceiro.setIcon(PerderdorSemi2.getIcon());
-
-                                        CVT.setText(CPS2.getText());
-
-                                    }
-
                                     if (Integer.parseInt(Penaltis1Terceiro.getText()) == Integer.parseInt(Penaltis2Terceiro.getText())) {
 
-                                        if (Integer.parseInt(Penaltis1Terceiro.getText()) == 0 && Integer.parseInt(Penaltis2Terceiro.getText()) == 0) {
-                                        } else {
+                                        if(!(Integer.parseInt(Penaltis1Terceiro.getText()) == 0) && !(Integer.parseInt(Penaltis2Terceiro.getText()) == 0)) {
 
                                             Penaltis1Terceiro.setText("0");
 
@@ -4081,9 +4481,54 @@ public class Tabela {
                                             Gols1Terceiro.setEditable(true);
 
                                             Gols2Terceiro.setEditable(true);
+
                                         }
 
                                     }
+
+                                    else if (Integer.parseInt(Penaltis1Terceiro.getText()) < 5 && Integer.parseInt(Penaltis2Terceiro.getText()) < 5) {
+
+                                        if (Math.abs(Integer.parseInt(Penaltis1Terceiro.getText()) - Integer.parseInt(Penaltis2Terceiro.getText())) == 3) {
+
+                                            conferePenaltisTerceiro();
+
+                                        }
+                                        else {
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if((Integer.parseInt(Penaltis1Terceiro.getText()) == 5 && Integer.parseInt(Penaltis2Terceiro.getText()) < 5) || (Integer.parseInt(Penaltis2Terceiro.getText()) == 5 && Integer.parseInt(Penaltis1Terceiro.getText()) < 5)){
+
+                                        if(Math.abs(Integer.parseInt(Penaltis1Terceiro.getText()) - Integer.parseInt(Penaltis2Terceiro.getText())) < 4){
+
+                                            conferePenaltisTerceiro();
+
+                                        }
+
+                                        else{
+
+                                            throw new IndexOutOfBoundsException();
+
+                                        }
+
+                                    }
+
+                                    else if (Integer.parseInt(Penaltis1Terceiro.getText()) >= 5 && Integer.parseInt(Penaltis2Terceiro.getText()) >= 5 && Math.abs(Integer.parseInt(Penaltis1Terceiro.getText()) - Integer.parseInt(Penaltis2Terceiro.getText())) > 1) {
+
+                                        conferePenaltisTerceiro();
+
+                                    }
+
+                                    else {
+
+                                        throw new IndexOutOfBoundsException();
+
+                                    }
+
                                 }
 
                                 else{
@@ -4140,6 +4585,12 @@ public class Tabela {
                     catch (InputMismatchException exception){
 
                         JOptionPane.showMessageDialog(null, "Insira apenas números positivos!", "Error", 0);
+
+                    }
+
+                    catch (IndexOutOfBoundsException exception){
+
+                        JOptionPane.showMessageDialog(null, "Placar Inválido!", "Error", 0);
 
                     }
 
@@ -4316,6 +4767,444 @@ public class Tabela {
             }
         });
     }
+
+    private void conferePenaltisOitavas1(){
+
+        if (Integer.parseInt(Penaltis1Oitavas1.getText()) > Integer.parseInt(Penaltis2Oitavas1.getText())) {
+
+            VencedorOitavas1.setText(A1.getText());
+
+            VencedorOitavas1.setIcon(A1.getIcon());
+
+            CVO1.setText(CM1A.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Oitavas1.getText()) < Integer.parseInt(Penaltis2Oitavas1.getText())) {
+
+            VencedorOitavas1.setText(B2.getText());
+
+            VencedorOitavas1.setIcon(B2.getIcon());
+
+            CVO1.setText(CM2B.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisOitavas2(){
+
+        if (Integer.parseInt(Penaltis1Oitavas2.getText()) > Integer.parseInt(Penaltis2Oitavas2.getText())) {
+
+            VencedorOitavas2.setText(C1.getText());
+
+            VencedorOitavas2.setIcon(C1.getIcon());
+
+            CVO2.setText(CM1C.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Oitavas2.getText()) < Integer.parseInt(Penaltis2Oitavas2.getText())) {
+
+            VencedorOitavas2.setText(D2.getText());
+
+            VencedorOitavas2.setIcon(D2.getIcon());
+
+            CVO2.setText(CM2D.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisOitavas3(){
+
+        //E1 F2
+
+        if (Integer.parseInt(Penaltis1Oitavas3.getText()) > Integer.parseInt(Penaltis2Oitavas3.getText())) {
+
+            VencedorOitavas3.setText(E1.getText());
+
+            VencedorOitavas3.setIcon(E1.getIcon());
+
+            CVO3.setText(CM1E.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Oitavas3.getText()) < Integer.parseInt(Penaltis2Oitavas3.getText())) {
+
+            VencedorOitavas3.setText(F2.getText());
+
+            VencedorOitavas3.setIcon(F2.getIcon());
+
+            CVO3.setText(CM2F.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisOitavas4(){
+
+        //G1 H2
+
+        if (Integer.parseInt(Penaltis1Oitavas4.getText()) > Integer.parseInt(Penaltis2Oitavas4.getText())) {
+
+            VencedorOitavas4.setText(G1.getText());
+
+            VencedorOitavas4.setIcon(G1.getIcon());
+
+            CVO4.setText(CM1G.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Oitavas4.getText()) < Integer.parseInt(Penaltis2Oitavas4.getText())) {
+
+            VencedorOitavas4.setText(H2.getText());
+
+            VencedorOitavas4.setIcon(H2.getIcon());
+
+            CVO4.setText(CM2H.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisOitavas5(){
+
+        //B1 A2
+
+        if (Integer.parseInt(Penaltis1Oitavas5.getText()) > Integer.parseInt(Penaltis2Oitavas5.getText())) {
+
+            VencedorOitavas5.setText(B1.getText());
+
+            VencedorOitavas5.setIcon(B1.getIcon());
+
+            CVO5.setText(CM1B.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Oitavas5.getText()) < Integer.parseInt(Penaltis2Oitavas5.getText())) {
+
+            VencedorOitavas5.setText(A2.getText());
+
+            VencedorOitavas5.setIcon(A2.getIcon());
+
+            CVO5.setText(CM2A.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisOitavas6(){
+
+        //D1 C2
+
+        if (Integer.parseInt(Penaltis1Oitavas6.getText()) > Integer.parseInt(Penaltis2Oitavas6.getText())) {
+
+            VencedorOitavas6.setText(D1.getText());
+
+            VencedorOitavas6.setIcon(D1.getIcon());
+
+            CVO6.setText(CM1D.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Oitavas6.getText()) < Integer.parseInt(Penaltis2Oitavas6.getText())) {
+
+            VencedorOitavas6.setText(C2.getText());
+
+            VencedorOitavas6.setIcon(C2.getIcon());
+
+            CVO6.setText(CM2C.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisOitavas7(){
+
+        //F1 E2
+
+        if (Integer.parseInt(Penaltis1Oitavas7.getText()) > Integer.parseInt(Penaltis2Oitavas7.getText())) {
+
+            VencedorOitavas7.setText(F1.getText());
+
+            VencedorOitavas7.setIcon(F1.getIcon());
+
+            CVO7.setText(CM1F.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Oitavas7.getText()) < Integer.parseInt(Penaltis2Oitavas7.getText())) {
+
+            VencedorOitavas7.setText(E2.getText());
+
+            VencedorOitavas7.setIcon(E2.getIcon());
+
+            CVO7.setText(CM2E.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisOitavas8(){
+
+        //H1 G2
+
+        if (Integer.parseInt(Penaltis1Oitavas8.getText()) > Integer.parseInt(Penaltis2Oitavas8.getText())) {
+
+            VencedorOitavas8.setText(H1.getText());
+
+            VencedorOitavas8.setIcon(H1.getIcon());
+
+            CVO8.setText(CM1H.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Oitavas8.getText()) < Integer.parseInt(Penaltis2Oitavas8.getText())) {
+
+            VencedorOitavas8.setText(G2.getText());
+
+            VencedorOitavas8.setIcon(G2.getIcon());
+
+            CVO8.setText(CM2G.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisQuartas1(){
+
+        //O1 O2
+
+        if (Integer.parseInt(Penaltis1Quartas1.getText()) > Integer.parseInt(Penaltis2Quartas1.getText())) {
+
+            VencedorQuartas1.setText(VencedorOitavas1.getText());
+
+            VencedorQuartas1.setIcon(VencedorOitavas1.getIcon());
+
+            CVQ1.setText(CVO1.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Quartas1.getText()) < Integer.parseInt(Penaltis2Quartas1.getText())) {
+
+            VencedorQuartas1.setText(VencedorOitavas2.getText());
+
+            VencedorQuartas1.setIcon(VencedorOitavas2.getIcon());
+
+            CVQ1.setText(CVO2.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisQuartas2(){
+
+        //O3 O4
+
+        if (Integer.parseInt(Penaltis1Quartas2.getText()) > Integer.parseInt(Penaltis2Quartas2.getText())) {
+
+            VencedorQuartas2.setText(VencedorOitavas3.getText());
+
+            VencedorQuartas2.setIcon(VencedorOitavas3.getIcon());
+
+            CVQ2.setText(CVO3.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Quartas2.getText()) < Integer.parseInt(Penaltis2Quartas2.getText())) {
+
+            VencedorQuartas2.setText(VencedorOitavas4.getText());
+
+            VencedorQuartas2.setIcon(VencedorOitavas4.getIcon());
+
+            CVQ2.setText(CVO4.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisQuartas3(){
+
+        //O5 O6
+
+        if (Integer.parseInt(Penaltis1Quartas3.getText()) > Integer.parseInt(Penaltis2Quartas3.getText())) {
+
+            VencedorQuartas3.setText(VencedorOitavas5.getText());
+
+            VencedorQuartas3.setIcon(VencedorOitavas5.getIcon());
+
+            CVQ3.setText(CVO5.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Quartas3.getText()) < Integer.parseInt(Penaltis2Quartas3.getText())) {
+
+            VencedorQuartas3.setText(VencedorOitavas6.getText());
+
+            VencedorQuartas3.setIcon(VencedorOitavas6.getIcon());
+
+            CVQ3.setText(CVO6.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisQuartas4(){
+
+        //O7 O8
+
+        if (Integer.parseInt(Penaltis1Quartas4.getText()) > Integer.parseInt(Penaltis2Quartas4.getText())) {
+
+            VencedorQuartas4.setText(VencedorOitavas7.getText());
+
+            VencedorQuartas4.setIcon(VencedorOitavas7.getIcon());
+
+            CVQ4.setText(CVO7.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Quartas4.getText()) < Integer.parseInt(Penaltis2Quartas4.getText())) {
+
+            VencedorQuartas4.setText(VencedorOitavas8.getText());
+
+            VencedorQuartas4.setIcon(VencedorOitavas8.getIcon());
+
+            CVQ4.setText(CVO8.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisSemi1(){
+
+        //Q1 Q2
+
+        if (Integer.parseInt(Penaltis1Semi1.getText()) > Integer.parseInt(Penaltis2Semi1.getText())) {
+
+            VencedorSemi1.setText(VencedorQuartas1.getText());
+
+            VencedorSemi1.setIcon(VencedorQuartas1.getIcon());
+
+            CVS1.setText(CVQ1.getText());
+
+            PerderdorSemi1.setText(VencedorQuartas2.getText());
+
+            PerderdorSemi1.setIcon(VencedorQuartas2.getIcon());
+
+            CPS1.setText(CVQ2.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Semi1.getText()) < Integer.parseInt(Penaltis2Semi1.getText())) {
+
+            VencedorSemi1.setText(VencedorQuartas2.getText());
+
+            VencedorSemi1.setIcon(VencedorQuartas2.getIcon());
+
+            CVS1.setText(CVQ2.getText());
+
+            PerderdorSemi1.setText(VencedorQuartas1.getText());
+
+            PerderdorSemi1.setIcon(VencedorQuartas1.getIcon());
+
+            CPS1.setText(CVQ1.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisSemi2(){
+
+        //Q3 Q4
+
+        if (Integer.parseInt(Penaltis1Semi2.getText()) > Integer.parseInt(Penaltis2Semi2.getText())) {
+
+            VencedorSemi2.setText(VencedorQuartas3.getText());
+
+            VencedorSemi2.setIcon(VencedorQuartas3.getIcon());
+
+            CVS2.setText(CVQ3.getText());
+
+            PerderdorSemi2.setText(VencedorQuartas4.getText());
+
+            PerderdorSemi2.setIcon(VencedorQuartas4.getIcon());
+
+            CPS2.setText(CVQ4.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Semi2.getText()) < Integer.parseInt(Penaltis2Semi2.getText())) {
+
+            VencedorSemi2.setText(VencedorQuartas3.getText());
+
+            VencedorSemi2.setIcon(VencedorQuartas3.getIcon());
+
+            CVS2.setText(CVQ3.getText());
+
+            PerderdorSemi2.setText(VencedorQuartas4.getText());
+
+            PerderdorSemi2.setIcon(VencedorQuartas4.getIcon());
+
+            CPS2.setText(CVQ4.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisFinal(){
+
+        //VS1 VS2
+
+        if (Integer.parseInt(Penaltis1Final.getText()) > Integer.parseInt(Penaltis2Final.getText())) {
+
+            VencedorFinal.setText(VencedorSemi1.getText());
+
+            VencedorFinal.setIcon(VencedorSemi1.getIcon());
+
+            CVC.setText(CVS1.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Final.getText()) < Integer.parseInt(Penaltis2Final.getText())) {
+
+            VencedorFinal.setText(VencedorSemi2.getText());
+
+            VencedorFinal.setIcon(VencedorSemi2.getIcon());
+
+            CVC.setText(CVS2.getText());
+
+        }
+
+    }
+
+    private void conferePenaltisTerceiro(){
+
+        //PS1 PS2
+
+        if (Integer.parseInt(Penaltis1Terceiro.getText()) > Integer.parseInt(Penaltis2Terceiro.getText())) {
+
+            VencedorTerceiro.setText(PerderdorSemi1.getText());
+
+            VencedorTerceiro.setIcon(PerderdorSemi1.getIcon());
+
+            CVT.setText(CPS1.getText());
+
+        }
+
+        if (Integer.parseInt(Penaltis1Terceiro.getText()) < Integer.parseInt(Penaltis2Terceiro.getText())) {
+
+            VencedorTerceiro.setText(PerderdorSemi2.getText());
+
+            VencedorTerceiro.setIcon(PerderdorSemi2.getIcon());
+
+            CVT.setText(CPS2.getText());
+
+        }
+
+    }
+
+
 
     private void Escrever(){
         File arquivo = new File(System.getProperty("user.dir") + "/tabelaCopa.txt");
