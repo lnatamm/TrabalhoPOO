@@ -5317,12 +5317,12 @@ public class Tabela {
                     if(nl == 7){
                         try {
                             G1.setText(linhaSplit[0]);
-                            CM2G.setText(linhaSplit[1]);
+                            CM1G.setText(linhaSplit[1]);
                             G1.setIcon(new ImageIcon(linhaSplit[1]));
                         }
                         catch (ArrayIndexOutOfBoundsException exception){
                             G1.setText(linhaSplit[0]);
-                            CM2G.setText("");
+                            CM1G.setText("");
                             G1.setIcon(new ImageIcon());
                         }
                     }
